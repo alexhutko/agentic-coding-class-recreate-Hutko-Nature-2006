@@ -1,0 +1,8 @@
+{
+  "url": "https://service.scedc.caltech.edu/fdsnws/dataselect/1/query?net=CI&sta=ARV%2CBAR%2CCLC%2CDGR%2CEDW%2CGSC%2CISA%2CLRL%2CMLAC%2CNEE%2CPAS%2CPFO%2CPLM%2CRPV%2CRVR%2CSBC%2CSCI%2CSNCC%2CSVD%2CUSC%2CVTV%2CWBS&cha=BH%3F&starttime=1994-05-10T06%3A44%3A48.380000Z&endtime=1994-05-10T07%3A02%3A18.380000Z",
+  "status": 204,
+  "seconds": 0.20270705223083496,
+  "retrieved_utc": "2026-10-13T23:09:49.622915Z",
+  "path": "data/raw/usp0006cbq/CI.mseed",
+  "message": ""
+}

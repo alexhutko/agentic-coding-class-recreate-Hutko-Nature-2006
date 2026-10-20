@@ -1,0 +1,9 @@
+{
+  "url": "https://service.ncedc.org/fdsnws/dataselect/1/query?net=BK&sta=PKD1%2CSAO&cha=BH%3F&starttime=1994-04-29T07%3A19%3A49.680000Z&endtime=1994-04-29T07%3A37%3A19.680000Z",
+  "status": 200,
+  "seconds": 0.8918235301971436,
+  "retrieved_utc": "2026-10-13T23:09:46.738619Z",
+  "path": "data/raw/usp0006bt7/BK.mseed",
+  "bytes": 225280,
+  "sha256": "24fb50711c67ecc5a1f2a606d0bea130bd82ac6631561b7c9469d536a623fdc1"
+}

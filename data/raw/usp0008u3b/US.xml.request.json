@@ -1,0 +1,9 @@
+{
+  "url": "https://service.earthscope.org/fdsnws/station/1/query?net=US&sta=CMB%2CSAO%2CWDC&cha=BH%3F&starttime=1998-08-30T08%3A00%3A45.320000Z&endtime=1998-08-30T08%3A18%3A15.320000Z&level=response&format=xml",
+  "status": 200,
+  "seconds": 0.22987914085388184,
+  "retrieved_utc": "2026-10-13T23:36:46.256391Z",
+  "path": "data/raw/usp0008u3b/US.xml",
+  "bytes": 235568,
+  "sha256": "75f0373681b95da17c0be81ccf267abe4252295254ed63be0f4aea905965587f"
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://service.earthscope.org/fdsnws/station/1/query?net=US&sta=HAWA%2CMSO%2CNEW%2COCWA%2CWDC%2CWVOR&cha=BH%3F&starttime=2003-04-27T23%3A06%3A04.840000Z&endtime=2003-04-27T23%3A23%3A34.840000Z&level=response&format=xml",
+  "status": 200,
+  "seconds": 0.14151835441589355,
+  "retrieved_utc": "2026-10-13T23:10:18.970284Z",
+  "path": "data/raw/usp000bw3r/US.xml",
+  "bytes": 324918,
+  "sha256": "f2358c3c866a0c6d31b22d597f9f4ef6da884e9e8f10316f2f66e85b72dc36a0"
+}

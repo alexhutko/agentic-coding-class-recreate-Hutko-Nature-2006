@@ -1,0 +1,9 @@
+{
+  "url": "https://service.earthscope.org/fdsnws/dataselect/1/query?net=II&sta=PFO&cha=BH%3F&starttime=2023-08-05T07%3A28%3A26.009000Z&endtime=2023-08-05T07%3A45%3A56.009000Z",
+  "status": 200,
+  "seconds": 0.3537476062774658,
+  "retrieved_utc": "2026-10-13T23:14:44.664052Z",
+  "path": "data/raw/us6000ky1y/II.mseed",
+  "bytes": 221184,
+  "sha256": "5bfed78db6fdcb9ea815cd0e329772f1cacf003556ddbdb17d3da4e962a33bbf"
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://service.earthscope.org/fdsnws/station/1/query?net=US&sta=SAO&cha=BH%3F&starttime=1994-04-29T07%3A19%3A49.680000Z&endtime=1994-04-29T07%3A37%3A19.680000Z&level=response&format=xml",
+  "status": 200,
+  "seconds": 0.1233062744140625,
+  "retrieved_utc": "2026-10-13T23:09:46.867586Z",
+  "path": "data/raw/usp0006bt7/US.xml",
+  "bytes": 78903,
+  "sha256": "0531498902e4f30f2fa7cd3cc598381cefa5d55b374bc8e1d89f15550bba9233"
+}

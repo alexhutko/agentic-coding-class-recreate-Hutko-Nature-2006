@@ -1,0 +1,9 @@
+{
+  "url": "https://service.earthscope.org/fdsnws/dataselect/1/query?net=II&sta=IASL%2CPFO&cha=BH%3F&starttime=2013-02-22T12%3A10%3A18.200000Z&endtime=2013-02-22T12%3A27%3A48.200000Z",
+  "status": 200,
+  "seconds": 0.467897891998291,
+  "retrieved_utc": "2026-10-13T23:12:31.173713Z",
+  "path": "data/raw/usc000fbl2/II.mseed",
+  "bytes": 241664,
+  "sha256": "63ffb870fea70d1ac7b78a83c2b22bceb679dd683bde2240108247074df41442"
+}

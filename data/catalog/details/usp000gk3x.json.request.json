@@ -1,0 +1,9 @@
+{
+  "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000gk3x&format=geojson",
+  "status": 200,
+  "seconds": 0.09875917434692383,
+  "retrieved_utc": "2026-10-13T23:09:26.690166Z",
+  "path": "data/catalog/details/usp000gk3x.json",
+  "bytes": 18989,
+  "sha256": "b4a68ae4e6350418ba6155ff29d83ef7dc8a39684f39013f707baa70c817aff6"
+}

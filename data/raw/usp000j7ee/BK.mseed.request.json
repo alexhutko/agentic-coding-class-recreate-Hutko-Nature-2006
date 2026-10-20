@@ -1,0 +1,9 @@
+{
+  "url": "https://service.ncedc.org/fdsnws/dataselect/1/query?net=BK&sta=HAST%2CHELL%2CKCC%2CPKD&cha=BH%3F&starttime=2011-09-02T13%3A55%3A29.620000Z&endtime=2011-09-02T14%3A12%3A59.620000Z",
+  "status": 200,
+  "seconds": 1.8965833187103271,
+  "retrieved_utc": "2026-10-13T23:12:04.365839Z",
+  "path": "data/raw/usp000j7ee/BK.mseed",
+  "bytes": 1871872,
+  "sha256": "34c776080267f8372e6bc426c3923fb2a476a7abcd9cab351933bf8258b7263d"
+}

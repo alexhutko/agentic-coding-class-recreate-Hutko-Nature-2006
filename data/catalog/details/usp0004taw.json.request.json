@@ -1,0 +1,9 @@
+{
+  "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp0004taw&format=geojson",
+  "status": 200,
+  "seconds": 0.09449458122253418,
+  "retrieved_utc": "2026-10-13T23:09:25.389701Z",
+  "path": "data/catalog/details/usp0004taw.json",
+  "bytes": 16450,
+  "sha256": "57d4dad80f5ffa9d0010efb2aac0416727f42e2d4810f51f90d818790efe2254"
+}

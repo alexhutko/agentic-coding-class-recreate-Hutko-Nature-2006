@@ -1,0 +1,9 @@
+{
+  "url": "https://service.ncedc.org/fdsnws/dataselect/1/query?net=BK&sta=BKS%2CCMB%2CMHC%2CMIN%2CORV%2CPKD1%2CSAO%2CWDC&cha=BH%3F&starttime=1993-05-24T23%3A59%3A48.240000Z&endtime=1993-05-25T00%3A17%3A18.240000Z",
+  "status": 200,
+  "seconds": 2.8157906532287598,
+  "retrieved_utc": "2026-10-13T23:09:48.518279Z",
+  "path": "data/raw/usp0005te6/BK.mseed",
+  "bytes": 966656,
+  "sha256": "34967f2b89e92f6dd97149bb432cbcb859b9c0386624134d2563d053626bc1c6"
+}

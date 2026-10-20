@@ -1,0 +1,9 @@
+{
+  "url": "https://service.earthscope.org/fdsnws/station/1/query?net=IU&sta=COR&cha=BH%3F&starttime=2019-01-05T19%3A33%3A58.520000Z&endtime=2019-01-05T19%3A51%3A28.520000Z&level=response&format=xml",
+  "status": 200,
+  "seconds": 0.13756442070007324,
+  "retrieved_utc": "2026-10-13T23:13:29.092848Z",
+  "path": "data/raw/us2000j0ja/IU.xml",
+  "bytes": 68046,
+  "sha256": "d3ba90bd617b5457061d12d4703b92fe47193615b72dbfdb82817405d7d2028c"
+}

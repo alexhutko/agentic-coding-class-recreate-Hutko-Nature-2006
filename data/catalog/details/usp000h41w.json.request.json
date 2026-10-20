@@ -1,0 +1,9 @@
+{
+  "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000h41w&format=geojson",
+  "status": 200,
+  "seconds": 0.44625377655029297,
+  "retrieved_utc": "2026-10-13T23:09:27.072884Z",
+  "path": "data/catalog/details/usp000h41w.json",
+  "bytes": 28190,
+  "sha256": "d41b385ea0b81dc709e98d805f1024be66bdbf674da9b93cfde266890f21acf4"
+}

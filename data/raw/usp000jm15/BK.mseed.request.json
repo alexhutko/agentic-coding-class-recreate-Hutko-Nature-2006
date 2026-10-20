@@ -1,0 +1,9 @@
+{
+  "url": "https://service.ncedc.org/fdsnws/dataselect/1/query?net=BK&sta=HELL%2CKCC%2CPACP%2CPKD%2CSAO&cha=BH%3F&starttime=2012-05-28T05%3A15%3A43.450000Z&endtime=2012-05-28T05%3A33%3A13.450000Z",
+  "status": 200,
+  "seconds": 1.7968509197235107,
+  "retrieved_utc": "2026-10-13T23:12:23.358815Z",
+  "path": "data/raw/usp000jm15/BK.mseed",
+  "bytes": 1744896,
+  "sha256": "2daf221357f04e5b83f468ab654bb74100ed8110ce9f9f40a31b19552811544b"
+}

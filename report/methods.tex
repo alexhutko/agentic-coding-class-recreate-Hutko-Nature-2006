@@ -1,0 +1,232 @@
+\section{Observations, assumptions, and forward quantities}
+The observable is transverse displacement between direct S and core-reflected ScS.
+The inversion assigns signed waveform amplitude to candidate scattering positions;
+it does not recover an absolute shear-velocity perturbation or a temperature field.
+We implement isotropic, single-scattering diffraction stacking in a spherical
+reference Earth. Multiple scattering, elastic conversions, azimuthal anisotropy,
+and finite-frequency triplication amplitudes are outside this imaging approximation.
+The interpretation of a folded slab is kept separate from the calculated image.
+
+The scientific specifications are the main text and supplementary legends of
+Hutko et al. (2006), with processing details from Lay et al. (2004) and Avants
+et al. (2006). The Nature legends take precedence where these descriptions differ.
+They specify magnitudes 6.0--7.2, source depths 218--610 km, epicentral distances
+65--85 degrees, and a final low-pass corner of 0.3 Hz. They normalize migration
+traces to S; the earlier stacking study instead normalized to ScS.
+
+We identify historical earthquake dates from Table 2 of Thomas et al. (2004).
+That table contains 15 entries but repeats event number 7; the text says 14.
+The entry dated 30 August 1999 is identified with the USGS event of 30 August
+1998: its latitude and longitude match the printed values exactly and its depth
+differs by only 0.5 km. We treat the printed year as a probable typographical
+error and preserve this inference in the catalog. Its preferred magnitude is
+5.7, a second historical exception to the stated selection bounds. The USGS
+preferred magnitude of the identified 1991 event is 7.3, outside the published
+range. Historical identities are preserved and such catalog exceptions are
+flagged; the new-event query retains the written magnitude and depth bounds.
+The historical 23 April 2000 entry is identified with the 17:01 UTC event,
+consistent with the location in the published table, rather than its larger
+09:27 UTC neighbour. No hypocentre used in computation is copied from that table.
+Magnitudes are USGS preferred magnitudes of mixed types, retained in the event
+tables. This is not guaranteed to duplicate the original CMT magnitude scale.
+
+All event records and moment tensors are fetched from USGS. All waveforms and
+StationXML responses are fetched from EarthScope, NCEDC, or SCEDC. Every request
+records its URL, retrieval date, SHA-256 hash, size, and status; failures are saved
+rather than silently filled. Natural Earth coastlines are used only for geographic
+context. No author waveform collection, simulation output, code, or plotting
+script is consulted. Published figure pages are used only for comparison, never
+as numerical arrays or digitized model inputs.
+
+Polet and Kanamori (2002) do report illustrative regional corrections: an
+approximately east--west fast direction and 1.2 s delay at PAS, and a Bay-area
+two-layer example with an upper 135-degree, 0.7 s layer above an east--west,
+1.4 s layer. These are nonunique regional models; they do not identify the
+complete station/path correction set used by Hutko et al. We do not silently
+assign these examples to every station. Their existence means that the missing
+correction set is a limitation of this reconstruction, not an assertion that
+the literature contains no numerical anisotropy constraints.
+
+The historical station list is an explicit approximation to California broadband
+coverage, augmented by named western US stations. For later events the acquisition
+also queries BK, CI, IU, II, US, and TA stations between 30--49 degrees N and
+126--105 degrees W. Historical sites are retained; additional stations are sampled
+at one site per network per one-degree cell to limit redundant downloads. This
+thinning is a new acquisition assumption, not a published selection rule. The
+expanded analysis includes the retained historical observations. The same-region
+expanded subset retains every accepted historical trace and requires newly added
+traces to have calculated ScS bounce points within 0--15 degrees N and
+93--87 degrees W. The wider analysis uses all retained paths and masks plots with
+fewer than 20 contributing traces or three events. These thresholds describe
+illumination, not guaranteed spatial resolution.
+
+\subsection{Instrument correction, polarization, and source removal}
+Each gap-free BH three-component record is detrended, tapered over 3\% of its
+length, and deconvolved to displacement using the epoch-appropriate archive
+response. The response prefilter corners are 0.003, 0.005, 4, and 5 Hz; the upper
+corners are reduced if required by the input Nyquist frequency. The instrument
+water level is 60 dB. Sensor orientations from StationXML determine the rotation
+to north and east. A fourth-order two-pass 0.01 Hz high-pass filter and an
+eighth-order two-pass 2 Hz antialias filter precede sampling at 5 Hz. These fixed
+choices replace the incompletely documented trace-dependent filters in the papers.
+
+For backazimuth $b$, measured clockwise from north at the station, the transverse
+component is
+\begin{equation} u_T=u_N\sin b-u_E\cos b. \end{equation}
+An optional receiver correction rotates to a fast direction $\phi$, delays the
+fast component by $\delta t/2$, and advances the slow component by $\delta t/2$,
+then rotates back. This preserves the average arrival time. The correction is
+implemented and tested, but the supplied numerical correction file is empty:
+the allowed written descriptions do not provide a complete usable station table,
+and published splitting maps were not digitized. Therefore the observational
+images in this report have \emph{no applied receiver splitting correction}.
+This omission is a material difference from the publication.
+
+USGS moment tensors are transformed from the spherical up--south--east basis to
+north--east--down. The predicted SH radiation coefficient is
+\begin{equation} R_{SH}=\frac{\boldsymbol{e}_T^{\mathsf T}\boldsymbol{M}\boldsymbol{n}}{M_0},
+\qquad M_0=\left(\tfrac12\sum_{ij}M_{ij}^2\right)^{1/2}, \end{equation}
+where $\boldsymbol{n}$ is the takeoff direction and $\boldsymbol{e}_T$ the transverse
+unit vector. Where tensors are available, S and ScS must have matching signs and
+$|R_{SH}|\geq0.6$. Unavailable tensors are flagged rather than invented; accepted
+unverified records are reported separately. A coefficient range reported for the
+original CMT solutions need not hold for the current USGS tensor, so this check
+can remove an originally used event.
+
+Phase peaks are measured on the 0.3 Hz low-pass displacement. S is sought within
+15 s of its PREM prediction. Its residual defines a common time shift for the
+ScS search; ScS is sought within 15 s of that shifted prediction and at least
+6 s after S, with the S polarity. Picks on a window boundary are rejected.
+This automated rule replaces unpublished manual picks and can confuse interfering
+phases. We require a minimum peak-to-RMS amplitude ratio of 3 for both phases,
+using the interval 90--30 s before picked S for noise. Colocated sensors appearing
+under different network codes are represented once. All choices and rejections
+remain in the trace audit.
+
+For each event, up to ten candidates with the highest signal-to-noise ratios are
+aligned on ScS and normalized by its signed amplitude. At least three candidates
+are required. Their mean over $[-8,14]$ s is cropped at the nearest zero crossings
+around its principal peak and tapered with a 25\% Tukey taper. This isolates an
+empirical source wavelet $w$ and limits inclusion of precursor energy. It is an
+assumed reproducible replacement for the original manual choice of simple ScS
+pulses. A minimum correlation of 0.65 with this wavelet is required.
+
+For displacement spectrum $U$ and wavelet spectrum $W$, the source-deconvolved
+signal is
+\begin{equation}
+ D(\omega)=\frac{U(\omega)W^*(\omega)}{
+ \max\{|W(\omega)|^2,\epsilon\max_{\omega'}|W(\omega')|^2\}}\,G(\omega),
+ \qquad \epsilon=10^{-4}.
+\end{equation}
+Here $G$ is a fourth-order, two-pass Butterworth low-pass filter with corner
+0.3 Hz. The FFT is zero padded beyond the combined signal and source lengths;
+the wavelet zero time is explicitly placed at index zero. The deconvolved S and
+ScS peaks are repicked within 5 s, and $d(t)$ is divided by its signed S peak.
+The event supplements show both pre-deconvolution displacement and deconvolved
+signals, each separately S-normalized, with at least 80 s before S and 65 s
+after ScS. Display clipping at twice the S amplitude is labelled; saved traces
+are not clipped. These diagnostics do not replace expert manual acceptance.
+
+\subsection{Spherical ray integration and migration}
+The Earth radius is $R=6371$ km and PREM's CMB depth is 2891 km. We use the
+isotropic tabulation of PREM supplied with ObsPy. For ray parameter $p$ in
+seconds per radian, shear speed $v(r)$, and a monotonically upgoing leg,
+\begin{align}
+ \Delta(p)&=\int_{r_x}^{r_e}
+ \frac{p\,v(r)}{r^2\sqrt{1-[p v(r)/r]^2}}\,dr,\\
+ T(p)&=\int_{r_x}^{r_e}
+ \frac{1}{v(r)\sqrt{1-[p v(r)/r]^2}}\,dr.
+\end{align}
+The endpoint $e$ is a source or receiver and $x$ a candidate scatterer.
+Only $p<\min r/v(r)$ is admitted; legs that would turn below $x$ are absent.
+We split radial integration at every material boundary, endpoint, and 15 km
+interval. Sixteen-point Gauss--Legendre quadrature uses $r-r_x=u^2$ to regularize
+near-grazing incidence. One thousand ray parameters, clustered near the upper
+limit, define monotone travel-time curves. Linear interpolation onto a
+0.02-degree distance table avoids separate ray tracing for every voxel.
+Direct S, ScS, and multiple predictions used for picks come from ObsPy TauP;
+the scattering-leg integrator is independently implemented.
+
+The original image domain is $[-6,20]$ degrees latitude, $[-103,-77]$ degrees
+longitude, and 2310--2910 km depth, at 0.2-degree horizontal and 10 km vertical
+sampling. For the last 19 km below the CMB, basal mantle shear speed is extended
+solely to map post-ScS time. It is not interpreted as a shear wave in the fluid
+core. The expanded domain is $[-10,25]$ degrees latitude and $[-110,-70]$ degrees
+longitude at the same spacing. Geographic latitudes are treated as spherical;
+ellipticity, topography, and station elevation travel-time corrections are omitted.
+Profile endpoints are specified in configuration, independently of the published
+plots. Horizontal distances are measured at the CMB radius, with no vertical
+exaggeration. This differs from measuring profile length at the Earth's surface.
+
+For reference phase $q$ (S or ScS), the sampled time is
+\begin{equation}
+ t_{iq}(\boldsymbol{x})=t^{\rm pick}_{iq}+
+ T(s_i,\boldsymbol{x})+T(\boldsymbol{x},r_i)-T^{\rm PREM}_{iq}.
+\end{equation}
+The measured reference establishes a datum that reduces origin-time and shared
+path errors. Direct S and predicted sS and SS are multiplied by symmetric
+raised-cosine notches $m(t)=\sin^2\{(\pi/2)\min(|t-t_0|/2\,\mathrm{s},1)\}$.
+The ScS-censored variants apply the same 4 s full-width notch to ScS. The exact
+published taper shape is not specified. Our hitcount counts valid paths and
+samples, including samples with tapered amplitudes, rather than a count of
+nonzero amplitudes. Consequently its retained/censored versions can coincide.
+
+For $N(\boldsymbol{x})$ valid traces, both the arithmetic mean
+$\bar A=\sum_i d_i[t_{iq}(\boldsymbol{x})]/N(\boldsymbol{x})$ and the displayed
+hitcount-weighted mean are saved:
+\begin{equation}
+ A(\boldsymbol{x})=\bar A(\boldsymbol{x})\,
+ \frac{N(\boldsymbol{x})}{\max_{\boldsymbol{x}'}N(\boldsymbol{x}')}.
+\end{equation}
+This explicit interpretation of ``weighted according to hitcount'' is an
+assumption. No geometrical-spreading or absolute scattering-amplitude inversion
+is performed. The display saturates at $\pm0.15$ in S-normalized amplitude units;
+unsaturated arrays remain available. No positive reflector or step is imposed
+on observational images.
+
+The first-order tomography correction operator is
+\begin{equation} \delta T=-\int_{\rm ray}\frac{\delta v}{v}\,dt.\end{equation}
+Its differential contribution is the sum on the two scattering legs minus
+that on the reference ray. The segment operator is implemented and verified for
+a uniform perturbation. The UT, UCB, and CIT coefficients are not specified by
+the written descriptions. We do not manufacture these models, download the
+authors' numerical inputs, or substitute generic velocity anomalies under their
+names. These three Figure 3 panels remain unreproduced.
+
+\subsection{Additional tests and the boundary of the reconstruction}
+The double-array test solves $\Delta_s(p)+\Delta_r(p)=\Delta_{sr}$ at each
+candidate reflector depth and samples each trace at that reflection time.
+ScS bounce latitude 6 degrees N separates southern and northern bins. Confidence
+intervals resample entire events 300 times, preserving within-event correlation.
+They are pointwise intervals, not corrections for searching across depths.
+The source-location sensitivity test perturbs only sources south of 25 degrees S
+by $\pm40$ km in depth or by 40 km toward/away from the selected profile midpoint.
+
+Synthetic point tests inject one-second Gaussian arrivals from two explicitly
+assumed isotropic scatterers at 40\% and 70\% along profile A, at depths
+2611 and 2711 km (100 km vertical separation). These test the
+diffraction-stack operator and acquisition geometry, not full elastic propagation.
+Each pulse has unit positive peak and a Gaussian standard deviation of 1 s;
+attenuation, conversions, and additional reflections are absent. The same two
+scatterers are tested with each dataset's own accepted event/station geometry.
+A separate kinematic SH test uses a 2.6\% shear-speed increase 264 km above the
+CMB and optional 2.6, 5, or 10\% decreases 90 km above it. With equal density,
+its local plane-interface displacement coefficient is
+\begin{equation}
+ \mathcal R_{SH}=\frac{\mu_1 q_1-\mu_2 q_2}{\mu_1 q_1+\mu_2 q_2},\qquad
+ q_j=\sqrt{v_j^{-2}-p_h^2},\quad \mu_j=\rho v_j^2.
+\end{equation}
+Complex $q_j$ permits a postcritical phase shift. This illustrative ray calculation
+does not include the refracted Scd branch, caustic amplitudes, attenuation, or
+full-wave reflectivity. It therefore cannot reproduce the published synthetic
+waveform panels. The 1.5\% step model at 170/270 km above the CMB is generated
+as an input-model illustration on PREM. No 2.5-D finite-difference solver or
+thermomechanical slab-flow calculation is claimed.
+
+There are no time-evolution initial conditions in the observational migration:
+its input is the measured, processed time series, zero outside its sampled
+support. The ray reference has a fluid-core SH reflection boundary and a solid
+surface as encoded in PREM/TauP. The kinematic examples assume causal localized
+impulses and isolated interface interactions; no absorbing numerical boundary or
+dynamic initial stress field is applicable to them. A full-wave reconstruction
+would require these additional specifications and validation.

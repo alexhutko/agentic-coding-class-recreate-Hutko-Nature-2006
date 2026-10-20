@@ -1,0 +1,9 @@
+{
+  "url": "https://service.ncedc.org/fdsnws/station/1/query?net=BK&sta=BABI%2CBUCR%2CCMB%2CHELL%2CJRSC%2CKCC%2CMHC%2COVRO%2CPKD%2CSAO%2CTWIT&cha=BH%3F&starttime=2019-12-24T16%3A51%3A53.420000Z&endtime=2019-12-24T17%3A09%3A23.420000Z&level=response&format=xml",
+  "status": 200,
+  "seconds": 5.0956408977508545,
+  "retrieved_utc": "2026-10-13T23:13:49.740801Z",
+  "path": "data/raw/us70006qk4/BK.xml",
+  "bytes": 577971,
+  "sha256": "01d96e42fe3b89005d6552ac1e51ce8c2c2440898f72e28423f301be12b80a9a"
+}

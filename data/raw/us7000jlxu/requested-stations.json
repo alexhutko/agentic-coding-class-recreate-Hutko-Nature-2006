@@ -1,0 +1,1019 @@
+[
+  {
+    "network": "BK",
+    "station": "BKS",
+    "latitude": 37.876221,
+    "longitude": -122.23558,
+    "elevation_m": 243.9,
+    "start": "1993-12-13T23:54:00.0000",
+    "end": ""
+  },
+  {
+    "network": "BK",
+    "station": "BRIB",
+    "latitude": 37.919319,
+    "longitude": -122.152687,
+    "elevation_m": 237.0,
+    "start": "2019-09-17T01:20:00.0000",
+    "end": ""
+  },
+  {
+    "network": "BK",
+    "station": "CMB",
+    "latitude": 38.03455,
+    "longitude": -120.386513,
+    "elevation_m": 697.0,
+    "start": "1996-09-25T19:19:00.0000",
+    "end": ""
+  },
+  {
+    "network": "BK",
+    "station": "FARB",
+    "latitude": 37.697819,
+    "longitude": -123.001099,
+    "elevation_m": -18.5,
+    "start": "1997-03-15T00:00:00.0000",
+    "end": "2024-01-31T16:25:00.0000"
+  },
+  {
+    "network": "BK",
+    "station": "HOPS",
+    "latitude": 38.993488,
+    "longitude": -123.072342,
+    "elevation_m": 299.1,
+    "start": "1998-03-24T22:42:00.0000",
+    "end": "2024-10-17T16:35:00.0000"
+  },
+  {
+    "network": "BK",
+    "station": "JCC",
+    "latitude": 40.817451,
+    "longitude": -124.029549,
+    "elevation_m": 27.2,
+    "start": "2001-04-11T21:27:00.0000",
+    "end": ""
+  },
+  {
+    "network": "BK",
+    "station": "JRSC",
+    "latitude": 37.403728,
+    "longitude": -122.238678,
+    "elevation_m": 70.5,
+    "start": "2014-09-04T15:30:00.0000",
+    "end": "2024-12-17T22:00:00.0000"
+  },
+  {
+    "network": "BK",
+    "station": "MHC",
+    "latitude": 37.34164,
+    "longitude": -121.64257,
+    "elevation_m": 1250.4,
+    "start": "2022-08-11T18:45:00.0000",
+    "end": ""
+  },
+  {
+    "network": "BK",
+    "station": "MOD",
+    "latitude": 41.902458,
+    "longitude": -120.302948,
+    "elevation_m": 1554.5,
+    "start": "2020-08-05T23:40:00.0000",
+    "end": ""
+  },
+  {
+    "network": "BK",
+    "station": "ORV",
+    "latitude": 39.554508,
+    "longitude": -121.500359,
+    "elevation_m": 334.7,
+    "start": "1992-07-31T18:50:00.0000",
+    "end": ""
+  },
+  {
+    "network": "BK",
+    "station": "PKD",
+    "latitude": 35.945171,
+    "longitude": -120.541603,
+    "elevation_m": 583.0,
+    "start": "1996-09-06T16:28:00.0000",
+    "end": ""
+  },
+  {
+    "network": "BK",
+    "station": "SAO",
+    "latitude": 36.76403,
+    "longitude": -121.44722,
+    "elevation_m": 317.2,
+    "start": "2019-09-17T20:11:00.0000",
+    "end": ""
+  },
+  {
+    "network": "BK",
+    "station": "YBH",
+    "latitude": 41.73204,
+    "longitude": -122.710388,
+    "elevation_m": 1059.7,
+    "start": "2022-11-15T21:30:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "ADO",
+    "latitude": 34.55046,
+    "longitude": -117.43391,
+    "elevation_m": 908.0,
+    "start": "2000-08-09T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "ALP",
+    "latitude": 34.68708,
+    "longitude": -118.29946,
+    "elevation_m": 753.0,
+    "start": "1999-10-05T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "ARV",
+    "latitude": 35.1269,
+    "longitude": -118.83009,
+    "elevation_m": 258.0,
+    "start": "1983-09-15T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "BAR",
+    "latitude": 32.68005,
+    "longitude": -116.67215,
+    "elevation_m": 529.0,
+    "start": "1932-09-04T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "BEL",
+    "latitude": 34.0006,
+    "longitude": -115.9982,
+    "elevation_m": 1388.0,
+    "start": "2001-03-15T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "BFS",
+    "latitude": 34.23883,
+    "longitude": -117.65853,
+    "elevation_m": 1312.0,
+    "start": "2001-07-10T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "BRE",
+    "latitude": 33.80776,
+    "longitude": -117.98116,
+    "elevation_m": 24.0,
+    "start": "2000-02-25T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "BTP",
+    "latitude": 34.68224,
+    "longitude": -118.57398,
+    "elevation_m": 1702.0,
+    "start": "1997-12-03T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "CCC",
+    "latitude": 35.52495,
+    "longitude": -117.36453,
+    "elevation_m": 670.0,
+    "start": "2001-06-22T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "CHN",
+    "latitude": 33.99879,
+    "longitude": -117.68044,
+    "elevation_m": 208.0,
+    "start": "1999-10-12T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "CLC",
+    "latitude": 35.81574,
+    "longitude": -117.59751,
+    "elevation_m": 775.0,
+    "start": "1948-07-08T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "CRY",
+    "latitude": 34.778248,
+    "longitude": -119.628105,
+    "elevation_m": 1527.9,
+    "start": "2021-08-06T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "DAN",
+    "latitude": 34.63745,
+    "longitude": -115.38115,
+    "elevation_m": 428.0,
+    "start": "1998-09-22T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "DEV",
+    "latitude": 33.93597,
+    "longitude": -116.57794,
+    "elevation_m": 337.0,
+    "start": "1997-11-11T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "DGR",
+    "latitude": 33.65001,
+    "longitude": -117.00947,
+    "elevation_m": 650.0,
+    "start": "1993-06-22T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "DLA",
+    "latitude": 33.84822,
+    "longitude": -118.09624,
+    "elevation_m": 14.0,
+    "start": "2000-05-04T23:59:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "FMP",
+    "latitude": 33.71264,
+    "longitude": -118.29381,
+    "elevation_m": 89.0,
+    "start": "2000-08-30T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "FUR",
+    "latitude": 36.46703,
+    "longitude": -116.86322,
+    "elevation_m": -37.0,
+    "start": "1996-11-19T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "GSC",
+    "latitude": 35.30177,
+    "longitude": -116.80574,
+    "elevation_m": 1000.0,
+    "start": "1961-11-07T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "HEC",
+    "latitude": 34.8294,
+    "longitude": -116.335,
+    "elevation_m": 920.0,
+    "start": "1997-08-01T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "ISA",
+    "latitude": 35.66278,
+    "longitude": -118.47403,
+    "elevation_m": 873.0,
+    "start": "1946-03-16T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "LAF",
+    "latitude": 33.86889,
+    "longitude": -118.33143,
+    "elevation_m": 20.0,
+    "start": "1999-10-15T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "LDF",
+    "latitude": 35.13066,
+    "longitude": -115.18416,
+    "elevation_m": 1239.0,
+    "start": "1999-11-17T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "LGB",
+    "latitude": 33.9753,
+    "longitude": -118.14918,
+    "elevation_m": 42.0,
+    "start": "2000-04-06T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "LRL",
+    "latitude": 35.47954,
+    "longitude": -117.68212,
+    "elevation_m": 1340.0,
+    "start": "1992-07-29T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "MLAC",
+    "latitude": 37.63019,
+    "longitude": -118.83605,
+    "elevation_m": 2162.0,
+    "start": "1992-11-04T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "OSI",
+    "latitude": 34.6145,
+    "longitude": -118.7235,
+    "elevation_m": 718.0,
+    "start": "1995-06-28T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "PLM",
+    "latitude": 33.35361,
+    "longitude": -116.86265,
+    "elevation_m": 1691.0,
+    "start": "1939-09-09T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "RPV",
+    "latitude": 33.74346,
+    "longitude": -118.40412,
+    "elevation_m": 107.0,
+    "start": "1993-05-12T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "RUS",
+    "latitude": 34.05075,
+    "longitude": -118.08078,
+    "elevation_m": 70.0,
+    "start": "1998-05-29T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "RVR",
+    "latitude": 33.99351,
+    "longitude": -117.37545,
+    "elevation_m": 266.0,
+    "start": "1926-10-19T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "SBC",
+    "latitude": 34.44076,
+    "longitude": -119.71492,
+    "elevation_m": 94.0,
+    "start": "1932-01-05T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "SDD",
+    "latitude": 33.55259,
+    "longitude": -117.66171,
+    "elevation_m": 120.0,
+    "start": "1999-04-20T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "SLA",
+    "latitude": 35.89095,
+    "longitude": -117.28332,
+    "elevation_m": 1174.0,
+    "start": "1999-03-09T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "SNCC",
+    "latitude": 33.24787,
+    "longitude": -119.52437,
+    "elevation_m": 275.0,
+    "start": "1994-05-03T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "STS",
+    "latitude": 33.79033,
+    "longitude": -118.19878,
+    "elevation_m": 4.0,
+    "start": "1999-05-20T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "SVD",
+    "latitude": 34.10647,
+    "longitude": -117.09822,
+    "elevation_m": 605.0,
+    "start": "1990-12-04T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "SWS",
+    "latitude": 32.94508,
+    "longitude": -115.79988,
+    "elevation_m": 140.0,
+    "start": "1997-09-20T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "TUQ",
+    "latitude": 35.43584,
+    "longitude": -115.92389,
+    "elevation_m": 1350.0,
+    "start": "2002-05-02T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "USC",
+    "latitude": 34.01919,
+    "longitude": -118.28631,
+    "elevation_m": 58.0,
+    "start": "1993-02-17T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "VTV",
+    "latitude": 34.56065,
+    "longitude": -117.3296,
+    "elevation_m": 843.0,
+    "start": "1993-04-14T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "WBS",
+    "latitude": 35.53664,
+    "longitude": -118.14035,
+    "elevation_m": 1927.0,
+    "start": "1980-04-22T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "WGR",
+    "latitude": 34.51085,
+    "longitude": -119.27407,
+    "elevation_m": 554.0,
+    "start": "2001-08-01T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "II",
+    "station": "PFO",
+    "latitude": 33.6107,
+    "longitude": -116.4544,
+    "elevation_m": 1280.0,
+    "start": "2020-04-29T18:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "IU",
+    "station": "ANMO",
+    "latitude": 34.94591,
+    "longitude": -106.4572,
+    "elevation_m": 1820.0,
+    "start": "2002-11-19T21:07:00.0000",
+    "end": ""
+  },
+  {
+    "network": "IU",
+    "station": "TUC",
+    "latitude": 32.3098,
+    "longitude": -110.7847,
+    "elevation_m": 910.0,
+    "start": "1992-06-13T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "BK",
+    "station": "AASB",
+    "latitude": 38.43026,
+    "longitude": -121.10975,
+    "elevation_m": 67.1,
+    "start": "2021-08-10T18:27:00.0000",
+    "end": ""
+  },
+  {
+    "network": "BK",
+    "station": "ADAM",
+    "latitude": 38.75142,
+    "longitude": -122.33414,
+    "elevation_m": 627.3,
+    "start": "2022-06-17T16:30:00.0000",
+    "end": ""
+  },
+  {
+    "network": "BK",
+    "station": "AONC",
+    "latitude": 39.93981,
+    "longitude": -122.0608,
+    "elevation_m": 70.0,
+    "start": "2020-06-11T18:50:00.0000",
+    "end": ""
+  },
+  {
+    "network": "BK",
+    "station": "BABI",
+    "latitude": 36.51579,
+    "longitude": -120.85301,
+    "elevation_m": 571.2,
+    "start": "2019-05-23T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "BK",
+    "station": "BAKR",
+    "latitude": 40.280351,
+    "longitude": -122.492261,
+    "elevation_m": 191.2,
+    "start": "2022-03-30T22:30:00.0000",
+    "end": ""
+  },
+  {
+    "network": "BK",
+    "station": "BARR",
+    "latitude": 39.30477,
+    "longitude": -123.19748,
+    "elevation_m": 264.7,
+    "start": "2019-10-02T19:32:00.0000",
+    "end": ""
+  },
+  {
+    "network": "BK",
+    "station": "BIGV",
+    "latitude": 41.09439,
+    "longitude": -121.22769,
+    "elevation_m": 1487.3,
+    "start": "2022-06-29T20:45:00.0000",
+    "end": ""
+  },
+  {
+    "network": "BK",
+    "station": "BJES",
+    "latitude": 40.54362,
+    "longitude": -123.87996,
+    "elevation_m": 1050.7,
+    "start": "2019-08-22T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "BK",
+    "station": "BUCR",
+    "latitude": 37.6733,
+    "longitude": -120.1496,
+    "elevation_m": 1034.0,
+    "start": "2019-04-30T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "BK",
+    "station": "CGRV",
+    "latitude": 36.79147,
+    "longitude": -118.66033,
+    "elevation_m": 1450.2,
+    "start": "2020-11-05T21:34:00.0000",
+    "end": ""
+  },
+  {
+    "network": "BK",
+    "station": "DANT",
+    "latitude": 40.294601,
+    "longitude": -121.802101,
+    "elevation_m": 967.0,
+    "start": "2016-11-18T12:00:00.0000",
+    "end": "2024-06-27T17:40:00.0000"
+  },
+  {
+    "network": "BK",
+    "station": "DRDG",
+    "latitude": 38.16819,
+    "longitude": -119.96892,
+    "elevation_m": 2136.7,
+    "start": "2021-07-08T02:30:00.0000",
+    "end": ""
+  },
+  {
+    "network": "BK",
+    "station": "EAGL",
+    "latitude": 40.62486,
+    "longitude": -120.72893,
+    "elevation_m": 1564.7,
+    "start": "2020-10-22T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "BK",
+    "station": "HELL",
+    "latitude": 36.680111,
+    "longitude": -119.02282,
+    "elevation_m": 1140.0,
+    "start": "2008-04-03T01:47:00.0000",
+    "end": ""
+  },
+  {
+    "network": "BK",
+    "station": "MILL",
+    "latitude": 41.70532,
+    "longitude": -124.04106,
+    "elevation_m": 560.5,
+    "start": "2021-08-26T01:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "BK",
+    "station": "MMI",
+    "latitude": 37.41964,
+    "longitude": -119.74378,
+    "elevation_m": 1307.7,
+    "start": "2021-03-19T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "BK",
+    "station": "OVRO",
+    "latitude": 37.23066,
+    "longitude": -118.283,
+    "elevation_m": 1216.0,
+    "start": "2019-08-01T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "BK",
+    "station": "SANG",
+    "latitude": 41.91013,
+    "longitude": -123.64922,
+    "elevation_m": 1641.3,
+    "start": "2021-08-25T01:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "BK",
+    "station": "YUBA",
+    "latitude": 39.33756,
+    "longitude": -120.53722,
+    "elevation_m": 2370.9,
+    "start": "2019-09-26T19:28:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "AGM",
+    "latitude": 32.84474,
+    "longitude": -114.78425,
+    "elevation_m": 323.99,
+    "start": "2017-06-05T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "BAK",
+    "latitude": 35.34444,
+    "longitude": -119.10445,
+    "elevation_m": 116.0,
+    "start": "1999-06-21T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "BC3",
+    "latitude": 33.65515,
+    "longitude": -115.45366,
+    "elevation_m": 1137.0,
+    "start": "1991-05-08T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "BCH",
+    "latitude": 35.185337,
+    "longitude": -120.085057,
+    "elevation_m": 1109.0,
+    "start": "2021-11-17T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "BLY",
+    "latitude": 33.7503,
+    "longitude": -114.52375,
+    "elevation_m": 201.0,
+    "start": "2004-11-08T19:18:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "BUE",
+    "latitude": 34.612987,
+    "longitude": -120.196793,
+    "elevation_m": 110.0,
+    "start": "2013-12-04T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "CGO",
+    "latitude": 36.5504,
+    "longitude": -117.80295,
+    "elevation_m": 2795.0,
+    "start": "2001-12-11T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "CWC",
+    "latitude": 36.439047,
+    "longitude": -118.080495,
+    "elevation_m": 1569.49,
+    "start": "1965-10-15T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "NEE2",
+    "latitude": 34.76759,
+    "longitude": -114.61881,
+    "elevation_m": 271.0,
+    "start": "2006-07-27T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "POR",
+    "latitude": 36.10368,
+    "longitude": -119.00343,
+    "elevation_m": 198.0,
+    "start": "2018-10-04T17:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "SCI2",
+    "latitude": 32.9799,
+    "longitude": -118.54697,
+    "elevation_m": 199.0,
+    "start": "2003-10-23T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "SDG",
+    "latitude": 32.784,
+    "longitude": -117.13805,
+    "elevation_m": 101.0,
+    "start": "2001-09-26T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "CI",
+    "station": "SRI",
+    "latitude": 33.97875,
+    "longitude": -120.07886,
+    "elevation_m": 392.0,
+    "start": "2010-09-01T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "US",
+    "station": "AHID",
+    "latitude": 42.7654,
+    "longitude": -111.1004,
+    "elevation_m": 1960.0,
+    "start": "1997-11-12T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "US",
+    "station": "BMO",
+    "latitude": 44.8525,
+    "longitude": -117.306,
+    "elevation_m": 1154.0,
+    "start": "2004-11-23T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "US",
+    "station": "BOZ",
+    "latitude": 45.59697,
+    "longitude": -111.62967,
+    "elevation_m": 1589.0,
+    "start": "1999-11-11T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "US",
+    "station": "BW06",
+    "latitude": 42.7667,
+    "longitude": -109.5583,
+    "elevation_m": 2224.0,
+    "start": "1996-05-05T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "US",
+    "station": "DUG",
+    "latitude": 40.195,
+    "longitude": -112.8133,
+    "elevation_m": 1477.0,
+    "start": "1993-02-18T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "US",
+    "station": "EGMT",
+    "latitude": 48.024,
+    "longitude": -109.7547,
+    "elevation_m": 1055.0,
+    "start": "2005-10-01T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "US",
+    "station": "ELK",
+    "latitude": 40.7448,
+    "longitude": -115.2388,
+    "elevation_m": 2210.0,
+    "start": "1994-01-06T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "US",
+    "station": "HAWA",
+    "latitude": 46.3925,
+    "longitude": -119.5327,
+    "elevation_m": 364.0,
+    "start": "1999-04-23T00:00:00.0000",
+    "end": "2024-08-31T00:00:00.0000"
+  },
+  {
+    "network": "US",
+    "station": "HLID",
+    "latitude": 43.5625,
+    "longitude": -114.4138,
+    "elevation_m": 1772.0,
+    "start": "1998-08-10T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "US",
+    "station": "HWUT",
+    "latitude": 41.6069,
+    "longitude": -111.5652,
+    "elevation_m": 1830.0,
+    "start": "1997-03-26T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "US",
+    "station": "ISCO",
+    "latitude": 39.7997,
+    "longitude": -105.6134,
+    "elevation_m": 2743.0,
+    "start": "1996-10-25T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "US",
+    "station": "LAO",
+    "latitude": 46.6885,
+    "longitude": -106.2231,
+    "elevation_m": 902.0,
+    "start": "2004-07-13T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "US",
+    "station": "LKWY",
+    "latitude": 44.5652,
+    "longitude": -110.4,
+    "elevation_m": 2424.0,
+    "start": "1995-10-11T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "US",
+    "station": "MNTX",
+    "latitude": 31.6985,
+    "longitude": -105.3821,
+    "elevation_m": 404.8,
+    "start": "2003-05-29T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "US",
+    "station": "MSO",
+    "latitude": 46.8292,
+    "longitude": -113.9406,
+    "elevation_m": 1264.0,
+    "start": "2002-08-23T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "US",
+    "station": "MVCO",
+    "latitude": 37.19956,
+    "longitude": -108.49251,
+    "elevation_m": 2169.9,
+    "start": "2006-04-18T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "US",
+    "station": "NEW",
+    "latitude": 48.2642,
+    "longitude": -117.1227,
+    "elevation_m": 760.0,
+    "start": "1993-11-13T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "US",
+    "station": "RLMT",
+    "latitude": 45.1221,
+    "longitude": -109.2673,
+    "elevation_m": 2086.0,
+    "start": "2006-08-24T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "US",
+    "station": "SDCO",
+    "latitude": 37.7456,
+    "longitude": -105.5012,
+    "elevation_m": 2569.0,
+    "start": "2002-07-11T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "US",
+    "station": "TPNV",
+    "latitude": 36.9488,
+    "longitude": -116.2495,
+    "elevation_m": 1600.0,
+    "start": "1992-06-15T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "US",
+    "station": "WUAZ",
+    "latitude": 35.5169,
+    "longitude": -111.3739,
+    "elevation_m": 1592.0,
+    "start": "1998-05-12T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "US",
+    "station": "WVOR",
+    "latitude": 42.4339,
+    "longitude": -118.6367,
+    "elevation_m": 1344.0,
+    "start": "1994-06-22T00:00:00.0000",
+    "end": ""
+  }
+]

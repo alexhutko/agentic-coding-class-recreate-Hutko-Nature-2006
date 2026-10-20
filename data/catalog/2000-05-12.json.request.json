@@ -1,0 +1,9 @@
+{
+  "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2000-05-12&endtime=2000-05-13T00%3A00%3A00.000000Z&minlatitude=-35&maxlatitude=0&minlongitude=-85&maxlongitude=-55&mindepth=180",
+  "status": 200,
+  "seconds": 0.0562901496887207,
+  "retrieved_utc": "2026-10-13T23:09:24.892923Z",
+  "path": "data/catalog/2000-05-12.json",
+  "bytes": 2791,
+  "sha256": "315be5ddd329cee9716b92e76017db8f139bcfc8f06af32781c312d1cec1b272"
+}

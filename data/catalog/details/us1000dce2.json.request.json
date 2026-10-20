@@ -1,0 +1,9 @@
+{
+  "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us1000dce2&format=geojson",
+  "status": 200,
+  "seconds": 0.06751370429992676,
+  "retrieved_utc": "2026-10-13T23:09:27.299532Z",
+  "path": "data/catalog/details/us1000dce2.json",
+  "bytes": 47525,
+  "sha256": "233d6ba3ecc2c8f638de496c06c42c8882f76878d2fba98c4d21406e75712480"
+}

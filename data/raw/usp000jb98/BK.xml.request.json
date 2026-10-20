@@ -1,0 +1,9 @@
+{
+  "url": "https://service.ncedc.org/fdsnws/station/1/query?net=BK&sta=BKS%2CBRIB%2CCMB%2CCVS%2CFARB%2CGASB%2CHATC%2CHELL%2CHOPS%2CHUMO%2CJCC%2CJRSC%2CKCC%2CMHC%2CMOBB%2CMOD%2CORV%2CPKD%2CSAO%2CWDC%2CYBH&cha=BH%3F&starttime=2011-11-22T18%3A56%3A36.300000Z&endtime=2011-11-22T19%3A14%3A06.300000Z&level=response&format=xml",
+  "status": 200,
+  "seconds": 5.902390956878662,
+  "retrieved_utc": "2026-10-13T23:12:11.334231Z",
+  "path": "data/raw/usp000jb98/BK.xml",
+  "bytes": 753993,
+  "sha256": "2cb4c2166ab7489a69478cc14c7e21333a8e7d982bfb4b5be6c9453a7f534672"
+}

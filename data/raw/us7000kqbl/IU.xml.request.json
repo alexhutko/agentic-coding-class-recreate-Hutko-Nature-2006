@@ -1,0 +1,9 @@
+{
+  "url": "https://service.earthscope.org/fdsnws/station/1/query?net=IU&sta=ANMO%2CTUC&cha=BH%3F&starttime=2023-08-23T14%3A31%3A03.170000Z&endtime=2023-08-23T14%3A48%3A33.170000Z&level=response&format=xml",
+  "status": 200,
+  "seconds": 0.12310647964477539,
+  "retrieved_utc": "2026-10-13T23:14:53.870094Z",
+  "path": "data/raw/us7000kqbl/IU.xml",
+  "bytes": 137874,
+  "sha256": "8b2115667649a7299856758c764106fae742c8f79218454e06f6a61be43f2851"
+}

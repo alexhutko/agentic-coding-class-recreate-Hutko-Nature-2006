@@ -1,0 +1,9 @@
+{
+  "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=1991-06-23&endtime=1991-06-24T00%3A00%3A00.000000Z&minlatitude=-35&maxlatitude=0&minlongitude=-85&maxlongitude=-55&mindepth=180",
+  "status": 200,
+  "seconds": 0.06112313270568848,
+  "retrieved_utc": "2026-10-13T23:09:22.566958Z",
+  "path": "data/catalog/1991-06-23.json",
+  "bytes": 2695,
+  "sha256": "68c8eed0a27e19f99382d59dfdc4200e83de9bc57661f4db0dbdd1157fa71cee"
+}

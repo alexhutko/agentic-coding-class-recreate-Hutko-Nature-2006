@@ -1,0 +1,9 @@
+{
+  "url": "https://service.earthscope.org/fdsnws/dataselect/1/query?net=IU&sta=ANMO%2CTUC&cha=BH%3F&starttime=2000-04-23T17%3A09%3A37.470000Z&endtime=2000-04-23T17%3A27%3A07.470000Z",
+  "status": 200,
+  "seconds": 0.44820427894592285,
+  "retrieved_utc": "2026-10-13T23:10:04.172251Z",
+  "path": "data/raw/usp0009rrz/IU.mseed",
+  "bytes": 278528,
+  "sha256": "e97b8886b39cccfb137eb905697fdeb5c37e0ca32a2fd659955616e565ddfe2c"
+}

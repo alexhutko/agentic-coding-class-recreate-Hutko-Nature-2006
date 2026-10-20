@@ -1,0 +1,9 @@
+{
+  "url": "https://service.earthscope.org/fdsnws/station/1/query?net=US&sta=AHID%2CBW06%2CDUG%2CELK%2CHWUT%2CISCO%2CLAO%2CLKWY%2CMNTX%2CMVCO%2CRLMT%2CSDCO%2CTPNV%2CWUAZ&cha=BH%3F&starttime=2012-03-05T07%3A54%3A30.040000Z&endtime=2012-03-05T08%3A12%3A00.040000Z&level=response&format=xml",
+  "status": 200,
+  "seconds": 0.22646021842956543,
+  "retrieved_utc": "2026-10-13T23:12:18.568247Z",
+  "path": "data/raw/usp000jftj/US.xml",
+  "bytes": 490040,
+  "sha256": "4234cd08f665c93762ebeddd16935ded5be4a6e73f40b2b654d11f53ea16a62b"
+}

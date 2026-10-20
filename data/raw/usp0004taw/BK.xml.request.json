@@ -1,0 +1,9 @@
+{
+  "url": "https://service.ncedc.org/fdsnws/station/1/query?net=BK&sta=CMB%2CMHC%2CSAO&cha=BH%3F&starttime=1991-06-23T21%3A30%3A48.940000Z&endtime=1991-06-23T21%3A48%3A18.940000Z&level=response&format=xml",
+  "status": 200,
+  "seconds": 2.373096227645874,
+  "retrieved_utc": "2026-10-13T23:09:41.861745Z",
+  "path": "data/raw/usp0004taw/BK.xml",
+  "bytes": 43342,
+  "sha256": "c5523aa0b529236a9fec2b7fd2544fe65b483363ecb6860a4d00551085651988"
+}

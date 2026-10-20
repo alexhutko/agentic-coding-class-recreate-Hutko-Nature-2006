@@ -1,0 +1,9 @@
+{
+  "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=1997-07-20&endtime=1997-07-21T00%3A00%3A00.000000Z&minlatitude=-35&maxlatitude=0&minlongitude=-85&maxlongitude=-55&mindepth=180",
+  "status": 200,
+  "seconds": 0.054506540298461914,
+  "retrieved_utc": "2026-10-13T23:09:23.958526Z",
+  "path": "data/catalog/1997-07-20.json",
+  "bytes": 1193,
+  "sha256": "0f101d9d7250ba51439613f9a812fdcb67417c79f981af8f5cb50d1047b3d517"
+}

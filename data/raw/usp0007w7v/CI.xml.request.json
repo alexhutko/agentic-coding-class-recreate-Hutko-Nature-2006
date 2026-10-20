@@ -1,0 +1,9 @@
+{
+  "url": "https://service.scedc.caltech.edu/fdsnws/station/1/query?net=CI&sta=ARV%2CBAR%2CCLC%2CDGR%2CEDW%2CFUR%2CGSC%2CISA%2CLRL%2CMLAC%2CNEE%2COSI%2CPAS%2CPFO%2CPLM%2CRPV%2CRVR%2CSBC%2CSCI%2CSNCC%2CSVD%2CUSC%2CVTV%2CWBS&cha=BH%3F&starttime=1997-01-23T02%3A23%3A42.970000Z&endtime=1997-01-23T02%3A41%3A12.970000Z&level=response&format=xml",
+  "status": 200,
+  "seconds": 2.5188026428222656,
+  "retrieved_utc": "2026-10-13T23:09:52.047362Z",
+  "path": "data/raw/usp0007w7v/CI.xml",
+  "bytes": 938314,
+  "sha256": "e3b14b0e78d5fd7f1ad8f6cc38e0885135cbc329d9594a8b6211929e93b2eabd"
+}

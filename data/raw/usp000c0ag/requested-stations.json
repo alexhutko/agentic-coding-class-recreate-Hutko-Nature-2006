@@ -1,0 +1,191 @@
+[
+  {
+    "network": "BK",
+    "station": "BKS",
+    "latitude": 37.876221,
+    "longitude": -122.23558,
+    "elevation_m": 243.9,
+    "start": "1993-12-13T23:54:00.0000",
+    "end": ""
+  },
+  {
+    "network": "BK",
+    "station": "BRIB",
+    "latitude": 37.918861,
+    "longitude": -122.151787,
+    "elevation_m": 219.7,
+    "start": "1995-06-23T16:00:00.0000",
+    "end": "2014-12-16T03:00:00.0000"
+  },
+  {
+    "network": "BK",
+    "station": "CVS",
+    "latitude": 38.345261,
+    "longitude": -122.458397,
+    "elevation_m": 295.1,
+    "start": "1998-05-06T00:00:00.0000",
+    "end": "2022-06-17T13:15:00.0000"
+  },
+  {
+    "network": "BK",
+    "station": "FARB",
+    "latitude": 37.697819,
+    "longitude": -123.001099,
+    "elevation_m": -18.5,
+    "start": "1997-03-15T00:00:00.0000",
+    "end": "2024-01-31T16:25:00.0000"
+  },
+  {
+    "network": "BK",
+    "station": "HOPS",
+    "latitude": 38.993488,
+    "longitude": -123.072342,
+    "elevation_m": 299.1,
+    "start": "1998-03-24T22:42:00.0000",
+    "end": "2024-10-17T16:35:00.0000"
+  },
+  {
+    "network": "BK",
+    "station": "JCC",
+    "latitude": 40.817451,
+    "longitude": -124.029549,
+    "elevation_m": 27.2,
+    "start": "2001-04-11T21:27:00.0000",
+    "end": ""
+  },
+  {
+    "network": "BK",
+    "station": "JRSC",
+    "latitude": 37.403728,
+    "longitude": -122.238678,
+    "elevation_m": 70.5,
+    "start": "2001-06-01T00:00:00.0000",
+    "end": "2004-06-15T00:00:00.0000"
+  },
+  {
+    "network": "BK",
+    "station": "MOD",
+    "latitude": 41.902458,
+    "longitude": -120.302948,
+    "elevation_m": 1554.5,
+    "start": "2001-06-01T00:00:00.0000",
+    "end": "2004-06-15T00:00:00.0000"
+  },
+  {
+    "network": "BK",
+    "station": "ORV",
+    "latitude": 39.554508,
+    "longitude": -121.500359,
+    "elevation_m": 334.7,
+    "start": "1992-07-31T18:50:00.0000",
+    "end": ""
+  },
+  {
+    "network": "BK",
+    "station": "WDC",
+    "latitude": 40.57988,
+    "longitude": -122.54113,
+    "elevation_m": 268.3,
+    "start": "1992-09-17T19:23:00.0000",
+    "end": "2016-08-31T15:30:00.0000"
+  },
+  {
+    "network": "BK",
+    "station": "YBH",
+    "latitude": 41.73204,
+    "longitude": -122.710388,
+    "elevation_m": 1059.7,
+    "start": "2002-11-01T00:05:00.0000",
+    "end": "2004-06-15T00:00:00.0000"
+  },
+  {
+    "network": "IU",
+    "station": "COR",
+    "latitude": 44.5855,
+    "longitude": -123.3046,
+    "elevation_m": 110.0,
+    "start": "1989-10-26T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "US",
+    "station": "WDC",
+    "latitude": 40.580002,
+    "longitude": -122.539719,
+    "elevation_m": 300.0,
+    "start": "1992-09-18T00:00:00.0000",
+    "end": "2007-02-07T06:35:00.0000"
+  },
+  {
+    "network": "BK",
+    "station": "BDM",
+    "latitude": 37.953972,
+    "longitude": -121.86554,
+    "elevation_m": 219.8,
+    "start": "1998-11-12T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "BK",
+    "station": "HUMO",
+    "latitude": 42.607101,
+    "longitude": -122.956688,
+    "elevation_m": 554.9,
+    "start": "2002-06-18T00:00:00.0000",
+    "end": "2018-11-29T19:10:00.0000"
+  },
+  {
+    "network": "BK",
+    "station": "POTR",
+    "latitude": 38.202629,
+    "longitude": -121.935349,
+    "elevation_m": 20.0,
+    "start": "1998-12-10T22:18:00.0000",
+    "end": "2005-02-05T01:29:00.0000"
+  },
+  {
+    "network": "US",
+    "station": "HAWA",
+    "latitude": 46.3925,
+    "longitude": -119.5327,
+    "elevation_m": 364.0,
+    "start": "1999-04-23T00:00:00.0000",
+    "end": "2024-08-31T00:00:00.0000"
+  },
+  {
+    "network": "US",
+    "station": "MSO",
+    "latitude": 46.8292,
+    "longitude": -113.9406,
+    "elevation_m": 1264.0,
+    "start": "2002-08-23T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "US",
+    "station": "NEW",
+    "latitude": 48.2642,
+    "longitude": -117.1227,
+    "elevation_m": 760.0,
+    "start": "1993-11-13T00:00:00.0000",
+    "end": ""
+  },
+  {
+    "network": "US",
+    "station": "OCWA",
+    "latitude": 47.7489,
+    "longitude": -124.1781,
+    "elevation_m": 671.0,
+    "start": "1998-08-28T00:00:00.0000",
+    "end": "2006-06-26T00:00:00.0000"
+  },
+  {
+    "network": "US",
+    "station": "WVOR",
+    "latitude": 42.4339,
+    "longitude": -118.6367,
+    "elevation_m": 1344.0,
+    "start": "1994-06-22T00:00:00.0000",
+    "end": ""
+  }
+]

@@ -1,0 +1,78 @@
+/data/data2/ahutko/Hutko_Nature_2006/scripts/validate.py:28: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  integral=quad(lambda z:1/float(velocity(z)),218,2650,points=[400,670,2200],limit=500)[0]
+{
+  "travel_times": [
+    {
+      "depth_km": 218,
+      "distance_deg": 65,
+      "ours_s": 1189.4491636171904,
+      "taup_s": 1189.450721449686,
+      "error_s": -0.001557832495564071
+    },
+    {
+      "depth_km": 218,
+      "distance_deg": 75,
+      "ours_s": 1268.3518103034698,
+      "taup_s": 1268.3534283525478,
+      "error_s": -0.0016180490779333923
+    },
+    {
+      "depth_km": 218,
+      "distance_deg": 85,
+      "ours_s": 1349.9554290297435,
+      "taup_s": 1349.9571269777803,
+      "error_s": -0.0016979480367353972
+    },
+    {
+      "depth_km": 400,
+      "distance_deg": 65,
+      "ours_s": 1153.1025219525989,
+      "taup_s": 1153.1040827979748,
+      "error_s": -0.00156084537593415
+    },
+    {
+      "depth_km": 400,
+      "distance_deg": 75,
+      "ours_s": 1232.2243000147637,
+      "taup_s": 1232.2259361917586,
+      "error_s": -0.0016361769949071459
+    },
+    {
+      "depth_km": 400,
+      "distance_deg": 85,
+      "ours_s": 1313.9603300532524,
+      "taup_s": 1313.9620103148804,
+      "error_s": -0.0016802616280529037
+    },
+    {
+      "depth_km": 610,
+      "distance_deg": 65,
+      "ours_s": 1116.2588783445358,
+      "taup_s": 1116.2602299057612,
+      "error_s": -0.001351561225419573
+    },
+    {
+      "depth_km": 610,
+      "distance_deg": 75,
+      "ours_s": 1195.6798949200745,
+      "taup_s": 1195.6813569447436,
+      "error_s": -0.0014620246690810745
+    },
+    {
+      "depth_km": 610,
+      "distance_deg": 85,
+      "ours_s": 1277.5939425427532,
+      "taup_s": 1277.5954597943457,
+      "error_s": -0.0015172515925314656
+    }
+  ],
+  "radial_error_s": -1.765851038726396e-06,
+  "deconvolution_amplitude_ratio": -0.2999820204730995,
+  "splitting_round_trip_error": 8.147777728093508e-16,
+  "max_taup_error_s": 0.0016979480367353972,
+  "constant_shell_time_error_s": 0.007180144732728877,
+  "constant_shell_angle_error_deg": 0.0007739164495319528,
+  "passed": true
+}

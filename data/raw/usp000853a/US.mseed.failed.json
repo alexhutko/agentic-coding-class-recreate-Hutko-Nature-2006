@@ -1,0 +1,8 @@
+{
+  "url": "https://service.earthscope.org/fdsnws/dataselect/1/query?net=US&sta=CMB%2CSAO%2CWDC&cha=BH%3F&starttime=1997-07-20T10%3A22%3A42.800000Z&endtime=1997-07-20T10%3A40%3A12.800000Z",
+  "status": 204,
+  "seconds": 0.21123981475830078,
+  "retrieved_utc": "2026-10-13T23:09:53.098418Z",
+  "path": "data/raw/usp000853a/US.mseed",
+  "message": ""
+}

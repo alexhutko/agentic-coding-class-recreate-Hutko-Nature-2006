@@ -1,0 +1,9 @@
+{
+  "url": "https://service.earthscope.org/fdsnws/dataselect/1/query?net=IU&sta=COR&cha=BH%3F&starttime=1997-11-28T23%3A02%3A01.530000Z&endtime=1997-11-28T23%3A19%3A31.530000Z",
+  "status": 200,
+  "seconds": 0.4457566738128662,
+  "retrieved_utc": "2026-10-13T23:09:54.443527Z",
+  "path": "data/raw/usp0008bg2/IU.mseed",
+  "bytes": 90112,
+  "sha256": "353894337511c97e7598b206e1d66a4140ad667e41c08c5a6d47281e87ee8d04"
+}

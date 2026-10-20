@@ -1,0 +1,140 @@
+{
+  "start_utc": "2026-10-14T00:14:00Z",
+  "python": "3.11.17 (main, Oct 13 2026, 16:45:47) [GCC 15.3.0]",
+  "platform": "Linux-4.18.0-553.22.1.el8_10.x86_64-x86_64-with-glibc2.28",
+  "logical_cpus": 96,
+  "machine_memory_gb": 809.655054336,
+  "gpu_hours": 0,
+  "measurement": "CPU is child user+system time. Peak memory is sampled sum of process-tree RSS; shared pages may be counted more than once.",
+  "stages": [
+    {
+      "name": "process",
+      "command": [
+        "/home/ahutko/DATA/Hutko_Nature_2006/envs/seismo/bin/python",
+        "scripts/process.py",
+        "--workers",
+        "16"
+      ],
+      "returncode": 0,
+      "wall_seconds": 24.229573142016307,
+      "cpu_seconds": 228.464594,
+      "peak_tree_rss_gb": 3.109142528
+    },
+    {
+      "name": "validate",
+      "command": [
+        "/home/ahutko/DATA/Hutko_Nature_2006/envs/seismo/bin/python",
+        "scripts/validate.py"
+      ],
+      "returncode": 0,
+      "wall_seconds": 6.136040532030165,
+      "cpu_seconds": 5.604214999999982,
+      "peak_tree_rss_gb": 0.25841664
+    },
+    {
+      "name": "migrate",
+      "command": [
+        "/home/ahutko/DATA/Hutko_Nature_2006/envs/seismo/bin/python",
+        "scripts/migrate.py"
+      ],
+      "returncode": 0,
+      "wall_seconds": 17.30721557396464,
+      "cpu_seconds": 29.864848000000023,
+      "peak_tree_rss_gb": 1.842761728
+    },
+    {
+      "name": "experiments",
+      "command": [
+        "/home/ahutko/DATA/Hutko_Nature_2006/envs/seismo/bin/python",
+        "scripts/experiments.py"
+      ],
+      "returncode": 0,
+      "wall_seconds": 43.491309785982594,
+      "cpu_seconds": 43.064614000000006,
+      "peak_tree_rss_gb": 0.320937984
+    },
+    {
+      "name": "sensitivity",
+      "command": [
+        "/home/ahutko/DATA/Hutko_Nature_2006/envs/seismo/bin/python",
+        "scripts/sensitivity.py",
+        "historical",
+        "modern_same",
+        "expanded"
+      ],
+      "returncode": 0,
+      "wall_seconds": 44.51545626996085,
+      "cpu_seconds": 87.96024499999999,
+      "peak_tree_rss_gb": 0.97886208
+    },
+    {
+      "name": "point-tests",
+      "command": [
+        "/home/ahutko/DATA/Hutko_Nature_2006/envs/seismo/bin/python",
+        "scripts/validate.py",
+        "--points"
+      ],
+      "returncode": 0,
+      "wall_seconds": 22.29624677298125,
+      "cpu_seconds": 48.26585399999999,
+      "peak_tree_rss_gb": 0.967077888
+    },
+    {
+      "name": "compare",
+      "command": [
+        "/home/ahutko/DATA/Hutko_Nature_2006/envs/seismo/bin/python",
+        "scripts/compare.py"
+      ],
+      "returncode": 0,
+      "wall_seconds": 3.33444437594153,
+      "cpu_seconds": 2.9147179999999935,
+      "peak_tree_rss_gb": 0.137900032
+    },
+    {
+      "name": "panels",
+      "command": [
+        "/home/ahutko/DATA/Hutko_Nature_2006/envs/seismo/bin/python",
+        "scripts/panels.py"
+      ],
+      "returncode": 0,
+      "wall_seconds": 0.555681383004412,
+      "cpu_seconds": 0.07488800000004403,
+      "peak_tree_rss_gb": 0.011513856
+    },
+    {
+      "name": "plot",
+      "command": [
+        "/home/ahutko/DATA/Hutko_Nature_2006/envs/seismo/bin/python",
+        "scripts/plot.py"
+      ],
+      "returncode": 0,
+      "wall_seconds": 146.811573443003,
+      "cpu_seconds": 281.0550149999999,
+      "peak_tree_rss_gb": 1.85849856
+    },
+    {
+      "name": "report-source",
+      "command": [
+        "/home/ahutko/DATA/Hutko_Nature_2006/envs/seismo/bin/python",
+        "scripts/report.py"
+      ],
+      "returncode": 0,
+      "wall_seconds": 1.1114905989961699,
+      "cpu_seconds": 0.73829000000012,
+      "peak_tree_rss_gb": 0.05474304
+    },
+    {
+      "name": "compile",
+      "command": [
+        "bash",
+        "scripts/compile.sh"
+      ],
+      "returncode": 0,
+      "wall_seconds": 5.568180962000042,
+      "cpu_seconds": 5.186429999999973,
+      "peak_tree_rss_gb": 0.037548032
+    }
+  ],
+  "complete": true,
+  "end_utc": "2026-10-14T00:19:15Z"
+}

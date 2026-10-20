@@ -1,0 +1,2482 @@
+[
+  {
+    "panel": "1 map",
+    "quantity": "Event/station locations, ScS bounce points, profiles",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/acquire.py; python scripts/process.py --workers 16; python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Independent archive geometry; approximate station membership and new profile endpoints."
+  },
+  {
+    "panel": "1 ray inset",
+    "quantity": "S and ScS paths",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/experiments.py --synthetics-only",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Independent PREM rays for an illustrative 558 km, 78 degree case. The original numerical example is unspecified, so this is an illustrative counterpart, not a verified original-case reproduction."
+  },
+  {
+    "panel": "1 triplication inset",
+    "quantity": "Sbc and Scd branch geometry",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "No wavefield (schematic)",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "schematic redrawn",
+    "note": "Conceptual reflected/turning branches only; no calculated Scd ray or triplication amplitude."
+  },
+  {
+    "panel": "1 waveform inset",
+    "quantity": "S, Scd+Sbc and ScS waveforms",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/experiments.py --synthetics-only",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Independent kinematic S/reflection/ScS example; refracted Scd and full reflectivity amplitudes missing."
+  },
+  {
+    "panel": "2a A",
+    "quantity": "Signed migration amplitude, profile A; ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Independent PREM reconstruction; different trace selection and missing numerical receiver corrections prevent an exact repeat."
+  },
+  {
+    "panel": "2a B",
+    "quantity": "Signed migration amplitude, profile B; ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Independent PREM reconstruction; different trace selection and missing numerical receiver corrections prevent an exact repeat."
+  },
+  {
+    "panel": "2b A",
+    "quantity": "Signed migration amplitude, profile A; ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Independent PREM reconstruction; different trace selection and missing numerical receiver corrections prevent an exact repeat."
+  },
+  {
+    "panel": "2b B",
+    "quantity": "Signed migration amplitude, profile B; ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Independent PREM reconstruction; different trace selection and missing numerical receiver corrections prevent an exact repeat."
+  },
+  {
+    "panel": "3 PREM",
+    "quantity": "ScS-reference profile A in PREM",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "PREM is computed independently."
+  },
+  {
+    "panel": "3 UT",
+    "quantity": "ScS-reference profile A in UT",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "No numerical model; python scripts/tomography.py documents operator",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "Written descriptions do not specify 3-D coefficients. No author/model output substituted."
+  },
+  {
+    "panel": "3 UCB",
+    "quantity": "ScS-reference profile A in UCB",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "No numerical model; python scripts/tomography.py documents operator",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "Written descriptions do not specify 3-D coefficients. No author/model output substituted."
+  },
+  {
+    "panel": "3 CIT",
+    "quantity": "ScS-reference profile A in CIT",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "No numerical model; python scripts/tomography.py documents operator",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "Written descriptions do not specify 3-D coefficients. No author/model output substituted."
+  },
+  {
+    "panel": "4 upper",
+    "quantity": "Folded slab and phase-boundary interpretation",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "No dynamical model (schematic)",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "schematic redrawn",
+    "note": "Imposed conceptual geometry; never counted as a reproduced model result."
+  },
+  {
+    "panel": "4 lower",
+    "quantity": "Profile A migration image",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Saved independently generated profile, reused explicitly."
+  },
+  {
+    "panel": "S1 map",
+    "quantity": "Geometry, mechanisms, Fresnel ellipses",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/acquire.py; python scripts/process.py --workers 16; python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Geometry generated; mechanism verification comes from USGS. Original Harvard beachballs and finite-frequency ellipse omitted."
+  },
+  {
+    "panel": "S2 ScS North",
+    "quantity": "Clustered profile or contributing ray count",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Clusters split at source latitudes -17 and -25 degrees (assumed); no original picks available."
+  },
+  {
+    "panel": "S2 ScS Central",
+    "quantity": "Clustered profile or contributing ray count",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Clusters split at source latitudes -17 and -25 degrees (assumed); no original picks available."
+  },
+  {
+    "panel": "S2 ScS South",
+    "quantity": "Clustered profile or contributing ray count",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Clusters split at source latitudes -17 and -25 degrees (assumed); no original picks available."
+  },
+  {
+    "panel": "S2 ScS All",
+    "quantity": "Clustered profile or contributing ray count",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Clusters split at source latitudes -17 and -25 degrees (assumed); no original picks available."
+  },
+  {
+    "panel": "S2 ScS hitcount",
+    "quantity": "Clustered profile or contributing ray count",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Clusters split at source latitudes -17 and -25 degrees (assumed); no original picks available."
+  },
+  {
+    "panel": "S2 S North",
+    "quantity": "Clustered profile or contributing ray count",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Clusters split at source latitudes -17 and -25 degrees (assumed); no original picks available."
+  },
+  {
+    "panel": "S2 S Central",
+    "quantity": "Clustered profile or contributing ray count",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Clusters split at source latitudes -17 and -25 degrees (assumed); no original picks available."
+  },
+  {
+    "panel": "S2 S South",
+    "quantity": "Clustered profile or contributing ray count",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Clusters split at source latitudes -17 and -25 degrees (assumed); no original picks available."
+  },
+  {
+    "panel": "S2 S All",
+    "quantity": "Clustered profile or contributing ray count",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Clusters split at source latitudes -17 and -25 degrees (assumed); no original picks available."
+  },
+  {
+    "panel": "S2 S hitcount",
+    "quantity": "Clustered profile or contributing ray count",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Clusters split at source latitudes -17 and -25 degrees (assumed); no original picks available."
+  },
+  {
+    "panel": "S3a A ScS retained",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3a A ScS censored",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3a A S retained",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3a A S censored",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3a B ScS retained",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3a B ScS censored",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3a B S retained",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3a B S censored",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3a C ScS retained",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3a C ScS censored",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3a C S retained",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3a C S censored",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3a D ScS retained",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3a D ScS censored",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3a D S retained",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3a D S censored",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3a E ScS retained",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3a E ScS censored",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3a E S retained",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3a E S censored",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3a F ScS retained",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3a F ScS censored",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3a F S retained",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3a F S censored",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3b U ScS retained",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3b U ScS censored",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3b U S retained",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3b U S censored",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3b V ScS retained",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3b V ScS censored",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3b V S retained",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3b V S censored",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3b W ScS retained",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3b W ScS censored",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3b W S retained",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3b W S censored",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3b X ScS retained",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3b X ScS censored",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3b X S retained",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3b X S censored",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3b Y ScS retained",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3b Y ScS censored",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3b Y S retained",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3b Y S censored",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3b Z ScS retained",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3b Z ScS censored",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3b Z S retained",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S3b Z S censored",
+    "quantity": "Parallel vertical migration section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Six newly specified parallel corridors; published line coordinates are not digitized."
+  },
+  {
+    "panel": "S4a A PREM",
+    "quantity": "Velocity-model sensitivity: ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4a A UT",
+    "quantity": "Velocity-model sensitivity: ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4a A UCB",
+    "quantity": "Velocity-model sensitivity: ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4a A CIT",
+    "quantity": "Velocity-model sensitivity: ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4a B PREM",
+    "quantity": "Velocity-model sensitivity: ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4a B UT",
+    "quantity": "Velocity-model sensitivity: ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4a B UCB",
+    "quantity": "Velocity-model sensitivity: ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4a B CIT",
+    "quantity": "Velocity-model sensitivity: ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4a C PREM",
+    "quantity": "Velocity-model sensitivity: ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4a C UT",
+    "quantity": "Velocity-model sensitivity: ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4a C UCB",
+    "quantity": "Velocity-model sensitivity: ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4a C CIT",
+    "quantity": "Velocity-model sensitivity: ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4a D PREM",
+    "quantity": "Velocity-model sensitivity: ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4a D UT",
+    "quantity": "Velocity-model sensitivity: ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4a D UCB",
+    "quantity": "Velocity-model sensitivity: ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4a D CIT",
+    "quantity": "Velocity-model sensitivity: ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4a E PREM",
+    "quantity": "Velocity-model sensitivity: ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4a E UT",
+    "quantity": "Velocity-model sensitivity: ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4a E UCB",
+    "quantity": "Velocity-model sensitivity: ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4a E CIT",
+    "quantity": "Velocity-model sensitivity: ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4a F PREM",
+    "quantity": "Velocity-model sensitivity: ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4a F UT",
+    "quantity": "Velocity-model sensitivity: ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4a F UCB",
+    "quantity": "Velocity-model sensitivity: ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4a F CIT",
+    "quantity": "Velocity-model sensitivity: ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4b A PREM",
+    "quantity": "Velocity-model sensitivity: ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4b A UT",
+    "quantity": "Velocity-model sensitivity: ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4b A UCB",
+    "quantity": "Velocity-model sensitivity: ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4b A CIT",
+    "quantity": "Velocity-model sensitivity: ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4b B PREM",
+    "quantity": "Velocity-model sensitivity: ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4b B UT",
+    "quantity": "Velocity-model sensitivity: ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4b B UCB",
+    "quantity": "Velocity-model sensitivity: ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4b B CIT",
+    "quantity": "Velocity-model sensitivity: ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4b C PREM",
+    "quantity": "Velocity-model sensitivity: ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4b C UT",
+    "quantity": "Velocity-model sensitivity: ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4b C UCB",
+    "quantity": "Velocity-model sensitivity: ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4b C CIT",
+    "quantity": "Velocity-model sensitivity: ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4b D PREM",
+    "quantity": "Velocity-model sensitivity: ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4b D UT",
+    "quantity": "Velocity-model sensitivity: ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4b D UCB",
+    "quantity": "Velocity-model sensitivity: ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4b D CIT",
+    "quantity": "Velocity-model sensitivity: ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4b E PREM",
+    "quantity": "Velocity-model sensitivity: ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4b E UT",
+    "quantity": "Velocity-model sensitivity: ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4b E UCB",
+    "quantity": "Velocity-model sensitivity: ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4b E CIT",
+    "quantity": "Velocity-model sensitivity: ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4b F PREM",
+    "quantity": "Velocity-model sensitivity: ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4b F UT",
+    "quantity": "Velocity-model sensitivity: ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4b F UCB",
+    "quantity": "Velocity-model sensitivity: ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4b F CIT",
+    "quantity": "Velocity-model sensitivity: ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4c A PREM",
+    "quantity": "Velocity-model sensitivity: S reference, ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4c A UT",
+    "quantity": "Velocity-model sensitivity: S reference, ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4c A UCB",
+    "quantity": "Velocity-model sensitivity: S reference, ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4c A CIT",
+    "quantity": "Velocity-model sensitivity: S reference, ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4c B PREM",
+    "quantity": "Velocity-model sensitivity: S reference, ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4c B UT",
+    "quantity": "Velocity-model sensitivity: S reference, ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4c B UCB",
+    "quantity": "Velocity-model sensitivity: S reference, ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4c B CIT",
+    "quantity": "Velocity-model sensitivity: S reference, ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4c C PREM",
+    "quantity": "Velocity-model sensitivity: S reference, ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4c C UT",
+    "quantity": "Velocity-model sensitivity: S reference, ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4c C UCB",
+    "quantity": "Velocity-model sensitivity: S reference, ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4c C CIT",
+    "quantity": "Velocity-model sensitivity: S reference, ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4c D PREM",
+    "quantity": "Velocity-model sensitivity: S reference, ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4c D UT",
+    "quantity": "Velocity-model sensitivity: S reference, ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4c D UCB",
+    "quantity": "Velocity-model sensitivity: S reference, ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4c D CIT",
+    "quantity": "Velocity-model sensitivity: S reference, ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4c E PREM",
+    "quantity": "Velocity-model sensitivity: S reference, ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4c E UT",
+    "quantity": "Velocity-model sensitivity: S reference, ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4c E UCB",
+    "quantity": "Velocity-model sensitivity: S reference, ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4c E CIT",
+    "quantity": "Velocity-model sensitivity: S reference, ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4c F PREM",
+    "quantity": "Velocity-model sensitivity: S reference, ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4c F UT",
+    "quantity": "Velocity-model sensitivity: S reference, ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4c F UCB",
+    "quantity": "Velocity-model sensitivity: S reference, ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4c F CIT",
+    "quantity": "Velocity-model sensitivity: S reference, ScS retained",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4d A PREM",
+    "quantity": "Velocity-model sensitivity: S reference, ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4d A UT",
+    "quantity": "Velocity-model sensitivity: S reference, ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4d A UCB",
+    "quantity": "Velocity-model sensitivity: S reference, ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4d A CIT",
+    "quantity": "Velocity-model sensitivity: S reference, ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4d B PREM",
+    "quantity": "Velocity-model sensitivity: S reference, ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4d B UT",
+    "quantity": "Velocity-model sensitivity: S reference, ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4d B UCB",
+    "quantity": "Velocity-model sensitivity: S reference, ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4d B CIT",
+    "quantity": "Velocity-model sensitivity: S reference, ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4d C PREM",
+    "quantity": "Velocity-model sensitivity: S reference, ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4d C UT",
+    "quantity": "Velocity-model sensitivity: S reference, ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4d C UCB",
+    "quantity": "Velocity-model sensitivity: S reference, ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4d C CIT",
+    "quantity": "Velocity-model sensitivity: S reference, ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4d D PREM",
+    "quantity": "Velocity-model sensitivity: S reference, ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4d D UT",
+    "quantity": "Velocity-model sensitivity: S reference, ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4d D UCB",
+    "quantity": "Velocity-model sensitivity: S reference, ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4d D CIT",
+    "quantity": "Velocity-model sensitivity: S reference, ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4d E PREM",
+    "quantity": "Velocity-model sensitivity: S reference, ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4d E UT",
+    "quantity": "Velocity-model sensitivity: S reference, ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4d E UCB",
+    "quantity": "Velocity-model sensitivity: S reference, ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4d E CIT",
+    "quantity": "Velocity-model sensitivity: S reference, ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4d F PREM",
+    "quantity": "Velocity-model sensitivity: S reference, ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4d F UT",
+    "quantity": "Velocity-model sensitivity: S reference, ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4d F UCB",
+    "quantity": "Velocity-model sensitivity: S reference, ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S4d F CIT",
+    "quantity": "Velocity-model sensitivity: S reference, ScS censored",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable 3-D coefficients",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "not reproduced",
+    "note": "PREM counterpart in S3; tomography panels have no substituted arrays."
+  },
+  {
+    "panel": "S5a 400km",
+    "quantity": "Horizontal migration amplitude",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Seven explicitly chosen heights; slice levels are assumptions where captions give no numerical list."
+  },
+  {
+    "panel": "S5a 350km",
+    "quantity": "Horizontal migration amplitude",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Seven explicitly chosen heights; slice levels are assumptions where captions give no numerical list."
+  },
+  {
+    "panel": "S5a 300km",
+    "quantity": "Horizontal migration amplitude",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Seven explicitly chosen heights; slice levels are assumptions where captions give no numerical list."
+  },
+  {
+    "panel": "S5a 250km",
+    "quantity": "Horizontal migration amplitude",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Seven explicitly chosen heights; slice levels are assumptions where captions give no numerical list."
+  },
+  {
+    "panel": "S5a 200km",
+    "quantity": "Horizontal migration amplitude",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Seven explicitly chosen heights; slice levels are assumptions where captions give no numerical list."
+  },
+  {
+    "panel": "S5a 100km",
+    "quantity": "Horizontal migration amplitude",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Seven explicitly chosen heights; slice levels are assumptions where captions give no numerical list."
+  },
+  {
+    "panel": "S5a 0km",
+    "quantity": "Horizontal migration amplitude",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Seven explicitly chosen heights; slice levels are assumptions where captions give no numerical list."
+  },
+  {
+    "panel": "S5b 400km",
+    "quantity": "Horizontal migration amplitude",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Seven explicitly chosen heights; slice levels are assumptions where captions give no numerical list."
+  },
+  {
+    "panel": "S5b 350km",
+    "quantity": "Horizontal migration amplitude",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Seven explicitly chosen heights; slice levels are assumptions where captions give no numerical list."
+  },
+  {
+    "panel": "S5b 300km",
+    "quantity": "Horizontal migration amplitude",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Seven explicitly chosen heights; slice levels are assumptions where captions give no numerical list."
+  },
+  {
+    "panel": "S5b 250km",
+    "quantity": "Horizontal migration amplitude",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Seven explicitly chosen heights; slice levels are assumptions where captions give no numerical list."
+  },
+  {
+    "panel": "S5b 200km",
+    "quantity": "Horizontal migration amplitude",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Seven explicitly chosen heights; slice levels are assumptions where captions give no numerical list."
+  },
+  {
+    "panel": "S5b 100km",
+    "quantity": "Horizontal migration amplitude",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Seven explicitly chosen heights; slice levels are assumptions where captions give no numerical list."
+  },
+  {
+    "panel": "S5b 0km",
+    "quantity": "Horizontal migration amplitude",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Seven explicitly chosen heights; slice levels are assumptions where captions give no numerical list."
+  },
+  {
+    "panel": "S5c 400km",
+    "quantity": "Valid ray hitcount",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Seven explicitly chosen heights; slice levels are assumptions where captions give no numerical list."
+  },
+  {
+    "panel": "S5c 350km",
+    "quantity": "Valid ray hitcount",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Seven explicitly chosen heights; slice levels are assumptions where captions give no numerical list."
+  },
+  {
+    "panel": "S5c 300km",
+    "quantity": "Valid ray hitcount",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Seven explicitly chosen heights; slice levels are assumptions where captions give no numerical list."
+  },
+  {
+    "panel": "S5c 250km",
+    "quantity": "Valid ray hitcount",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Seven explicitly chosen heights; slice levels are assumptions where captions give no numerical list."
+  },
+  {
+    "panel": "S5c 200km",
+    "quantity": "Valid ray hitcount",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Seven explicitly chosen heights; slice levels are assumptions where captions give no numerical list."
+  },
+  {
+    "panel": "S5c 100km",
+    "quantity": "Valid ray hitcount",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Seven explicitly chosen heights; slice levels are assumptions where captions give no numerical list."
+  },
+  {
+    "panel": "S5c 0km",
+    "quantity": "Valid ray hitcount",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Seven explicitly chosen heights; slice levels are assumptions where captions give no numerical list."
+  },
+  {
+    "panel": "S5d 400km",
+    "quantity": "Valid ray hitcount",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Seven explicitly chosen heights; slice levels are assumptions where captions give no numerical list."
+  },
+  {
+    "panel": "S5d 350km",
+    "quantity": "Valid ray hitcount",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Seven explicitly chosen heights; slice levels are assumptions where captions give no numerical list."
+  },
+  {
+    "panel": "S5d 300km",
+    "quantity": "Valid ray hitcount",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Seven explicitly chosen heights; slice levels are assumptions where captions give no numerical list."
+  },
+  {
+    "panel": "S5d 250km",
+    "quantity": "Valid ray hitcount",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Seven explicitly chosen heights; slice levels are assumptions where captions give no numerical list."
+  },
+  {
+    "panel": "S5d 200km",
+    "quantity": "Valid ray hitcount",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Seven explicitly chosen heights; slice levels are assumptions where captions give no numerical list."
+  },
+  {
+    "panel": "S5d 100km",
+    "quantity": "Valid ray hitcount",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Seven explicitly chosen heights; slice levels are assumptions where captions give no numerical list."
+  },
+  {
+    "panel": "S5d 0km",
+    "quantity": "Valid ray hitcount",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Seven explicitly chosen heights; slice levels are assumptions where captions give no numerical list."
+  },
+  {
+    "panel": "S6a South amplitude",
+    "quantity": "Two-point synthetic migration resolution",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/validate.py --points --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Independent two-point tests on profiles A/B with source clusters and hitcounts. Points and profile endpoints explicitly assumed; no original synthetics used."
+  },
+  {
+    "panel": "S6a South hitcount",
+    "quantity": "Two-point synthetic migration resolution",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/validate.py --points --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Independent two-point tests on profiles A/B with source clusters and hitcounts. Points and profile endpoints explicitly assumed; no original synthetics used."
+  },
+  {
+    "panel": "S6a Central amplitude",
+    "quantity": "Two-point synthetic migration resolution",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/validate.py --points --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Independent two-point tests on profiles A/B with source clusters and hitcounts. Points and profile endpoints explicitly assumed; no original synthetics used."
+  },
+  {
+    "panel": "S6a Central hitcount",
+    "quantity": "Two-point synthetic migration resolution",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/validate.py --points --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Independent two-point tests on profiles A/B with source clusters and hitcounts. Points and profile endpoints explicitly assumed; no original synthetics used."
+  },
+  {
+    "panel": "S6a North amplitude",
+    "quantity": "Two-point synthetic migration resolution",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/validate.py --points --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Independent two-point tests on profiles A/B with source clusters and hitcounts. Points and profile endpoints explicitly assumed; no original synthetics used."
+  },
+  {
+    "panel": "S6a North hitcount",
+    "quantity": "Two-point synthetic migration resolution",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/validate.py --points --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Independent two-point tests on profiles A/B with source clusters and hitcounts. Points and profile endpoints explicitly assumed; no original synthetics used."
+  },
+  {
+    "panel": "S6a All amplitude",
+    "quantity": "Two-point synthetic migration resolution",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/validate.py --points --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Independent two-point tests on profiles A/B with source clusters and hitcounts. Points and profile endpoints explicitly assumed; no original synthetics used."
+  },
+  {
+    "panel": "S6a All hitcount",
+    "quantity": "Two-point synthetic migration resolution",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/validate.py --points --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Independent two-point tests on profiles A/B with source clusters and hitcounts. Points and profile endpoints explicitly assumed; no original synthetics used."
+  },
+  {
+    "panel": "S6b South amplitude",
+    "quantity": "Two-point synthetic migration resolution",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/validate.py --points --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Independent two-point tests on profiles A/B with source clusters and hitcounts. Points and profile endpoints explicitly assumed; no original synthetics used."
+  },
+  {
+    "panel": "S6b South hitcount",
+    "quantity": "Two-point synthetic migration resolution",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/validate.py --points --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Independent two-point tests on profiles A/B with source clusters and hitcounts. Points and profile endpoints explicitly assumed; no original synthetics used."
+  },
+  {
+    "panel": "S6b Central amplitude",
+    "quantity": "Two-point synthetic migration resolution",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/validate.py --points --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Independent two-point tests on profiles A/B with source clusters and hitcounts. Points and profile endpoints explicitly assumed; no original synthetics used."
+  },
+  {
+    "panel": "S6b Central hitcount",
+    "quantity": "Two-point synthetic migration resolution",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/validate.py --points --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Independent two-point tests on profiles A/B with source clusters and hitcounts. Points and profile endpoints explicitly assumed; no original synthetics used."
+  },
+  {
+    "panel": "S6b North amplitude",
+    "quantity": "Two-point synthetic migration resolution",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/validate.py --points --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Independent two-point tests on profiles A/B with source clusters and hitcounts. Points and profile endpoints explicitly assumed; no original synthetics used."
+  },
+  {
+    "panel": "S6b North hitcount",
+    "quantity": "Two-point synthetic migration resolution",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/validate.py --points --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Independent two-point tests on profiles A/B with source clusters and hitcounts. Points and profile endpoints explicitly assumed; no original synthetics used."
+  },
+  {
+    "panel": "S6b All amplitude",
+    "quantity": "Two-point synthetic migration resolution",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/validate.py --points --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Independent two-point tests on profiles A/B with source clusters and hitcounts. Points and profile endpoints explicitly assumed; no original synthetics used."
+  },
+  {
+    "panel": "S6b All hitcount",
+    "quantity": "Two-point synthetic migration resolution",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/validate.py --points --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Independent two-point tests on profiles A/B with source clusters and hitcounts. Points and profile endpoints explicitly assumed; no original synthetics used."
+  },
+  {
+    "panel": "S7a",
+    "quantity": "Observed deconvolved record section",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/acquire.py; python scripts/process.py --workers 16",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "1993-05-24 event supplement shows all retained traces; published example date and station subset not fully matched."
+  },
+  {
+    "panel": "S7b",
+    "quantity": "Layered-model synthetic waveforms",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/experiments.py --synthetics-only",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Written 2.6% jump at 264 km, negative jump at 90 km; 0,2.6,5,10% reductions. Kinematic reflectivity, not full-wave reflectivity."
+  },
+  {
+    "panel": "S7c",
+    "quantity": "Layered shear velocity profiles",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/experiments.py --synthetics-only",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Written 2.6% jump at 264 km, negative jump at 90 km; 0,2.6,5,10% reductions. Kinematic reflectivity, not full-wave reflectivity."
+  },
+  {
+    "panel": "S8 model",
+    "quantity": "Shear velocity step model",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/experiments.py --synthetics-only",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "1.5% Vs step at 170/270 km above CMB on assumed PREM background; horizontal step placed at profile midpoint."
+  },
+  {
+    "panel": "S9a",
+    "quantity": "Shear velocity step model",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/experiments.py --synthetics-only",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "1.5% Vs step at 170/270 km above CMB on assumed PREM background; horizontal step placed at profile midpoint."
+  },
+  {
+    "panel": "S8 waveform 1",
+    "quantity": "Axisymmetric 2.5-D full-wave synthetics or their migration",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Not generated: independent full-wave solver not implemented",
+    "plot_command": "No plot substituted",
+    "status": "not reproduced",
+    "note": "Published finite-difference numerical setup and exact source functions are incomplete; ray tests do not reproduce these panels."
+  },
+  {
+    "panel": "S8 waveform 2",
+    "quantity": "Axisymmetric 2.5-D full-wave synthetics or their migration",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Not generated: independent full-wave solver not implemented",
+    "plot_command": "No plot substituted",
+    "status": "not reproduced",
+    "note": "Published finite-difference numerical setup and exact source functions are incomplete; ray tests do not reproduce these panels."
+  },
+  {
+    "panel": "S8 1D waveform",
+    "quantity": "Axisymmetric 2.5-D full-wave synthetics or their migration",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Not generated: independent full-wave solver not implemented",
+    "plot_command": "No plot substituted",
+    "status": "not reproduced",
+    "note": "Published finite-difference numerical setup and exact source functions are incomplete; ray tests do not reproduce these panels."
+  },
+  {
+    "panel": "S9b North",
+    "quantity": "Axisymmetric 2.5-D full-wave synthetics or their migration",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Not generated: independent full-wave solver not implemented",
+    "plot_command": "No plot substituted",
+    "status": "not reproduced",
+    "note": "Published finite-difference numerical setup and exact source functions are incomplete; ray tests do not reproduce these panels."
+  },
+  {
+    "panel": "S9b Central",
+    "quantity": "Axisymmetric 2.5-D full-wave synthetics or their migration",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Not generated: independent full-wave solver not implemented",
+    "plot_command": "No plot substituted",
+    "status": "not reproduced",
+    "note": "Published finite-difference numerical setup and exact source functions are incomplete; ray tests do not reproduce these panels."
+  },
+  {
+    "panel": "S9b South",
+    "quantity": "Axisymmetric 2.5-D full-wave synthetics or their migration",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Not generated: independent full-wave solver not implemented",
+    "plot_command": "No plot substituted",
+    "status": "not reproduced",
+    "note": "Published finite-difference numerical setup and exact source functions are incomplete; ray tests do not reproduce these panels."
+  },
+  {
+    "panel": "S9b All",
+    "quantity": "Axisymmetric 2.5-D full-wave synthetics or their migration",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Not generated: independent full-wave solver not implemented",
+    "plot_command": "No plot substituted",
+    "status": "not reproduced",
+    "note": "Published finite-difference numerical setup and exact source functions are incomplete; ray tests do not reproduce these panels."
+  },
+  {
+    "panel": "S9c North",
+    "quantity": "Axisymmetric 2.5-D full-wave synthetics or their migration",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Not generated: independent full-wave solver not implemented",
+    "plot_command": "No plot substituted",
+    "status": "not reproduced",
+    "note": "Published finite-difference numerical setup and exact source functions are incomplete; ray tests do not reproduce these panels."
+  },
+  {
+    "panel": "S9c Central",
+    "quantity": "Axisymmetric 2.5-D full-wave synthetics or their migration",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Not generated: independent full-wave solver not implemented",
+    "plot_command": "No plot substituted",
+    "status": "not reproduced",
+    "note": "Published finite-difference numerical setup and exact source functions are incomplete; ray tests do not reproduce these panels."
+  },
+  {
+    "panel": "S9c South",
+    "quantity": "Axisymmetric 2.5-D full-wave synthetics or their migration",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Not generated: independent full-wave solver not implemented",
+    "plot_command": "No plot substituted",
+    "status": "not reproduced",
+    "note": "Published finite-difference numerical setup and exact source functions are incomplete; ray tests do not reproduce these panels."
+  },
+  {
+    "panel": "S9c All",
+    "quantity": "Axisymmetric 2.5-D full-wave synthetics or their migration",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Not generated: independent full-wave solver not implemented",
+    "plot_command": "No plot substituted",
+    "status": "not reproduced",
+    "note": "Published finite-difference numerical setup and exact source functions are incomplete; ray tests do not reproduce these panels."
+  },
+  {
+    "panel": "S10 ScS unchanged",
+    "quantity": "Profile A under 40 km source perturbations",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/sensitivity.py DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Southern-source cluster only; closer/farther defined toward independently selected profile midpoint."
+  },
+  {
+    "panel": "S10 ScS shallower",
+    "quantity": "Profile A under 40 km source perturbations",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/sensitivity.py DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Southern-source cluster only; closer/farther defined toward independently selected profile midpoint."
+  },
+  {
+    "panel": "S10 ScS deeper",
+    "quantity": "Profile A under 40 km source perturbations",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/sensitivity.py DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Southern-source cluster only; closer/farther defined toward independently selected profile midpoint."
+  },
+  {
+    "panel": "S10 ScS closer",
+    "quantity": "Profile A under 40 km source perturbations",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/sensitivity.py DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Southern-source cluster only; closer/farther defined toward independently selected profile midpoint."
+  },
+  {
+    "panel": "S10 ScS farther",
+    "quantity": "Profile A under 40 km source perturbations",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/sensitivity.py DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Southern-source cluster only; closer/farther defined toward independently selected profile midpoint."
+  },
+  {
+    "panel": "S10 S unchanged",
+    "quantity": "Profile A under 40 km source perturbations",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/sensitivity.py DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Southern-source cluster only; closer/farther defined toward independently selected profile midpoint."
+  },
+  {
+    "panel": "S10 S shallower",
+    "quantity": "Profile A under 40 km source perturbations",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/sensitivity.py DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Southern-source cluster only; closer/farther defined toward independently selected profile midpoint."
+  },
+  {
+    "panel": "S10 S deeper",
+    "quantity": "Profile A under 40 km source perturbations",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/sensitivity.py DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Southern-source cluster only; closer/farther defined toward independently selected profile midpoint."
+  },
+  {
+    "panel": "S10 S closer",
+    "quantity": "Profile A under 40 km source perturbations",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/sensitivity.py DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Southern-source cluster only; closer/farther defined toward independently selected profile midpoint."
+  },
+  {
+    "panel": "S10 S farther",
+    "quantity": "Profile A under 40 km source perturbations",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/sensitivity.py DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Southern-source cluster only; closer/farther defined toward independently selected profile midpoint."
+  },
+  {
+    "panel": "S11 ScS North",
+    "quantity": "One-dimensional double-array depth stack",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/experiments.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Actual independent reflection-time stack; 300 event bootstraps. Geographic split fixed at 6N."
+  },
+  {
+    "panel": "S11 ScS South",
+    "quantity": "One-dimensional double-array depth stack",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/experiments.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Actual independent reflection-time stack; 300 event bootstraps. Geographic split fixed at 6N."
+  },
+  {
+    "panel": "S11 S North",
+    "quantity": "One-dimensional double-array depth stack",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/experiments.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Actual independent reflection-time stack; 300 event bootstraps. Geographic split fixed at 6N."
+  },
+  {
+    "panel": "S11 S South",
+    "quantity": "One-dimensional double-array depth stack",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/experiments.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Actual independent reflection-time stack; 300 event bootstraps. Geographic split fixed at 6N."
+  },
+  {
+    "panel": "S11 map",
+    "quantity": "Double-array membership map",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "python scripts/migrate.py --dataset DATASET",
+    "plot_command": "python scripts/plot.py --dataset DATASET",
+    "status": "partially reproduced",
+    "note": "Map in Figure 1, with bin rule explicitly specified; original polygons not digitized."
+  },
+  {
+    "panel": "S12 globe",
+    "quantity": "UT2 tomography geometry and Vs cross-sections",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable numerical tomography coefficients",
+    "plot_command": "No plot substituted",
+    "status": "not reproduced",
+    "note": "No independent UT2 inversion can be performed from this paper alone; published reference discussed separately."
+  },
+  {
+    "panel": "S12 A",
+    "quantity": "UT2 tomography geometry and Vs cross-sections",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable numerical tomography coefficients",
+    "plot_command": "No plot substituted",
+    "status": "not reproduced",
+    "note": "No independent UT2 inversion can be performed from this paper alone; published reference discussed separately."
+  },
+  {
+    "panel": "S12 B",
+    "quantity": "UT2 tomography geometry and Vs cross-sections",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable numerical tomography coefficients",
+    "plot_command": "No plot substituted",
+    "status": "not reproduced",
+    "note": "No independent UT2 inversion can be performed from this paper alone; published reference discussed separately."
+  },
+  {
+    "panel": "S12 C",
+    "quantity": "UT2 tomography geometry and Vs cross-sections",
+    "documentation": "Hutko2006 main text and supplementary legends",
+    "parameters": "config.json; report/methods.tex",
+    "data_command": "Unavailable numerical tomography coefficients",
+    "plot_command": "No plot substituted",
+    "status": "not reproduced",
+    "note": "No independent UT2 inversion can be performed from this paper alone; published reference discussed separately."
+  }
+]

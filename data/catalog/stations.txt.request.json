@@ -1,0 +1,9 @@
+{
+  "url": "https://service.earthscope.org/fdsnws/station/1/query?net=BK%2CCI%2CIU%2CII%2CUS%2CTA&cha=BH%3F&level=station&format=text&minlat=30&maxlat=49&minlon=-126&maxlon=-105&starttime=1991-01-01&endtime=2026-10-01",
+  "status": 200,
+  "seconds": 0.298565149307251,
+  "retrieved_utc": "2026-10-13T23:09:28.637001Z",
+  "path": "data/catalog/stations.txt",
+  "bytes": 135213,
+  "sha256": "6a7fe10a0ed656591570f1e1f9317ec789d36af4b070f4fc3d4dd34c47d1f83d"
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://service.ncedc.org/fdsnws/dataselect/1/query?net=BK&sta=BKS%2CCMB%2CCVS%2CFARB%2CGASB%2CHATC%2CHELL%2CHOPS%2CHUMO%2CJCC%2CJRSC%2CKCC%2CMHC%2CMOBB%2CMOD%2CORV%2CPKD%2CSAO%2CWDC%2CYBH&cha=BH%3F&starttime=2016-01-14T03%3A33%3A48.270000Z&endtime=2016-01-14T03%3A51%3A18.270000Z",
+  "status": 200,
+  "seconds": 5.781967878341675,
+  "retrieved_utc": "2026-10-13T23:13:03.526805Z",
+  "path": "data/raw/us10004ebw/BK.mseed",
+  "bytes": 7659520,
+  "sha256": "67cfe589a5f510be0d7bd69c49edf7970717df05153844f04c9e79e1cee2b548"
+}

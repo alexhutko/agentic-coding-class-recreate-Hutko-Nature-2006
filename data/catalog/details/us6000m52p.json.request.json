@@ -1,0 +1,9 @@
+{
+  "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000m52p&format=geojson",
+  "status": 200,
+  "seconds": 0.0679020881652832,
+  "retrieved_utc": "2026-10-13T23:09:27.957027Z",
+  "path": "data/catalog/details/us6000m52p.json",
+  "bytes": 56316,
+  "sha256": "e085097db5ff4e38d1b5e89ceccb930bfd64903ab80cf522d37cac82af8dc081"
+}

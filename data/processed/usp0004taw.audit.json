@@ -1,0 +1,59 @@
+{
+  "event": {
+    "id": "usp0004taw",
+    "time": "1991-06-23T21:22:28.940000Z",
+    "latitude": -26.802,
+    "longitude": -63.349,
+    "depth_km": 558,
+    "magnitude": 7.3,
+    "magnitude_type": "mw",
+    "historical": true,
+    "catalog_exception": true,
+    "detail_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp0004taw&format=geojson",
+    "published_date": "1991-06-23",
+    "date_inference": "same UTC day"
+  },
+  "traces": [
+    {
+      "id": "CI.GSC",
+      "accepted": false,
+      "distance_deg": 80.02812598562197,
+      "radiation_S": -0.7681195553566614,
+      "radiation_ScS": -0.7653732046946415,
+      "reason": "phase peak at search boundary"
+    },
+    {
+      "id": "CI.ISA",
+      "accepted": false,
+      "distance_deg": 81.27090249400723,
+      "radiation_S": -0.7658723749083731,
+      "radiation_ScS": -0.7629123066619217,
+      "reason": "ScS peak at joint search boundary"
+    },
+    {
+      "id": "CI.PAS",
+      "accepted": false,
+      "distance_deg": 80.06958471814384,
+      "radiation_S": -0.7618454864674578,
+      "radiation_ScS": -0.7587993210832392,
+      "reason": "phase peak at search boundary"
+    },
+    {
+      "id": "CI.SBC",
+      "accepted": false,
+      "distance_deg": 81.2159911292485,
+      "radiation_S": -0.7592164687216383,
+      "radiation_ScS": -0.7560315571418628,
+      "reason": "phase peak at search boundary"
+    },
+    {
+      "id": "IU.ANMO",
+      "accepted": false,
+      "distance_deg": 73.98684598456975,
+      "radiation_S": -0.7787226922728867,
+      "radiation_ScS": -0.7802183539785718,
+      "reason": "phase peak at search boundary"
+    }
+  ],
+  "failure": "fewer than three source-wavelet candidates"
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2002-01-01&endtime=2026-10-01&minlatitude=-35&maxlatitude=0&minlongitude=-85&maxlongitude=-55&mindepth=218&maxdepth=610&minmagnitude=6&maxmagnitude=7.2&orderby=time-asc",
+  "status": 200,
+  "seconds": 0.5609889030456543,
+  "retrieved_utc": "2026-10-13T23:09:22.488830Z",
+  "path": "data/catalog/modern.json",
+  "bytes": 37379,
+  "sha256": "b863f8cb1dd46f82d9457a80afbc66c13f77162ca3b94bde05b5faf802c0951e"
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://service.earthscope.org/fdsnws/station/1/query?net=TA&sta=109C%2CHAST%2CHELL%2CLAVA%2CQ04C%2CS04C%2CT05C%2CT06C%2CV04C%2CY12C%2CY22C&cha=BH%3F&starttime=2005-03-21T12%3A32%3A14.090000Z&endtime=2005-03-21T12%3A49%3A44.090000Z&level=response&format=xml",
+  "status": 200,
+  "seconds": 0.17155718803405762,
+  "retrieved_utc": "2026-10-13T23:10:41.596050Z",
+  "path": "data/raw/usp000djqf/TA.xml",
+  "bytes": 264419,
+  "sha256": "a842bd31c360fe8a8ad16c09d08865112c702a64decdc9119803b91d9f09a575"
+}

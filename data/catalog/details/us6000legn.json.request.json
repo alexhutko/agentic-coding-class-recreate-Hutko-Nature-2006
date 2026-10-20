@@ -1,0 +1,9 @@
+{
+  "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000legn&format=geojson",
+  "status": 200,
+  "seconds": 0.07628822326660156,
+  "retrieved_utc": "2026-10-13T23:09:27.947575Z",
+  "path": "data/catalog/details/us6000legn.json",
+  "bytes": 54123,
+  "sha256": "fedd402b0d743831e569442f1003b454f888f8ce1673af924b3141501d87b549"
+}

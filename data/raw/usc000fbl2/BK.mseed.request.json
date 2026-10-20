@@ -1,0 +1,9 @@
+{
+  "url": "https://service.ncedc.org/fdsnws/dataselect/1/query?net=BK&sta=CMB%2CHELL%2CKCC%2CPACP%2CPKD%2CSAO&cha=BH%3F&starttime=2013-02-22T12%3A10%3A18.200000Z&endtime=2013-02-22T12%3A27%3A48.200000Z",
+  "status": 200,
+  "seconds": 2.733668804168701,
+  "retrieved_utc": "2026-10-13T23:12:30.519153Z",
+  "path": "data/raw/usc000fbl2/BK.mseed",
+  "bytes": 1712128,
+  "sha256": "74d0c5e269b5eb5fcb801ab5910fe3fb95e9f8db47dc9e004f53db0ce0d5efbc"
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://service.earthscope.org/fdsnws/station/1/query?net=TA&sta=A19A%2CA20A%2CF04D%2CG03D%2CG05D%2CI03D%2CI04A%2CI05D%2CJ05D%2CK04D%2CL02D%2CM02C%2CM04C%2CN02D&cha=BH%3F&starttime=2010-05-24T16%3A26%3A49.090000Z&endtime=2010-05-24T16%3A44%3A19.090000Z&level=response&format=xml",
+  "status": 200,
+  "seconds": 0.1733858585357666,
+  "retrieved_utc": "2026-10-13T23:11:51.207424Z",
+  "path": "data/raw/usp000hd4k/TA.xml",
+  "bytes": 354551,
+  "sha256": "dcea125670a252fe68634488e420a01397bdf69e80eb1de80fb3148cfb6e4c2f"
+}

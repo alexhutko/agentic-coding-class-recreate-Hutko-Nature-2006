@@ -1,0 +1,230 @@
+[
+  {
+    "dataset": "historical",
+    "n_traces": 80,
+    "n_events": 9,
+    "source_cluster_trace_counts": {
+      "South": 4,
+      "Central": 53,
+      "North": 23
+    },
+    "historical_traces": 80,
+    "published_n_traces": 270,
+    "published_n_events": 15,
+    "reference_height_ranges_km": {
+      "South": [
+        160,
+        190
+      ],
+      "North": [
+        250,
+        290
+      ]
+    },
+    "double_array_peaks": [
+      {
+        "bin": "South",
+        "reference": "ScS",
+        "height_km": 391.0,
+        "amplitude": 0.0035969931915683134,
+        "bootstrap_low": -0.08635258820753529,
+        "bootstrap_high": 0.12455407900453515,
+        "positive_95_percent": false,
+        "warning": "Maximum searched over 100\u2013400 km; confidence is pointwise, not selection-adjusted."
+      },
+      {
+        "bin": "South",
+        "reference": "S",
+        "height_km": 211.0,
+        "amplitude": 0.04950144763992118,
+        "bootstrap_low": -0.040435196659676424,
+        "bootstrap_high": 0.2303396153159945,
+        "positive_95_percent": false,
+        "warning": "Maximum searched over 100\u2013400 km; confidence is pointwise, not selection-adjusted."
+      },
+      {
+        "bin": "North",
+        "reference": "ScS",
+        "height_km": 391.0,
+        "amplitude": 0.029609641019244435,
+        "bootstrap_low": -0.05508214270344639,
+        "bootstrap_high": 0.20067800119137372,
+        "positive_95_percent": false,
+        "warning": "Maximum searched over 100\u2013400 km; confidence is pointwise, not selection-adjusted."
+      },
+      {
+        "bin": "North",
+        "reference": "S",
+        "height_km": 301.0,
+        "amplitude": -0.017262257059594287,
+        "bootstrap_low": -0.07845633074286223,
+        "bootstrap_high": 0.06886905413871094,
+        "positive_95_percent": false,
+        "warning": "Maximum searched over 100\u2013400 km; confidence is pointwise, not selection-adjusted."
+      }
+    ],
+    "ScS_minus_S_residual_median_s": -2.793242902528391,
+    "residual_slope_s_per_latitude_deg": -0.2965500936703631,
+    "coverage_area_km2": 1968798.327394828,
+    "coverage_rule": "At least 20 valid trace paths from 3 events at 2650 km; illumination, not resolution.",
+    "fully_comparable_to_original": false,
+    "uncorrected_receiver_splitting_traces": 80,
+    "unverified_radiation_traces": 20,
+    "ScS_descriptive_peak_offset_km": 0.0,
+    "ScS_offset_difference_from_published_100_km": -100.0,
+    "S_descriptive_peak_offset_km": 90.0,
+    "S_offset_difference_from_published_100_km": -10.0
+  },
+  {
+    "dataset": "modern_same",
+    "n_traces": 531,
+    "n_events": 34,
+    "source_cluster_trace_counts": {
+      "South": 46,
+      "Central": 386,
+      "North": 99
+    },
+    "historical_traces": 80,
+    "published_n_traces": 270,
+    "published_n_events": 15,
+    "reference_height_ranges_km": {
+      "South": [
+        160,
+        190
+      ],
+      "North": [
+        250,
+        290
+      ]
+    },
+    "double_array_peaks": [
+      {
+        "bin": "South",
+        "reference": "ScS",
+        "height_km": 181.0,
+        "amplitude": 0.01897045357494294,
+        "bootstrap_low": -0.06314243397741996,
+        "bootstrap_high": 0.12979396625583545,
+        "positive_95_percent": false,
+        "warning": "Maximum searched over 100\u2013400 km; confidence is pointwise, not selection-adjusted."
+      },
+      {
+        "bin": "South",
+        "reference": "S",
+        "height_km": 221.0,
+        "amplitude": 0.08483716276984002,
+        "bootstrap_low": -0.03594023157583751,
+        "bootstrap_high": 0.2570073149251926,
+        "positive_95_percent": false,
+        "warning": "Maximum searched over 100\u2013400 km; confidence is pointwise, not selection-adjusted."
+      },
+      {
+        "bin": "North",
+        "reference": "ScS",
+        "height_km": 391.0,
+        "amplitude": 0.019145562002407836,
+        "bootstrap_low": -0.01721896928414342,
+        "bootstrap_high": 0.08095162972901312,
+        "positive_95_percent": false,
+        "warning": "Maximum searched over 100\u2013400 km; confidence is pointwise, not selection-adjusted."
+      },
+      {
+        "bin": "North",
+        "reference": "S",
+        "height_km": 301.0,
+        "amplitude": -0.0018444623786833434,
+        "bootstrap_low": -0.021356372809142286,
+        "bootstrap_high": 0.03172360399397971,
+        "positive_95_percent": false,
+        "warning": "Maximum searched over 100\u2013400 km; confidence is pointwise, not selection-adjusted."
+      }
+    ],
+    "ScS_minus_S_residual_median_s": -2.074463096349291,
+    "residual_slope_s_per_latitude_deg": -0.007500984058467651,
+    "coverage_area_km2": 2377736.27898231,
+    "coverage_rule": "At least 20 valid trace paths from 3 events at 2650 km; illumination, not resolution.",
+    "fully_comparable_to_original": false,
+    "uncorrected_receiver_splitting_traces": 531,
+    "unverified_radiation_traces": 20,
+    "ScS_descriptive_peak_offset_km": 210.0,
+    "ScS_offset_difference_from_published_100_km": 110.0,
+    "S_descriptive_peak_offset_km": 80.0,
+    "S_offset_difference_from_published_100_km": -20.0
+  },
+  {
+    "dataset": "expanded",
+    "n_traces": 913,
+    "n_events": 36,
+    "source_cluster_trace_counts": {
+      "South": 106,
+      "Central": 651,
+      "North": 156
+    },
+    "historical_traces": 80,
+    "published_n_traces": 270,
+    "published_n_events": 15,
+    "reference_height_ranges_km": {
+      "South": [
+        160,
+        190
+      ],
+      "North": [
+        250,
+        290
+      ]
+    },
+    "double_array_peaks": [
+      {
+        "bin": "South",
+        "reference": "ScS",
+        "height_km": 181.0,
+        "amplitude": 0.010751634103298513,
+        "bootstrap_low": -0.04782194673329455,
+        "bootstrap_high": 0.09490006876386609,
+        "positive_95_percent": false,
+        "warning": "Maximum searched over 100\u2013400 km; confidence is pointwise, not selection-adjusted."
+      },
+      {
+        "bin": "South",
+        "reference": "S",
+        "height_km": 211.0,
+        "amplitude": 0.04837015466761078,
+        "bootstrap_low": -0.025347051814467978,
+        "bootstrap_high": 0.17593806334768525,
+        "positive_95_percent": false,
+        "warning": "Maximum searched over 100\u2013400 km; confidence is pointwise, not selection-adjusted."
+      },
+      {
+        "bin": "North",
+        "reference": "ScS",
+        "height_km": 391.0,
+        "amplitude": -0.00503666823000823,
+        "bootstrap_low": -0.033511357563421065,
+        "bootstrap_high": 0.03700759599861923,
+        "positive_95_percent": false,
+        "warning": "Maximum searched over 100\u2013400 km; confidence is pointwise, not selection-adjusted."
+      },
+      {
+        "bin": "North",
+        "reference": "S",
+        "height_km": 391.0,
+        "amplitude": -0.029672341610102824,
+        "bootstrap_low": -0.05053319487494274,
+        "bootstrap_high": -0.0031475515945802394,
+        "positive_95_percent": false,
+        "warning": "Maximum searched over 100\u2013400 km; confidence is pointwise, not selection-adjusted."
+      }
+    ],
+    "ScS_minus_S_residual_median_s": -1.9303161520074354,
+    "residual_slope_s_per_latitude_deg": -0.1327795621526879,
+    "coverage_area_km2": 4507582.203147976,
+    "coverage_rule": "At least 20 valid trace paths from 3 events at 2650 km; illumination, not resolution.",
+    "fully_comparable_to_original": false,
+    "uncorrected_receiver_splitting_traces": 913,
+    "unverified_radiation_traces": 20,
+    "ScS_descriptive_peak_offset_km": 210.0,
+    "ScS_offset_difference_from_published_100_km": 110.0,
+    "S_descriptive_peak_offset_km": 180.0,
+    "S_offset_difference_from_published_100_km": 80.0
+  }
+]

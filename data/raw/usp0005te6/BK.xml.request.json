@@ -1,0 +1,9 @@
+{
+  "url": "https://service.ncedc.org/fdsnws/station/1/query?net=BK&sta=BKS%2CCMB%2CMHC%2CMIN%2CORV%2CPKD1%2CSAO%2CWDC&cha=BH%3F&starttime=1993-05-24T23%3A59%3A48.240000Z&endtime=1993-05-25T00%3A17%3A18.240000Z&level=response&format=xml",
+  "status": 200,
+  "seconds": 6.124382257461548,
+  "retrieved_utc": "2026-10-13T23:09:45.697007Z",
+  "path": "data/raw/usp0005te6/BK.xml",
+  "bytes": 369772,
+  "sha256": "88508bb3615c0bccb67b60d31f691aebd76213ae5c827c85e7979ce21150076e"
+}

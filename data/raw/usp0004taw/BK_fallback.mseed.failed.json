@@ -1,0 +1,8 @@
+{
+  "url": "https://service.earthscope.org/fdsnws/dataselect/1/query?net=BK&sta=CMB%2CMHC%2CSAO&cha=BH%3F&starttime=1991-06-23T21%3A30%3A48.940000Z&endtime=1991-06-23T21%3A48%3A18.940000Z",
+  "status": 204,
+  "seconds": 0.5797688961029053,
+  "retrieved_utc": "2026-10-13T23:09:42.805708Z",
+  "path": "data/raw/usp0004taw/BK_fallback.mseed",
+  "message": ""
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://service.ncedc.org/fdsnws/dataselect/1/query?net=BK&sta=BRIB%2CCMB%2CHELL%2CJRSC%2CKCC%2CMHC%2CMOBB%2CPKD%2CSAO&cha=BH%3F&starttime=2008-09-03T11%3A33%3A34.450000Z&endtime=2008-09-03T11%3A51%3A04.450000Z",
+  "status": 200,
+  "seconds": 1.8763322830200195,
+  "retrieved_utc": "2026-10-13T23:11:31.643620Z",
+  "path": "data/raw/usp000ggap/BK.mseed",
+  "bytes": 1396736,
+  "sha256": "f2b455dfb1471851ae7a9d5d0aa357cef08563e9966ee284770248440b87cd52"
+}

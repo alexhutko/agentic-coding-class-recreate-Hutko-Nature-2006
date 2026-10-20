@@ -1,0 +1,9 @@
+{
+  "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=1994-04-29&endtime=1994-04-30T00%3A00%3A00.000000Z&minlatitude=-35&maxlatitude=0&minlongitude=-85&maxlongitude=-55&mindepth=180",
+  "status": 200,
+  "seconds": 0.056639909744262695,
+  "retrieved_utc": "2026-10-13T23:09:23.105427Z",
+  "path": "data/catalog/1994-04-29.json",
+  "bytes": 1246,
+  "sha256": "0166dee9122d3a29b3b1e66437e40cd655be9af8e7e4aa52208e591cd09b5eee"
+}

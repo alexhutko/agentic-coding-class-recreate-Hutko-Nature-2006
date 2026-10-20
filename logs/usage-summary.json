@@ -1,0 +1,57 @@
+{
+  "goal_snapshot": {
+    "tokensUsed": 686232,
+    "timeUsedSeconds": 4727,
+    "createdAt": 1791932617,
+    "updatedAt": 1791937344,
+    "note": "Orchestrator goal telemetry; internal thread identifier omitted. Not a billing export."
+  },
+  "measured_local_cpu_hours": 1.0428283930555557,
+  "measured_stage_wall_hours": 0.42068271054132816,
+  "peak_tree_rss_gb": 3.691925504,
+  "local_gpu_hours": 0,
+  "data_gb": 1.45674905,
+  "early_gnu_time_commands": [
+    {
+      "log": "acquire.time",
+      "wall_seconds": 367.12,
+      "cpu_seconds": 57.370000000000005
+    },
+    {
+      "log": "migrate-historical.time",
+      "wall_seconds": 29.27,
+      "cpu_seconds": 29.069999999999997
+    },
+    {
+      "log": "process.time",
+      "wall_seconds": 332.56,
+      "cpu_seconds": 3525.01
+    }
+  ],
+  "accounted_cpu_hours": 2.0460089486111115,
+  "cost_scenarios": [
+    {
+      "label": "Low",
+      "input_rate": 1,
+      "output_rate": 5,
+      "low_usd": 0.8234784,
+      "high_usd": 1.2352176000000001
+    },
+    {
+      "label": "Middle",
+      "input_rate": 2,
+      "output_rate": 10,
+      "low_usd": 1.6469568,
+      "high_usd": 2.4704352000000003
+    },
+    {
+      "label": "High",
+      "input_rate": 10,
+      "output_rate": 50,
+      "low_usd": 8.234784,
+      "high_usd": 12.352176
+    }
+  ],
+  "remote_usage_measured": false,
+  "local_power_measured": false
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://service.ncedc.org/fdsnws/station/1/query?net=BK&sta=HAST%2CHELL%2CKCC%2CPKD&cha=BH%3F&starttime=2011-09-02T13%3A55%3A29.620000Z&endtime=2011-09-02T14%3A12%3A59.620000Z&level=response&format=xml",
+  "status": 200,
+  "seconds": 1.835881233215332,
+  "retrieved_utc": "2026-10-13T23:12:02.465091Z",
+  "path": "data/raw/usp000j7ee/BK.xml",
+  "bytes": 86322,
+  "sha256": "73e34b21a94649802c549449cecf21c391b6d43300c554d143183ea9d9bab625"
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://service.earthscope.org/fdsnws/dataselect/1/query?net=US&sta=AHID%2CBOZ%2CBW06%2CDUG%2CELK%2CHLID%2CHWUT%2CISCO%2CLAO%2CLKWY%2CMNTX%2CMVCO%2CRLMT%2CSDCO%2CTPNV%2CWUAZ&cha=BH%3F&starttime=2023-01-20T22%3A17%3A59.053000Z&endtime=2023-01-20T22%3A35%3A29.053000Z",
+  "status": 200,
+  "seconds": 0.7788529396057129,
+  "retrieved_utc": "2026-10-13T23:14:23.191458Z",
+  "path": "data/raw/us7000j5x2/US.mseed",
+  "bytes": 1812992,
+  "sha256": "49e54e19e69b2ad1ac3988536e7362e41d57f6d2f2ee082808ba9709d1b2ec4a"
+}

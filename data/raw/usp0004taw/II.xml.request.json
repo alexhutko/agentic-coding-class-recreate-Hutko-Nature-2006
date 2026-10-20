@@ -1,0 +1,9 @@
+{
+  "url": "https://service.earthscope.org/fdsnws/station/1/query?net=II&sta=PFO&cha=BH%3F&starttime=1991-06-23T21%3A30%3A48.940000Z&endtime=1991-06-23T21%3A48%3A18.940000Z&level=response&format=xml",
+  "status": 200,
+  "seconds": 0.30590391159057617,
+  "retrieved_utc": "2026-10-13T23:09:39.798138Z",
+  "path": "data/raw/usp0004taw/II.xml",
+  "bytes": 20377,
+  "sha256": "05d4fd558d8b25790daea374a4f7118215c049eeb8cec3d8e240ab89ddf60749"
+}

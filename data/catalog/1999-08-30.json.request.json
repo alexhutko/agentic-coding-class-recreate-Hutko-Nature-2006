@@ -1,0 +1,9 @@
+{
+  "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=1999-08-30&endtime=1999-08-31T00%3A00%3A00.000000Z&minlatitude=-35&maxlatitude=0&minlongitude=-85&maxlongitude=-55&mindepth=180",
+  "status": 200,
+  "seconds": 0.05462026596069336,
+  "retrieved_utc": "2026-10-13T23:09:24.400982Z",
+  "path": "data/catalog/1999-08-30.json",
+  "bytes": 355,
+  "sha256": "f0104d4e8bb293e12bcd59e7c1e6ca80d1855cd350a8fd37b9a556ea849e7270"
+}

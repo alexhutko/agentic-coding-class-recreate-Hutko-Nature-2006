@@ -1,0 +1,9 @@
+{
+  "url": "https://service.earthscope.org/fdsnws/dataselect/1/query?net=TA&sta=109C%2CHAST%2CHELL%2CLAVA%2CQ04C%2CS04C%2CT05C%2CT06C%2CV04C%2CY12C%2CY22C&cha=BH%3F&starttime=2005-03-21T12%3A51%3A32.360000Z&endtime=2005-03-21T13%3A09%3A02.360000Z",
+  "status": 200,
+  "seconds": 0.5120940208435059,
+  "retrieved_utc": "2026-10-13T23:10:52.547909Z",
+  "path": "data/raw/usp000djqg/TA.mseed",
+  "bytes": 1544192,
+  "sha256": "668ee5f6a07ec593abc315c6fa0c6cf97be72e11e0de2f1f34eabeb1962243d9"
+}

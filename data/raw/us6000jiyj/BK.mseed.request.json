@@ -1,0 +1,9 @@
+{
+  "url": "https://service.ncedc.org/fdsnws/dataselect/1/query?net=BK&sta=AASB%2CBABI%2CBUCR%2CCGRV%2CCMB%2CDRDG%2CHELL%2CJRSC%2CMHC%2CMMI%2COVRO%2CPKD%2CSAO&cha=BH%3F&starttime=2023-01-24T18%3A45%3A18.973000Z&endtime=2023-01-24T19%3A02%3A48.973000Z",
+  "status": 200,
+  "seconds": 2.906337261199951,
+  "retrieved_utc": "2026-10-13T23:14:30.167515Z",
+  "path": "data/raw/us6000jiyj/BK.mseed",
+  "bytes": 1925120,
+  "sha256": "94f8a4a342eb2b493a5057206bb81d2920826307cdb27a613ffbedc9cb8858a5"
+}

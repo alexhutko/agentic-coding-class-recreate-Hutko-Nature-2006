@@ -1,0 +1,1466 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1" schemaVersion="1.2" xsi:schemaLocation="http://www.fdsn.org/xml/station/1 http://www.fdsn.org/xml/station/fdsn-station-1.2.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <Source>NCEDC</Source>
+ <Sender>NCEDC</Sender>
+ <Module>NCEDC WEB SERVICE: fdsnws-station | version: 1.2</Module>
+ <ModuleURI>http://service.ncedc.org/fdsnws/station/1/query?net=BK&amp;sta=CMB MHC SAO&amp;cha=BH?&amp;start=1991-06-23T21:30:48.000-07:00&amp;end=1991-06-23T21:48:18.000-07:00&amp;level=resp</ModuleURI>
+ <Created>2026-10-13T23:09:40</Created>
+ <Network code="BK" startDate="1980-10-01T00:00:00" endDate="3000-01-01T00:00:00">
+  <Description>Berkeley Digital Seismic Network (BDSN)</Description>
+  <TotalNumberStations>223</TotalNumberStations>
+  <SelectedNumberStations>9</SelectedNumberStations>
+  <Station code="CMB" endDate="1996-09-25T18:54:00" startDate="1986-10-25T00:00:00">
+   <Latitude>38.03455</Latitude>
+   <Longitude>-120.386513</Longitude>
+   <Elevation>697.0</Elevation>
+   <Site>
+    <Name>Columbia College, Columbia, CA, USA</Name>
+   </Site>
+   <CreationDate>1986-10-25T00:00:00</CreationDate>
+   <Channel code="BHE" endDate="1992-06-25T00:00:00" locationCode="" startDate="1989-03-17T17:01:00">
+    <Latitude>38.03455</Latitude>
+    <Longitude>-120.386513</Longitude>
+    <Elevation>697.0</Elevation>
+    <Depth>2.0</Depth>
+    <Azimuth>90.0</Azimuth>
+    <Dip>0.0</Dip>
+    <SampleRate>10.0</SampleRate>
+    <ClockDrift>0.002</ClockDrift>
+    <CalibrationUnits>
+     <Name>A</Name>
+     <Description>Amperes</Description>
+    </CalibrationUnits>
+    <Sensor>
+     <Description>CMG-3ESP,Velocity Sensor,GURALP</Description>
+    </Sensor>
+    <Response>
+     <InstrumentSensitivity>
+      <Value>1.31072E7</Value>
+      <Frequency>0.1</Frequency>
+      <InputUnits>
+       <Name>M/S</Name>
+       <Description>Velocity in Meters Per Second</Description>
+      </InputUnits>
+      <OutputUnits>
+       <Name>COUNTS</Name>
+       <Description>Digital Counts</Description>
+      </OutputUnits>
+     </InstrumentSensitivity>
+     <Stage number="1">
+      <PolesZeros>
+       <InputUnits>
+        <Name>M/S</Name>
+        <Description>Velocity in Meters Per Second</Description>
+       </InputUnits>
+       <OutputUnits>
+        <Name>V</Name>
+        <Description>Volts</Description>
+       </OutputUnits>
+       <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+       <NormalizationFactor>389017</NormalizationFactor>
+       <NormalizationFrequency>0.1</NormalizationFrequency>
+       <Zero number="0">
+        <Real>0</Real>
+        <Imaginary>0</Imaginary>
+       </Zero>
+       <Zero number="1">
+        <Real>0</Real>
+        <Imaginary>0</Imaginary>
+       </Zero>
+       <Pole number="0">
+        <Real>-0.0123412</Real>
+        <Imaginary>0.0123415</Imaginary>
+       </Pole>
+       <Pole number="1">
+        <Real>-0.0123412</Real>
+        <Imaginary>-0.0123415</Imaginary>
+       </Pole>
+       <Pole number="2">
+        <Real>-31.4694</Real>
+        <Imaginary>48.1736</Imaginary>
+       </Pole>
+       <Pole number="3">
+        <Real>-31.4694</Real>
+        <Imaginary>-48.1736</Imaginary>
+       </Pole>
+       <Pole number="4">
+        <Real>-117.496</Real>
+        <Imaginary>0</Imaginary>
+       </Pole>
+      </PolesZeros>
+      <StageGain>
+       <Value>4000</Value>
+       <Frequency>0.1</Frequency>
+      </StageGain>
+     </Stage>
+     <Stage number="2">
+      <PolesZeros>
+       <InputUnits>
+        <Name>V</Name>
+        <Description>Volts</Description>
+       </InputUnits>
+       <OutputUnits>
+        <Name>V</Name>
+        <Description>Volts</Description>
+       </OutputUnits>
+       <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+       <NormalizationFactor>914532000000</NormalizationFactor>
+       <NormalizationFrequency>0.1</NormalizationFrequency>
+       <Pole number="0">
+        <Real>-2.45727</Real>
+        <Imaginary>-15.5146</Imaginary>
+       </Pole>
+       <Pole number="1">
+        <Real>-2.45727</Real>
+        <Imaginary>15.5146</Imaginary>
+       </Pole>
+       <Pole number="2">
+        <Real>-7.13127</Real>
+        <Imaginary>-13.9959</Imaginary>
+       </Pole>
+       <Pole number="3">
+        <Real>-7.13127</Real>
+        <Imaginary>13.9959</Imaginary>
+       </Pole>
+       <Pole number="4">
+        <Real>-11.1072</Real>
+        <Imaginary>-11.1072</Imaginary>
+       </Pole>
+       <Pole number="5">
+        <Real>-11.1072</Real>
+        <Imaginary>11.1072</Imaginary>
+       </Pole>
+       <Pole number="6">
+        <Real>-13.9959</Real>
+        <Imaginary>-7.13127</Imaginary>
+       </Pole>
+       <Pole number="7">
+        <Real>-13.9959</Real>
+        <Imaginary>7.13127</Imaginary>
+       </Pole>
+       <Pole number="8">
+        <Real>-15.5146</Real>
+        <Imaginary>-2.45727</Imaginary>
+       </Pole>
+       <Pole number="9">
+        <Real>-15.5146</Real>
+        <Imaginary>2.45727</Imaginary>
+       </Pole>
+      </PolesZeros>
+      <StageGain>
+       <Value>2.6228</Value>
+       <Frequency>0.1</Frequency>
+      </StageGain>
+     </Stage>
+     <Stage number="3">
+      <Coefficients>
+       <InputUnits>
+        <Name>V</Name>
+        <Description>Volts</Description>
+       </InputUnits>
+       <OutputUnits>
+        <Name>COUNTS</Name>
+        <Description>Digital Counts</Description>
+       </OutputUnits>
+       <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+      </Coefficients>
+      <Decimation>
+       <InputSampleRate>10.0</InputSampleRate>
+       <Factor>1</Factor>
+       <Offset>0</Offset>
+       <Delay>0.0</Delay>
+       <Correction>0.0</Correction>
+      </Decimation>
+      <StageGain>
+       <Value>3276.8</Value>
+       <Frequency>0</Frequency>
+      </StageGain>
+     </Stage>
+    </Response>
+   </Channel>
+   <Channel code="BHN" endDate="1992-06-25T00:00:00" locationCode="" startDate="1989-03-17T17:01:00">
+    <Latitude>38.03455</Latitude>
+    <Longitude>-120.386513</Longitude>
+    <Elevation>697.0</Elevation>
+    <Depth>2.0</Depth>
+    <Azimuth>0.0</Azimuth>
+    <Dip>0.0</Dip>
+    <SampleRate>10.0</SampleRate>
+    <ClockDrift>0.002</ClockDrift>
+    <CalibrationUnits>
+     <Name>A</Name>
+     <Description>Amperes</Description>
+    </CalibrationUnits>
+    <Sensor>
+     <Description>CMG-3ESP,Velocity Sensor,GURALP</Description>
+    </Sensor>
+    <Response>
+     <InstrumentSensitivity>
+      <Value>1.22356E7</Value>
+      <Frequency>0.1</Frequency>
+      <InputUnits>
+       <Name>M/S</Name>
+       <Description>Velocity in Meters Per Second</Description>
+      </InputUnits>
+      <OutputUnits>
+       <Name>COUNTS</Name>
+       <Description>Digital Counts</Description>
+      </OutputUnits>
+     </InstrumentSensitivity>
+     <Stage number="1">
+      <PolesZeros>
+       <InputUnits>
+        <Name>M/S</Name>
+        <Description>Velocity in Meters Per Second</Description>
+       </InputUnits>
+       <OutputUnits>
+        <Name>V</Name>
+        <Description>Volts</Description>
+       </OutputUnits>
+       <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+       <NormalizationFactor>480356</NormalizationFactor>
+       <NormalizationFrequency>0.1</NormalizationFrequency>
+       <Zero number="0">
+        <Real>0</Real>
+        <Imaginary>0</Imaginary>
+       </Zero>
+       <Zero number="1">
+        <Real>0</Real>
+        <Imaginary>0</Imaginary>
+       </Zero>
+       <Pole number="0">
+        <Real>-0.0123412</Real>
+        <Imaginary>0.0123415</Imaginary>
+       </Pole>
+       <Pole number="1">
+        <Real>-0.0123412</Real>
+        <Imaginary>-0.0123415</Imaginary>
+       </Pole>
+       <Pole number="2">
+        <Real>-42.7435</Real>
+        <Imaginary>53.752</Imaginary>
+       </Pole>
+       <Pole number="3">
+        <Real>-42.7435</Real>
+        <Imaginary>-53.752</Imaginary>
+       </Pole>
+       <Pole number="4">
+        <Real>-101.85</Real>
+        <Imaginary>0</Imaginary>
+       </Pole>
+      </PolesZeros>
+      <StageGain>
+       <Value>3734</Value>
+       <Frequency>0.1</Frequency>
+      </StageGain>
+     </Stage>
+     <Stage number="2">
+      <PolesZeros>
+       <InputUnits>
+        <Name>V</Name>
+        <Description>Volts</Description>
+       </InputUnits>
+       <OutputUnits>
+        <Name>V</Name>
+        <Description>Volts</Description>
+       </OutputUnits>
+       <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+       <NormalizationFactor>914532000000</NormalizationFactor>
+       <NormalizationFrequency>0.1</NormalizationFrequency>
+       <Pole number="0">
+        <Real>-2.45727</Real>
+        <Imaginary>-15.5146</Imaginary>
+       </Pole>
+       <Pole number="1">
+        <Real>-2.45727</Real>
+        <Imaginary>15.5146</Imaginary>
+       </Pole>
+       <Pole number="2">
+        <Real>-7.13127</Real>
+        <Imaginary>-13.9959</Imaginary>
+       </Pole>
+       <Pole number="3">
+        <Real>-7.13127</Real>
+        <Imaginary>13.9959</Imaginary>
+       </Pole>
+       <Pole number="4">
+        <Real>-11.1072</Real>
+        <Imaginary>-11.1072</Imaginary>
+       </Pole>
+       <Pole number="5">
+        <Real>-11.1072</Real>
+        <Imaginary>11.1072</Imaginary>
+       </Pole>
+       <Pole number="6">
+        <Real>-13.9959</Real>
+        <Imaginary>-7.13127</Imaginary>
+       </Pole>
+       <Pole number="7">
+        <Real>-13.9959</Real>
+        <Imaginary>7.13127</Imaginary>
+       </Pole>
+       <Pole number="8">
+        <Real>-15.5146</Real>
+        <Imaginary>-2.45727</Imaginary>
+       </Pole>
+       <Pole number="9">
+        <Real>-15.5146</Real>
+        <Imaginary>2.45727</Imaginary>
+       </Pole>
+      </PolesZeros>
+      <StageGain>
+       <Value>2.8228</Value>
+       <Frequency>0.1</Frequency>
+      </StageGain>
+     </Stage>
+     <Stage number="3">
+      <Coefficients>
+       <InputUnits>
+        <Name>V</Name>
+        <Description>Volts</Description>
+       </InputUnits>
+       <OutputUnits>
+        <Name>COUNTS</Name>
+        <Description>Digital Counts</Description>
+       </OutputUnits>
+       <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+      </Coefficients>
+      <Decimation>
+       <InputSampleRate>10.0</InputSampleRate>
+       <Factor>1</Factor>
+       <Offset>0</Offset>
+       <Delay>0.0</Delay>
+       <Correction>0.0</Correction>
+      </Decimation>
+      <StageGain>
+       <Value>3276.8</Value>
+       <Frequency>0</Frequency>
+      </StageGain>
+     </Stage>
+    </Response>
+   </Channel>
+   <Channel code="BHZ" endDate="1992-06-25T00:00:00" locationCode="" startDate="1989-03-17T17:01:00">
+    <Latitude>38.03455</Latitude>
+    <Longitude>-120.386513</Longitude>
+    <Elevation>697.0</Elevation>
+    <Depth>2.0</Depth>
+    <Azimuth>0.0</Azimuth>
+    <Dip>-90.0</Dip>
+    <SampleRate>10.0</SampleRate>
+    <ClockDrift>0.002</ClockDrift>
+    <CalibrationUnits>
+     <Name>A</Name>
+     <Description>Amperes</Description>
+    </CalibrationUnits>
+    <Sensor>
+     <Description>CMG-3ESP,Velocity Sensor,GURALP</Description>
+    </Sensor>
+    <Response>
+     <InstrumentSensitivity>
+      <Value>1.02892E7</Value>
+      <Frequency>0.1</Frequency>
+      <InputUnits>
+       <Name>M/S</Name>
+       <Description>Velocity in Meters Per Second</Description>
+      </InputUnits>
+      <OutputUnits>
+       <Name>COUNTS</Name>
+       <Description>Digital Counts</Description>
+      </OutputUnits>
+     </InstrumentSensitivity>
+     <Stage number="1">
+      <PolesZeros>
+       <InputUnits>
+        <Name>M/S</Name>
+        <Description>Velocity in Meters Per Second</Description>
+       </InputUnits>
+       <OutputUnits>
+        <Name>V</Name>
+        <Description>Volts</Description>
+       </OutputUnits>
+       <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+       <NormalizationFactor>453759</NormalizationFactor>
+       <NormalizationFrequency>0.1</NormalizationFrequency>
+       <Zero number="0">
+        <Real>0</Real>
+        <Imaginary>0</Imaginary>
+       </Zero>
+       <Zero number="1">
+        <Real>0</Real>
+        <Imaginary>0</Imaginary>
+       </Zero>
+       <Pole number="0">
+        <Real>-0.0123412</Real>
+        <Imaginary>0.0123415</Imaginary>
+       </Pole>
+       <Pole number="1">
+        <Real>-0.0123412</Real>
+        <Imaginary>-0.0123415</Imaginary>
+       </Pole>
+       <Pole number="2">
+        <Real>-47.6348</Real>
+        <Imaginary>58.688</Imaginary>
+       </Pole>
+       <Pole number="3">
+        <Real>-47.6348</Real>
+        <Imaginary>-58.688</Imaginary>
+       </Pole>
+       <Pole number="4">
+        <Real>-79.4195</Real>
+        <Imaginary>0</Imaginary>
+       </Pole>
+      </PolesZeros>
+      <StageGain>
+       <Value>3140</Value>
+       <Frequency>0.1</Frequency>
+      </StageGain>
+     </Stage>
+     <Stage number="2">
+      <PolesZeros>
+       <InputUnits>
+        <Name>V</Name>
+        <Description>Volts</Description>
+       </InputUnits>
+       <OutputUnits>
+        <Name>V</Name>
+        <Description>Volts</Description>
+       </OutputUnits>
+       <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+       <NormalizationFactor>914532000000</NormalizationFactor>
+       <NormalizationFrequency>0.1</NormalizationFrequency>
+       <Pole number="0">
+        <Real>-2.45727</Real>
+        <Imaginary>-15.5146</Imaginary>
+       </Pole>
+       <Pole number="1">
+        <Real>-2.45727</Real>
+        <Imaginary>15.5146</Imaginary>
+       </Pole>
+       <Pole number="2">
+        <Real>-7.13127</Real>
+        <Imaginary>-13.9959</Imaginary>
+       </Pole>
+       <Pole number="3">
+        <Real>-7.13127</Real>
+        <Imaginary>13.9959</Imaginary>
+       </Pole>
+       <Pole number="4">
+        <Real>-11.1072</Real>
+        <Imaginary>-11.1072</Imaginary>
+       </Pole>
+       <Pole number="5">
+        <Real>-11.1072</Real>
+        <Imaginary>11.1072</Imaginary>
+       </Pole>
+       <Pole number="6">
+        <Real>-13.9959</Real>
+        <Imaginary>-7.13127</Imaginary>
+       </Pole>
+       <Pole number="7">
+        <Real>-13.9959</Real>
+        <Imaginary>7.13127</Imaginary>
+       </Pole>
+       <Pole number="8">
+        <Real>-15.5146</Real>
+        <Imaginary>-2.45727</Imaginary>
+       </Pole>
+       <Pole number="9">
+        <Real>-15.5146</Real>
+        <Imaginary>2.45727</Imaginary>
+       </Pole>
+      </PolesZeros>
+      <StageGain>
+       <Value>3.7898</Value>
+       <Frequency>0.1</Frequency>
+      </StageGain>
+     </Stage>
+     <Stage number="3">
+      <Coefficients>
+       <InputUnits>
+        <Name>V</Name>
+        <Description>Volts</Description>
+       </InputUnits>
+       <OutputUnits>
+        <Name>COUNTS</Name>
+        <Description>Digital Counts</Description>
+       </OutputUnits>
+       <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+      </Coefficients>
+      <Decimation>
+       <InputSampleRate>10.0</InputSampleRate>
+       <Factor>1</Factor>
+       <Offset>0</Offset>
+       <Delay>0.0</Delay>
+       <Correction>0.0</Correction>
+      </Decimation>
+      <StageGain>
+       <Value>3276.8</Value>
+       <Frequency>0</Frequency>
+      </StageGain>
+     </Stage>
+    </Response>
+   </Channel>
+  </Station>
+  <Station code="MHC" endDate="1992-04-29T00:00:00" startDate="1987-10-29T21:00:00">
+   <Latitude>37.34164</Latitude>
+   <Longitude>-121.64257</Longitude>
+   <Elevation>1250.4</Elevation>
+   <Site>
+    <Name>Lick Observatory, Mt. Hamiliton, CA, USA</Name>
+   </Site>
+   <CreationDate>1986-09-10T00:00:00</CreationDate>
+   <Channel code="BHE" endDate="1992-04-29T00:00:00" locationCode="" startDate="1987-10-29T21:00:00">
+    <Latitude>37.34164</Latitude>
+    <Longitude>-121.64257</Longitude>
+    <Elevation>1250.4</Elevation>
+    <Depth>0.0</Depth>
+    <Azimuth>90.0</Azimuth>
+    <Dip>0.0</Dip>
+    <SampleRate>20.0</SampleRate>
+    <ClockDrift>0.002</ClockDrift>
+    <CalibrationUnits>
+     <Name>A</Name>
+     <Description>Amperes</Description>
+    </CalibrationUnits>
+    <Sensor>
+     <Description>STS-1 HORIZONTAL,Velocity Sensor,STRECKEISEN</Description>
+    </Sensor>
+    <Response>
+     <InstrumentSensitivity>
+      <Value>3.7847E7</Value>
+      <Frequency>1.0</Frequency>
+      <InputUnits>
+       <Name>M/S</Name>
+       <Description>Velocity in Meters Per Second</Description>
+      </InputUnits>
+      <OutputUnits>
+       <Name>COUNTS</Name>
+       <Description>Digital Counts</Description>
+      </OutputUnits>
+     </InstrumentSensitivity>
+     <Stage number="1">
+      <PolesZeros>
+       <InputUnits>
+        <Name>M/S</Name>
+        <Description>Velocity in Meters Per Second</Description>
+       </InputUnits>
+       <OutputUnits>
+        <Name>V</Name>
+        <Description>Volts</Description>
+       </OutputUnits>
+       <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+       <NormalizationFactor>978.934</NormalizationFactor>
+       <NormalizationFrequency>1</NormalizationFrequency>
+       <Zero number="0">
+        <Real>0</Real>
+        <Imaginary>0</Imaginary>
+       </Zero>
+       <Zero number="1">
+        <Real>0</Real>
+        <Imaginary>0</Imaginary>
+       </Zero>
+       <Pole number="0">
+        <Real>-0.0123412</Real>
+        <Imaginary>0.0123415</Imaginary>
+       </Pole>
+       <Pole number="1">
+        <Real>-0.0123412</Real>
+        <Imaginary>-0.0123415</Imaginary>
+       </Pole>
+       <Pole number="2">
+        <Real>-19.5878</Real>
+        <Imaginary>24.5617</Imaginary>
+       </Pole>
+       <Pole number="3">
+        <Real>-19.5878</Real>
+        <Imaginary>-24.5617</Imaginary>
+       </Pole>
+      </PolesZeros>
+      <StageGain>
+       <Value>11550</Value>
+       <Frequency>1</Frequency>
+      </StageGain>
+     </Stage>
+     <Stage number="2">
+      <PolesZeros>
+       <InputUnits>
+        <Name>V</Name>
+        <Description>Volts</Description>
+       </InputUnits>
+       <OutputUnits>
+        <Name>V</Name>
+        <Description>Volts</Description>
+       </OutputUnits>
+       <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+       <NormalizationFactor>936480000000000</NormalizationFactor>
+       <NormalizationFrequency>1</NormalizationFrequency>
+       <Pole number="0">
+        <Real>-4.91453</Real>
+        <Imaginary>-31.0291</Imaginary>
+       </Pole>
+       <Pole number="1">
+        <Real>-4.91453</Real>
+        <Imaginary>31.0291</Imaginary>
+       </Pole>
+       <Pole number="2">
+        <Real>-14.2625</Real>
+        <Imaginary>-27.9918</Imaginary>
+       </Pole>
+       <Pole number="3">
+        <Real>-14.2625</Real>
+        <Imaginary>27.9918</Imaginary>
+       </Pole>
+       <Pole number="4">
+        <Real>-22.2144</Real>
+        <Imaginary>-22.2144</Imaginary>
+       </Pole>
+       <Pole number="5">
+        <Real>-22.2144</Real>
+        <Imaginary>22.2144</Imaginary>
+       </Pole>
+       <Pole number="6">
+        <Real>-27.9918</Real>
+        <Imaginary>-14.2625</Imaginary>
+       </Pole>
+       <Pole number="7">
+        <Real>-27.9918</Real>
+        <Imaginary>14.2625</Imaginary>
+       </Pole>
+       <Pole number="8">
+        <Real>-31.0291</Real>
+        <Imaginary>-4.91453</Imaginary>
+       </Pole>
+       <Pole number="9">
+        <Real>-31.0291</Real>
+        <Imaginary>4.91453</Imaginary>
+       </Pole>
+      </PolesZeros>
+      <StageGain>
+       <Value>1</Value>
+       <Frequency>0.05</Frequency>
+      </StageGain>
+     </Stage>
+     <Stage number="3">
+      <Coefficients>
+       <InputUnits>
+        <Name>V</Name>
+        <Description>Volts</Description>
+       </InputUnits>
+       <OutputUnits>
+        <Name>COUNTS</Name>
+        <Description>Digital Counts</Description>
+       </OutputUnits>
+       <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+      </Coefficients>
+      <Decimation>
+       <InputSampleRate>20.0</InputSampleRate>
+       <Factor>1</Factor>
+       <Offset>0</Offset>
+       <Delay>0.0</Delay>
+       <Correction>0.0</Correction>
+      </Decimation>
+      <StageGain>
+       <Value>3276.8</Value>
+       <Frequency>0</Frequency>
+      </StageGain>
+     </Stage>
+    </Response>
+   </Channel>
+   <Channel code="BHN" endDate="1992-04-29T00:00:00" locationCode="" startDate="1987-10-29T21:00:00">
+    <Latitude>37.34164</Latitude>
+    <Longitude>-121.64257</Longitude>
+    <Elevation>1250.4</Elevation>
+    <Depth>0.0</Depth>
+    <Azimuth>180.0</Azimuth>
+    <Dip>0.0</Dip>
+    <SampleRate>20.0</SampleRate>
+    <ClockDrift>0.002</ClockDrift>
+    <CalibrationUnits>
+     <Name>A</Name>
+     <Description>Amperes</Description>
+    </CalibrationUnits>
+    <Sensor>
+     <Description>STS-1 HORIZONTAL,Velocity Sensor,STRECKEISEN</Description>
+    </Sensor>
+    <Response>
+     <InstrumentSensitivity>
+      <Value>3.67329E7</Value>
+      <Frequency>1.0</Frequency>
+      <InputUnits>
+       <Name>M/S</Name>
+       <Description>Velocity in Meters Per Second</Description>
+      </InputUnits>
+      <OutputUnits>
+       <Name>COUNTS</Name>
+       <Description>Digital Counts</Description>
+      </OutputUnits>
+     </InstrumentSensitivity>
+     <Stage number="1">
+      <PolesZeros>
+       <InputUnits>
+        <Name>M/S</Name>
+        <Description>Velocity in Meters Per Second</Description>
+       </InputUnits>
+       <OutputUnits>
+        <Name>V</Name>
+        <Description>Volts</Description>
+       </OutputUnits>
+       <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+       <NormalizationFactor>978.934</NormalizationFactor>
+       <NormalizationFrequency>1</NormalizationFrequency>
+       <Zero number="0">
+        <Real>0</Real>
+        <Imaginary>0</Imaginary>
+       </Zero>
+       <Zero number="1">
+        <Real>0</Real>
+        <Imaginary>0</Imaginary>
+       </Zero>
+       <Pole number="0">
+        <Real>-0.0123412</Real>
+        <Imaginary>0.0123415</Imaginary>
+       </Pole>
+       <Pole number="1">
+        <Real>-0.0123412</Real>
+        <Imaginary>-0.0123415</Imaginary>
+       </Pole>
+       <Pole number="2">
+        <Real>-19.5878</Real>
+        <Imaginary>24.5617</Imaginary>
+       </Pole>
+       <Pole number="3">
+        <Real>-19.5878</Real>
+        <Imaginary>-24.5617</Imaginary>
+       </Pole>
+      </PolesZeros>
+      <StageGain>
+       <Value>11210</Value>
+       <Frequency>1</Frequency>
+      </StageGain>
+     </Stage>
+     <Stage number="2">
+      <PolesZeros>
+       <InputUnits>
+        <Name>V</Name>
+        <Description>Volts</Description>
+       </InputUnits>
+       <OutputUnits>
+        <Name>V</Name>
+        <Description>Volts</Description>
+       </OutputUnits>
+       <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+       <NormalizationFactor>936480000000000</NormalizationFactor>
+       <NormalizationFrequency>1</NormalizationFrequency>
+       <Pole number="0">
+        <Real>-4.91453</Real>
+        <Imaginary>-31.0291</Imaginary>
+       </Pole>
+       <Pole number="1">
+        <Real>-4.91453</Real>
+        <Imaginary>31.0291</Imaginary>
+       </Pole>
+       <Pole number="2">
+        <Real>-14.2625</Real>
+        <Imaginary>-27.9918</Imaginary>
+       </Pole>
+       <Pole number="3">
+        <Real>-14.2625</Real>
+        <Imaginary>27.9918</Imaginary>
+       </Pole>
+       <Pole number="4">
+        <Real>-22.2144</Real>
+        <Imaginary>-22.2144</Imaginary>
+       </Pole>
+       <Pole number="5">
+        <Real>-22.2144</Real>
+        <Imaginary>22.2144</Imaginary>
+       </Pole>
+       <Pole number="6">
+        <Real>-27.9918</Real>
+        <Imaginary>-14.2625</Imaginary>
+       </Pole>
+       <Pole number="7">
+        <Real>-27.9918</Real>
+        <Imaginary>14.2625</Imaginary>
+       </Pole>
+       <Pole number="8">
+        <Real>-31.0291</Real>
+        <Imaginary>-4.91453</Imaginary>
+       </Pole>
+       <Pole number="9">
+        <Real>-31.0291</Real>
+        <Imaginary>4.91453</Imaginary>
+       </Pole>
+      </PolesZeros>
+      <StageGain>
+       <Value>1</Value>
+       <Frequency>0.05</Frequency>
+      </StageGain>
+     </Stage>
+     <Stage number="3">
+      <Coefficients>
+       <InputUnits>
+        <Name>V</Name>
+        <Description>Volts</Description>
+       </InputUnits>
+       <OutputUnits>
+        <Name>COUNTS</Name>
+        <Description>Digital Counts</Description>
+       </OutputUnits>
+       <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+      </Coefficients>
+      <Decimation>
+       <InputSampleRate>20.0</InputSampleRate>
+       <Factor>1</Factor>
+       <Offset>0</Offset>
+       <Delay>0.0</Delay>
+       <Correction>0.0</Correction>
+      </Decimation>
+      <StageGain>
+       <Value>3276.8</Value>
+       <Frequency>0</Frequency>
+      </StageGain>
+     </Stage>
+    </Response>
+   </Channel>
+   <Channel code="BHZ" endDate="1992-04-29T00:00:00" locationCode="" startDate="1987-10-29T21:00:00">
+    <Latitude>37.34164</Latitude>
+    <Longitude>-121.64257</Longitude>
+    <Elevation>1250.4</Elevation>
+    <Depth>0.0</Depth>
+    <Azimuth>0.0</Azimuth>
+    <Dip>-90.0</Dip>
+    <SampleRate>20.0</SampleRate>
+    <ClockDrift>0.002</ClockDrift>
+    <CalibrationUnits>
+     <Name>A</Name>
+     <Description>Amperes</Description>
+    </CalibrationUnits>
+    <Sensor>
+     <Description>STS-1 VERTICAL,Velocity Sensor,STRECKEISEN</Description>
+    </Sensor>
+    <Response>
+     <InstrumentSensitivity>
+      <Value>3.71917E7</Value>
+      <Frequency>1.0</Frequency>
+      <InputUnits>
+       <Name>M/S</Name>
+       <Description>Velocity in Meters Per Second</Description>
+      </InputUnits>
+      <OutputUnits>
+       <Name>COUNTS</Name>
+       <Description>Digital Counts</Description>
+      </OutputUnits>
+     </InstrumentSensitivity>
+     <Stage number="1">
+      <PolesZeros>
+       <InputUnits>
+        <Name>M/S</Name>
+        <Description>Velocity in Meters Per Second</Description>
+       </InputUnits>
+       <OutputUnits>
+        <Name>V</Name>
+        <Description>Volts</Description>
+       </OutputUnits>
+       <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+       <NormalizationFactor>978.934</NormalizationFactor>
+       <NormalizationFrequency>1</NormalizationFrequency>
+       <Zero number="0">
+        <Real>0</Real>
+        <Imaginary>0</Imaginary>
+       </Zero>
+       <Zero number="1">
+        <Real>0</Real>
+        <Imaginary>0</Imaginary>
+       </Zero>
+       <Pole number="0">
+        <Real>-0.0123412</Real>
+        <Imaginary>0.0123415</Imaginary>
+       </Pole>
+       <Pole number="1">
+        <Real>-0.0123412</Real>
+        <Imaginary>-0.0123415</Imaginary>
+       </Pole>
+       <Pole number="2">
+        <Real>-19.5878</Real>
+        <Imaginary>24.5617</Imaginary>
+       </Pole>
+       <Pole number="3">
+        <Real>-19.5878</Real>
+        <Imaginary>-24.5617</Imaginary>
+       </Pole>
+      </PolesZeros>
+      <StageGain>
+       <Value>11350</Value>
+       <Frequency>1</Frequency>
+      </StageGain>
+     </Stage>
+     <Stage number="2">
+      <PolesZeros>
+       <InputUnits>
+        <Name>V</Name>
+        <Description>Volts</Description>
+       </InputUnits>
+       <OutputUnits>
+        <Name>V</Name>
+        <Description>Volts</Description>
+       </OutputUnits>
+       <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+       <NormalizationFactor>936480000000000</NormalizationFactor>
+       <NormalizationFrequency>1</NormalizationFrequency>
+       <Pole number="0">
+        <Real>-4.91453</Real>
+        <Imaginary>-31.0291</Imaginary>
+       </Pole>
+       <Pole number="1">
+        <Real>-4.91453</Real>
+        <Imaginary>31.0291</Imaginary>
+       </Pole>
+       <Pole number="2">
+        <Real>-14.2625</Real>
+        <Imaginary>-27.9918</Imaginary>
+       </Pole>
+       <Pole number="3">
+        <Real>-14.2625</Real>
+        <Imaginary>27.9918</Imaginary>
+       </Pole>
+       <Pole number="4">
+        <Real>-22.2144</Real>
+        <Imaginary>-22.2144</Imaginary>
+       </Pole>
+       <Pole number="5">
+        <Real>-22.2144</Real>
+        <Imaginary>22.2144</Imaginary>
+       </Pole>
+       <Pole number="6">
+        <Real>-27.9918</Real>
+        <Imaginary>-14.2625</Imaginary>
+       </Pole>
+       <Pole number="7">
+        <Real>-27.9918</Real>
+        <Imaginary>14.2625</Imaginary>
+       </Pole>
+       <Pole number="8">
+        <Real>-31.0291</Real>
+        <Imaginary>-4.91453</Imaginary>
+       </Pole>
+       <Pole number="9">
+        <Real>-31.0291</Real>
+        <Imaginary>4.91453</Imaginary>
+       </Pole>
+      </PolesZeros>
+      <StageGain>
+       <Value>1</Value>
+       <Frequency>0.05</Frequency>
+      </StageGain>
+     </Stage>
+     <Stage number="3">
+      <Coefficients>
+       <InputUnits>
+        <Name>V</Name>
+        <Description>Volts</Description>
+       </InputUnits>
+       <OutputUnits>
+        <Name>COUNTS</Name>
+        <Description>Digital Counts</Description>
+       </OutputUnits>
+       <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+      </Coefficients>
+      <Decimation>
+       <InputSampleRate>20.0</InputSampleRate>
+       <Factor>1</Factor>
+       <Offset>0</Offset>
+       <Delay>0.0</Delay>
+       <Correction>0.0</Correction>
+      </Decimation>
+      <StageGain>
+       <Value>3276.8</Value>
+       <Frequency>0</Frequency>
+      </StageGain>
+     </Stage>
+    </Response>
+   </Channel>
+  </Station>
+  <Station code="SAO" endDate="1992-06-10T21:00:00" startDate="1991-05-23T21:00:00">
+   <Latitude>36.76403</Latitude>
+   <Longitude>-121.44722</Longitude>
+   <Elevation>317.2</Elevation>
+   <Site>
+    <Name>San Andreas Geophysical Obs., Hollister, CA, USA</Name>
+   </Site>
+   <CreationDate>1988-01-28T00:00:00</CreationDate>
+   <Channel code="BHE" endDate="1992-06-10T21:00:00" locationCode="" startDate="1991-05-23T21:00:00">
+    <Latitude>36.76403</Latitude>
+    <Longitude>-121.44722</Longitude>
+    <Elevation>317.2</Elevation>
+    <Depth>3.0</Depth>
+    <Azimuth>90.0</Azimuth>
+    <Dip>0.0</Dip>
+    <SampleRate>20.0</SampleRate>
+    <ClockDrift>0.002</ClockDrift>
+    <CalibrationUnits>
+     <Name>A</Name>
+     <Description>Amperes</Description>
+    </CalibrationUnits>
+    <Sensor>
+     <Description>STS-1 HORIZONTAL,Velocity Sensor,STRECKEISEN</Description>
+    </Sensor>
+    <Response>
+     <InstrumentSensitivity>
+      <Value>3.72572E7</Value>
+      <Frequency>1.0</Frequency>
+      <InputUnits>
+       <Name>M/S</Name>
+       <Description>Velocity in Meters Per Second</Description>
+      </InputUnits>
+      <OutputUnits>
+       <Name>COUNTS</Name>
+       <Description>Digital Counts</Description>
+      </OutputUnits>
+     </InstrumentSensitivity>
+     <Stage number="1">
+      <PolesZeros>
+       <InputUnits>
+        <Name>M/S</Name>
+        <Description>Velocity in Meters Per Second</Description>
+       </InputUnits>
+       <OutputUnits>
+        <Name>V</Name>
+        <Description>Volts</Description>
+       </OutputUnits>
+       <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+       <NormalizationFactor>978.934</NormalizationFactor>
+       <NormalizationFrequency>1</NormalizationFrequency>
+       <Zero number="0">
+        <Real>0</Real>
+        <Imaginary>0</Imaginary>
+       </Zero>
+       <Zero number="1">
+        <Real>0</Real>
+        <Imaginary>0</Imaginary>
+       </Zero>
+       <Pole number="0">
+        <Real>-0.0123412</Real>
+        <Imaginary>0.0123415</Imaginary>
+       </Pole>
+       <Pole number="1">
+        <Real>-0.0123412</Real>
+        <Imaginary>-0.0123415</Imaginary>
+       </Pole>
+       <Pole number="2">
+        <Real>-19.5878</Real>
+        <Imaginary>24.5617</Imaginary>
+       </Pole>
+       <Pole number="3">
+        <Real>-19.5878</Real>
+        <Imaginary>-24.5617</Imaginary>
+       </Pole>
+      </PolesZeros>
+      <StageGain>
+       <Value>11370</Value>
+       <Frequency>1</Frequency>
+      </StageGain>
+     </Stage>
+     <Stage number="2">
+      <PolesZeros>
+       <InputUnits>
+        <Name>V</Name>
+        <Description>Volts</Description>
+       </InputUnits>
+       <OutputUnits>
+        <Name>V</Name>
+        <Description>Volts</Description>
+       </OutputUnits>
+       <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+       <NormalizationFactor>936480000000000</NormalizationFactor>
+       <NormalizationFrequency>1</NormalizationFrequency>
+       <Pole number="0">
+        <Real>-4.91453</Real>
+        <Imaginary>-31.0291</Imaginary>
+       </Pole>
+       <Pole number="1">
+        <Real>-4.91453</Real>
+        <Imaginary>31.0291</Imaginary>
+       </Pole>
+       <Pole number="2">
+        <Real>-14.2625</Real>
+        <Imaginary>-27.9918</Imaginary>
+       </Pole>
+       <Pole number="3">
+        <Real>-14.2625</Real>
+        <Imaginary>27.9918</Imaginary>
+       </Pole>
+       <Pole number="4">
+        <Real>-22.2144</Real>
+        <Imaginary>-22.2144</Imaginary>
+       </Pole>
+       <Pole number="5">
+        <Real>-22.2144</Real>
+        <Imaginary>22.2144</Imaginary>
+       </Pole>
+       <Pole number="6">
+        <Real>-27.9918</Real>
+        <Imaginary>-14.2625</Imaginary>
+       </Pole>
+       <Pole number="7">
+        <Real>-27.9918</Real>
+        <Imaginary>14.2625</Imaginary>
+       </Pole>
+       <Pole number="8">
+        <Real>-31.0291</Real>
+        <Imaginary>-4.91453</Imaginary>
+       </Pole>
+       <Pole number="9">
+        <Real>-31.0291</Real>
+        <Imaginary>4.91453</Imaginary>
+       </Pole>
+      </PolesZeros>
+      <StageGain>
+       <Value>1</Value>
+       <Frequency>0.05</Frequency>
+      </StageGain>
+     </Stage>
+     <Stage number="3">
+      <Coefficients>
+       <InputUnits>
+        <Name>V</Name>
+        <Description>Volts</Description>
+       </InputUnits>
+       <OutputUnits>
+        <Name>COUNTS</Name>
+        <Description>Digital Counts</Description>
+       </OutputUnits>
+       <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+      </Coefficients>
+      <Decimation>
+       <InputSampleRate>20.0</InputSampleRate>
+       <Factor>1</Factor>
+       <Offset>0</Offset>
+       <Delay>0.0</Delay>
+       <Correction>0.0</Correction>
+      </Decimation>
+      <StageGain>
+       <Value>3276.8</Value>
+       <Frequency>0</Frequency>
+      </StageGain>
+     </Stage>
+    </Response>
+   </Channel>
+   <Channel code="BHN" endDate="1992-06-10T21:00:00" locationCode="" startDate="1991-05-23T21:00:00">
+    <Latitude>36.76403</Latitude>
+    <Longitude>-121.44722</Longitude>
+    <Elevation>317.2</Elevation>
+    <Depth>3.0</Depth>
+    <Azimuth>180.0</Azimuth>
+    <Dip>0.0</Dip>
+    <SampleRate>20.0</SampleRate>
+    <ClockDrift>0.002</ClockDrift>
+    <CalibrationUnits>
+     <Name>A</Name>
+     <Description>Amperes</Description>
+    </CalibrationUnits>
+    <Sensor>
+     <Description>STS-1 HORIZONTAL,Velocity Sensor,STRECKEISEN</Description>
+    </Sensor>
+    <Response>
+     <InstrumentSensitivity>
+      <Value>4.00753E7</Value>
+      <Frequency>1.0</Frequency>
+      <InputUnits>
+       <Name>M/S</Name>
+       <Description>Velocity in Meters Per Second</Description>
+      </InputUnits>
+      <OutputUnits>
+       <Name>COUNTS</Name>
+       <Description>Digital Counts</Description>
+      </OutputUnits>
+     </InstrumentSensitivity>
+     <Stage number="1">
+      <PolesZeros>
+       <InputUnits>
+        <Name>M/S</Name>
+        <Description>Velocity in Meters Per Second</Description>
+       </InputUnits>
+       <OutputUnits>
+        <Name>V</Name>
+        <Description>Volts</Description>
+       </OutputUnits>
+       <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+       <NormalizationFactor>978.934</NormalizationFactor>
+       <NormalizationFrequency>1</NormalizationFrequency>
+       <Zero number="0">
+        <Real>0</Real>
+        <Imaginary>0</Imaginary>
+       </Zero>
+       <Zero number="1">
+        <Real>0</Real>
+        <Imaginary>0</Imaginary>
+       </Zero>
+       <Pole number="0">
+        <Real>-0.0123412</Real>
+        <Imaginary>0.0123415</Imaginary>
+       </Pole>
+       <Pole number="1">
+        <Real>-0.0123412</Real>
+        <Imaginary>-0.0123415</Imaginary>
+       </Pole>
+       <Pole number="2">
+        <Real>-19.5878</Real>
+        <Imaginary>24.5617</Imaginary>
+       </Pole>
+       <Pole number="3">
+        <Real>-19.5878</Real>
+        <Imaginary>-24.5617</Imaginary>
+       </Pole>
+      </PolesZeros>
+      <StageGain>
+       <Value>12230</Value>
+       <Frequency>1</Frequency>
+      </StageGain>
+     </Stage>
+     <Stage number="2">
+      <PolesZeros>
+       <InputUnits>
+        <Name>V</Name>
+        <Description>Volts</Description>
+       </InputUnits>
+       <OutputUnits>
+        <Name>V</Name>
+        <Description>Volts</Description>
+       </OutputUnits>
+       <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+       <NormalizationFactor>936480000000000</NormalizationFactor>
+       <NormalizationFrequency>1</NormalizationFrequency>
+       <Pole number="0">
+        <Real>-4.91453</Real>
+        <Imaginary>-31.0291</Imaginary>
+       </Pole>
+       <Pole number="1">
+        <Real>-4.91453</Real>
+        <Imaginary>31.0291</Imaginary>
+       </Pole>
+       <Pole number="2">
+        <Real>-14.2625</Real>
+        <Imaginary>-27.9918</Imaginary>
+       </Pole>
+       <Pole number="3">
+        <Real>-14.2625</Real>
+        <Imaginary>27.9918</Imaginary>
+       </Pole>
+       <Pole number="4">
+        <Real>-22.2144</Real>
+        <Imaginary>-22.2144</Imaginary>
+       </Pole>
+       <Pole number="5">
+        <Real>-22.2144</Real>
+        <Imaginary>22.2144</Imaginary>
+       </Pole>
+       <Pole number="6">
+        <Real>-27.9918</Real>
+        <Imaginary>-14.2625</Imaginary>
+       </Pole>
+       <Pole number="7">
+        <Real>-27.9918</Real>
+        <Imaginary>14.2625</Imaginary>
+       </Pole>
+       <Pole number="8">
+        <Real>-31.0291</Real>
+        <Imaginary>-4.91453</Imaginary>
+       </Pole>
+       <Pole number="9">
+        <Real>-31.0291</Real>
+        <Imaginary>4.91453</Imaginary>
+       </Pole>
+      </PolesZeros>
+      <StageGain>
+       <Value>1</Value>
+       <Frequency>0.05</Frequency>
+      </StageGain>
+     </Stage>
+     <Stage number="3">
+      <Coefficients>
+       <InputUnits>
+        <Name>V</Name>
+        <Description>Volts</Description>
+       </InputUnits>
+       <OutputUnits>
+        <Name>COUNTS</Name>
+        <Description>Digital Counts</Description>
+       </OutputUnits>
+       <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+      </Coefficients>
+      <Decimation>
+       <InputSampleRate>20.0</InputSampleRate>
+       <Factor>1</Factor>
+       <Offset>0</Offset>
+       <Delay>0.0</Delay>
+       <Correction>0.0</Correction>
+      </Decimation>
+      <StageGain>
+       <Value>3276.8</Value>
+       <Frequency>0</Frequency>
+      </StageGain>
+     </Stage>
+    </Response>
+   </Channel>
+   <Channel code="BHZ" endDate="1992-06-10T21:00:00" locationCode="" startDate="1991-05-23T21:00:00">
+    <Latitude>36.76403</Latitude>
+    <Longitude>-121.44722</Longitude>
+    <Elevation>317.2</Elevation>
+    <Depth>3.0</Depth>
+    <Azimuth>0.0</Azimuth>
+    <Dip>-90.0</Dip>
+    <SampleRate>20.0</SampleRate>
+    <ClockDrift>0.002</ClockDrift>
+    <CalibrationUnits>
+     <Name>A</Name>
+     <Description>Amperes</Description>
+    </CalibrationUnits>
+    <Sensor>
+     <Description>STS-1 VERTICAL,Velocity Sensor,STRECKEISEN</Description>
+    </Sensor>
+    <Response>
+     <InstrumentSensitivity>
+      <Value>3.94199E7</Value>
+      <Frequency>1.0</Frequency>
+      <InputUnits>
+       <Name>M/S</Name>
+       <Description>Velocity in Meters Per Second</Description>
+      </InputUnits>
+      <OutputUnits>
+       <Name>COUNTS</Name>
+       <Description>Digital Counts</Description>
+      </OutputUnits>
+     </InstrumentSensitivity>
+     <Stage number="1">
+      <PolesZeros>
+       <InputUnits>
+        <Name>M/S</Name>
+        <Description>Velocity in Meters Per Second</Description>
+       </InputUnits>
+       <OutputUnits>
+        <Name>V</Name>
+        <Description>Volts</Description>
+       </OutputUnits>
+       <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+       <NormalizationFactor>978.934</NormalizationFactor>
+       <NormalizationFrequency>1</NormalizationFrequency>
+       <Zero number="0">
+        <Real>0</Real>
+        <Imaginary>0</Imaginary>
+       </Zero>
+       <Zero number="1">
+        <Real>0</Real>
+        <Imaginary>0</Imaginary>
+       </Zero>
+       <Pole number="0">
+        <Real>-0.0123412</Real>
+        <Imaginary>0.0123415</Imaginary>
+       </Pole>
+       <Pole number="1">
+        <Real>-0.0123412</Real>
+        <Imaginary>-0.0123415</Imaginary>
+       </Pole>
+       <Pole number="2">
+        <Real>-19.5878</Real>
+        <Imaginary>24.5617</Imaginary>
+       </Pole>
+       <Pole number="3">
+        <Real>-19.5878</Real>
+        <Imaginary>-24.5617</Imaginary>
+       </Pole>
+      </PolesZeros>
+      <StageGain>
+       <Value>12030</Value>
+       <Frequency>1</Frequency>
+      </StageGain>
+     </Stage>
+     <Stage number="2">
+      <PolesZeros>
+       <InputUnits>
+        <Name>V</Name>
+        <Description>Volts</Description>
+       </InputUnits>
+       <OutputUnits>
+        <Name>V</Name>
+        <Description>Volts</Description>
+       </OutputUnits>
+       <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+       <NormalizationFactor>936480000000000</NormalizationFactor>
+       <NormalizationFrequency>1</NormalizationFrequency>
+       <Pole number="0">
+        <Real>-4.91453</Real>
+        <Imaginary>-31.0291</Imaginary>
+       </Pole>
+       <Pole number="1">
+        <Real>-4.91453</Real>
+        <Imaginary>31.0291</Imaginary>
+       </Pole>
+       <Pole number="2">
+        <Real>-14.2625</Real>
+        <Imaginary>-27.9918</Imaginary>
+       </Pole>
+       <Pole number="3">
+        <Real>-14.2625</Real>
+        <Imaginary>27.9918</Imaginary>
+       </Pole>
+       <Pole number="4">
+        <Real>-22.2144</Real>
+        <Imaginary>-22.2144</Imaginary>
+       </Pole>
+       <Pole number="5">
+        <Real>-22.2144</Real>
+        <Imaginary>22.2144</Imaginary>
+       </Pole>
+       <Pole number="6">
+        <Real>-27.9918</Real>
+        <Imaginary>-14.2625</Imaginary>
+       </Pole>
+       <Pole number="7">
+        <Real>-27.9918</Real>
+        <Imaginary>14.2625</Imaginary>
+       </Pole>
+       <Pole number="8">
+        <Real>-31.0291</Real>
+        <Imaginary>-4.91453</Imaginary>
+       </Pole>
+       <Pole number="9">
+        <Real>-31.0291</Real>
+        <Imaginary>4.91453</Imaginary>
+       </Pole>
+      </PolesZeros>
+      <StageGain>
+       <Value>1</Value>
+       <Frequency>0.05</Frequency>
+      </StageGain>
+     </Stage>
+     <Stage number="3">
+      <Coefficients>
+       <InputUnits>
+        <Name>V</Name>
+        <Description>Volts</Description>
+       </InputUnits>
+       <OutputUnits>
+        <Name>COUNTS</Name>
+        <Description>Digital Counts</Description>
+       </OutputUnits>
+       <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+      </Coefficients>
+      <Decimation>
+       <InputSampleRate>20.0</InputSampleRate>
+       <Factor>1</Factor>
+       <Offset>0</Offset>
+       <Delay>0.0</Delay>
+       <Correction>0.0</Correction>
+      </Decimation>
+      <StageGain>
+       <Value>3276.8</Value>
+       <Frequency>0</Frequency>
+      </StageGain>
+     </Stage>
+    </Response>
+   </Channel>
+  </Station>
+ </Network>
+</FDSNStationXML>

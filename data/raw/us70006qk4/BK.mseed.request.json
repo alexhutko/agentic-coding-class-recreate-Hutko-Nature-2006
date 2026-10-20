@@ -1,0 +1,9 @@
+{
+  "url": "https://service.ncedc.org/fdsnws/dataselect/1/query?net=BK&sta=BABI%2CBUCR%2CCMB%2CHELL%2CJRSC%2CKCC%2CMHC%2COVRO%2CPKD%2CSAO%2CTWIT&cha=BH%3F&starttime=2019-12-24T16%3A51%3A53.420000Z&endtime=2019-12-24T17%3A09%3A23.420000Z",
+  "status": 200,
+  "seconds": 2.658602476119995,
+  "retrieved_utc": "2026-10-13T23:13:52.406336Z",
+  "path": "data/raw/us70006qk4/BK.mseed",
+  "bytes": 1892352,
+  "sha256": "48a2150f8ffdcd3a373bb49719559505e0250da16a21e46a24c5aa5df78bf2e5"
+}

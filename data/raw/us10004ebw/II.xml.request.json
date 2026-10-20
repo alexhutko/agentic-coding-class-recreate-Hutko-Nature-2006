@@ -1,0 +1,9 @@
+{
+  "url": "https://service.earthscope.org/fdsnws/station/1/query?net=II&sta=IASL%2CPFO&cha=BH%3F&starttime=2016-01-14T03%3A33%3A48.270000Z&endtime=2016-01-14T03%3A51%3A18.270000Z&level=response&format=xml",
+  "status": 200,
+  "seconds": 0.14410877227783203,
+  "retrieved_utc": "2026-10-13T23:12:55.092801Z",
+  "path": "data/raw/us10004ebw/II.xml",
+  "bytes": 130446,
+  "sha256": "b6f082cf4bc466beecef2c30d26efe488975931f32714835a3a3d16147c9d2db"
+}

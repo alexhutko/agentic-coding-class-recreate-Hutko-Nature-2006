@@ -1,0 +1,114 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.8in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{booktabs,longtable,amsmath}
+\usepackage[colorlinks=true,urlcolor=blue]{hyperref}
+\begin{document}
+\title{Usage and resource accounting: independent Hutko reanalysis}
+\author{Measured local execution and explicit remote-usage scenarios}
+\date{13 October 2026}\maketitle
+\section{What is observed}
+The orchestration goal counter reported 686,232 tokens at the saved snapshot, after 1.31 hours of goal elapsed time. The exact snapshot is in \texttt{logs/agent-usage-snapshot.json}. This is an orchestration counter, not a billing export. It does not separate input, cached input, output, hidden reasoning, or tool billing; the short setup before goal creation and subsequent reporting tokens are not included. No exact provider charge can be recovered from it.
+The code itself makes no model API calls. Its normal execution therefore consumes
+zero inference tokens. Remote tokens belong to research, implementation, debugging,
+and writing by the assistant, not to subsequent scientific reruns. The counter
+is more defensible than estimating tokens from source-code characters, but its
+billing semantics are not exposed here. No claim of an exact dollar bill is made.
+\section{Dollar estimates with explicit assumptions}
+Official pricing distinguishes input, cached input, and output; it also depends
+on model, context length, and service tier
+(\url{https://developers.openai.com/api/docs/pricing}, consulted 13 October 2026).
+The exact billed model/tier, cache fraction, and account plan for this session are
+not available. The following rate scenarios are illustrative API equivalents,
+not assertions about the user's charge. Let $N$ be the saved counter. Treating
+80--95\% of $N$ as input and 5--20\% as output gives
+\[
+C = \frac{N_i[(1-f_c)r_i+f_c r_c]+N_o r_o}{10^6}.
+\]
+Here $f_c$ is the cached fraction of input. We show zero caching as a conservative
+simple scenario; subscriptions, cache discounts, tool fees, and context premiums
+can change the amount substantially.
+\begin{center}\begin{tabular}{lrrr}\toprule
+Illustrative rates per million tokens & Input USD & Output USD & Estimated USD range\\\midrule
+Low & 1.00 & 5.00 & 0.82--1.24 \\
+Middle & 2.00 & 10.00 & 1.65--2.47 \\
+High & 10.00 & 50.00 & 8.23--12.35 \\
+\bottomrule\end{tabular}\end{center}
+The token split is an assumption, not a measurement. The rate scenarios span
+published API price scales but do not identify the model that ran this task.
+An account usage/billing export is required for an actual charge.
+
+\section{Remote computing: scenarios rather than telemetry}
+No remote GPU count, active inference time, processor power, or memory measurement
+is exposed to this task. Elapsed assistant work includes local computations and
+network waits, and cannot be equated to GPU active time. A rough planning envelope
+is therefore parameterized by 1--8 accelerators, 10--100\% active duty, 300--1000 W
+per active accelerator, and 20--160 GB memory per accelerator. These are explicitly
+assumed engineering scenarios, not provider-specific measurements or inferred
+model architecture. Host CPU scenarios use 1--16 active cores and 32--512 GB host
+memory. Memory reservation is not the same as memory actually touched.
+Applied to 1.31 hours of elapsed work, these assumptions span 0.13--10.50 GPU-hours, 0.13--21.01 CPU-hours, 20--1280 GB accelerator memory, and 32--512 GB host memory. Accelerator energy alone spans 0.039--10.504 kWh. Cooling, networking, shared-server allocation, and model training are excluded. These wide ranges should not be cited as measured energy for this project.
+\section{Actual local execution}
+The build runner samples process-tree resident memory every 0.5 s and measures
+child-process user plus system CPU time. CPU-hours sum across cores; wall time
+does not. Summed RSS can count shared pages more than once. Peak memory is a
+sampled upper accounting measure, not an exact unique-working-set measurement.
+The machine exposes 96 logical CPUs and approximately 810 GB total RAM; this
+capacity is not the amount used by the calculation. The processing uses up to
+16 worker processes, each with one BLAS thread. Migration is vectorized, with three workers per independent dataset
+and up to nine event workers. Local GPU use is zero GPU-hours.
+Across the instrumented build stages retained in the logs, local use totals 1.043 CPU-hours and 0.421 summed stage wall-hours. The maximum sampled process-tree RSS is 3.692 GB. The data directory contains 1.457 GB, including raw archive records. Multiple recorded builds are counted as actual repeated work, not combined into an estimate for a single rerun. Interactive development commands, the earlier installation/download commands, and final usage-document compilation are not fully included in these totals. GNU time logs for early commands are preserved separately.
+\begin{longtable}{lrrrr}\toprule
+Stage & Wall s & CPU s & Peak tree GB & Exit\\\midrule\endhead
+process & 318.3 & 1129.6 & 3.692 & 0 \\
+validate & 6.0 & 5.9 & 0.258 & 0 \\
+process & 24.4 & 230.7 & 3.117 & 0 \\
+validate & 6.2 & 5.7 & 0.265 & 0 \\
+migrate & 69.7 & 213.3 & 2.156 & 0 \\
+experiments & 44.1 & 43.5 & 0.312 & 0 \\
+sensitivity & 16.7 & 16.2 & 0.299 & 0 \\
+point-tests & 16.8 & 16.4 & 0.275 & 0 \\
+compare & 2.8 & 2.6 & 0.137 & 0 \\
+panels & 0.6 & 0.1 & 0.012 & 0 \\
+plot & 264.7 & 262.4 & 0.734 & 0 \\
+report-source & 1.1 & 0.8 & 0.056 & 0 \\
+compile & 5.6 & 5.2 & 0.037 & 0 \\
+process & 24.3 & 228.8 & 3.107 & 0 \\
+validate & 6.2 & 5.6 & 0.266 & 0 \\
+migrate & 177.6 & 510.7 & 2.781 & 0 \\
+experiments & 42.5 & 42.0 & 0.328 & 0 \\
+sensitivity & 16.2 & 15.8 & 0.290 & 0 \\
+point-tests & 16.8 & 16.4 & 0.278 & 0 \\
+compare & 3.4 & 2.9 & 0.138 & 0 \\
+panels & 0.6 & 0.1 & 0.012 & 0 \\
+plot & 127.5 & 259.8 & 1.883 & 0 \\
+report-source & 1.1 & 0.7 & 0.055 & 0 \\
+compile & 6.1 & 5.6 & 0.037 & 0 \\
+process & 24.2 & 228.5 & 3.109 & 0 \\
+validate & 6.1 & 5.6 & 0.258 & 0 \\
+migrate & 17.3 & 29.9 & 1.843 & 0 \\
+experiments & 43.5 & 43.1 & 0.321 & 0 \\
+sensitivity & 44.5 & 88.0 & 0.979 & 0 \\
+point-tests & 22.3 & 48.3 & 0.967 & 0 \\
+compare & 3.3 & 2.9 & 0.138 & 0 \\
+panels & 0.6 & 0.1 & 0.012 & 0 \\
+plot & 146.8 & 281.1 & 1.858 & 0 \\
+report-source & 1.1 & 0.7 & 0.055 & 0 \\
+compile & 5.6 & 5.2 & 0.038 & 0 \\
+\bottomrule\end{longtable}
+Separate early GNU time logs (acquisition, an earlier preprocessing run, and the historical pilot migration) add 1.003 CPU-hours and 0.202 wall-hours. These commands predate the stage runner and do not overlap its recorded commands. Together the two measurement sources account for at least 2.046 CPU-hours; unmetered development commands make this a lower bound on all local work. GNU time's maximum RSS is not a sum across simultaneous children, so it is not substituted for the process-tree peak above.
+No local power meter or reliable package-energy counter was available. For a
+rough 100--500 W allocated-node envelope, multiply the actual stage wall-hours
+by 0.1--0.5 kW. This is a power-allocation assumption, especially on a shared
+96-core machine, not a measured marginal draw. CPU time alone does not determine
+energy. At an assumed electricity rate of USD 0.10--0.30/kWh:
+the instrumented stages imply 0.0421--0.2103 kWh and USD 0.0042--0.0631 in electricity. Hardware amortization and archive service costs are excluded.
+\section{How to measure another run}
+Run \texttt{bash rebuild.sh}. Each stage produces a JSON record with wall seconds,
+CPU seconds, peak process-tree RSS, and return status. For a fresh numerical run,
+remove generated processed/image/validation outputs while retaining the raw archive
+cache, as documented in the README. Hardware power should be measured separately
+with a node power meter or available energy counters. Update the agent token
+snapshot only from genuine orchestration or billing telemetry; do not replace
+unknown values with asserted measurements.
+\end{document}

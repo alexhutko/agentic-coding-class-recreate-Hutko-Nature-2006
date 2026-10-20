@@ -1,0 +1,14 @@
+{
+  "historical": {
+    "weighted": true,
+    "mean": true,
+    "hitcount": true,
+    "event_count": true
+  },
+  "modern_same": {
+    "weighted": true,
+    "mean": true,
+    "hitcount": true,
+    "event_count": true
+  }
+}

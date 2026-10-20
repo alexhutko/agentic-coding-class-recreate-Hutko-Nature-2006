@@ -1,0 +1,58 @@
+[
+  {
+    "drop": 0,
+    "target_depth_km": 2627.0,
+    "time_s": 1216.3314464924345,
+    "coefficient_real": -0.43122015981614314,
+    "coefficient_imag": -0.9022467366347965
+  },
+  {
+    "drop": 0,
+    "target_depth_km": 2801.0,
+    "time_s": 1223.5265638810233,
+    "coefficient_real": 0.0,
+    "coefficient_imag": 0.0
+  },
+  {
+    "drop": 0.026,
+    "target_depth_km": 2627.0,
+    "time_s": 1216.3314464924345,
+    "coefficient_real": -0.43122015981614314,
+    "coefficient_imag": -0.9022467366347965
+  },
+  {
+    "drop": 0.026,
+    "target_depth_km": 2801.0,
+    "time_s": 1223.5265638810233,
+    "coefficient_real": -0.20654462134226487,
+    "coefficient_imag": 0.0
+  },
+  {
+    "drop": 0.05,
+    "target_depth_km": 2627.0,
+    "time_s": 1216.3314464924345,
+    "coefficient_real": -0.43122015981614314,
+    "coefficient_imag": -0.9022467366347965
+  },
+  {
+    "drop": 0.05,
+    "target_depth_km": 2801.0,
+    "time_s": 1223.5265638810233,
+    "coefficient_real": -0.29450779980969716,
+    "coefficient_imag": 0.0
+  },
+  {
+    "drop": 0.1,
+    "target_depth_km": 2627.0,
+    "time_s": 1216.3314464924345,
+    "coefficient_real": -0.43122015981614314,
+    "coefficient_imag": -0.9022467366347965
+  },
+  {
+    "drop": 0.1,
+    "target_depth_km": 2801.0,
+    "time_s": 1223.5265638810233,
+    "coefficient_real": -0.3870241426880712,
+    "coefficient_imag": 0.0
+  }
+]

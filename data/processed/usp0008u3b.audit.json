@@ -1,0 +1,470 @@
+{
+  "event": {
+    "id": "usp0008u3b",
+    "time": "1998-08-30T07:52:25.320000Z",
+    "latitude": -23.934,
+    "longitude": -66.906,
+    "depth_km": 219.5,
+    "magnitude": 5.7,
+    "magnitude_type": "mwc",
+    "historical": true,
+    "catalog_exception": true,
+    "detail_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp0008u3b&format=geojson",
+    "published_date": "1999-08-30",
+    "date_inference": "1998 event exactly matches published coordinates; inferred year typo"
+  },
+  "traces": [
+    {
+      "id": "BK.BKS",
+      "accepted": false,
+      "distance_deg": 80.71549538010518,
+      "radiation_S": 0.6244491977563957,
+      "radiation_ScS": 0.666193391679858,
+      "snr": 2.855287435114457,
+      "reason": "S or ScS below peak/RMS SNR threshold"
+    },
+    {
+      "id": "BK.BRIB",
+      "accepted": false,
+      "distance_deg": 80.69280021036356,
+      "radiation_S": 0.6250207106385861,
+      "radiation_ScS": 0.6668831580886293,
+      "snr": 2.707835114731993,
+      "reason": "S or ScS below peak/RMS SNR threshold"
+    },
+    {
+      "id": "BK.CMB",
+      "accepted": false,
+      "distance_deg": 79.71989070935055,
+      "radiation_S": 0.630751723657725,
+      "radiation_ScS": 0.6762247340482864,
+      "reason": "ScS peak at joint search boundary"
+    },
+    {
+      "id": "BK.CVS",
+      "accepted": false,
+      "distance_deg": 81.15273073235008,
+      "radiation_S": 0.6276585171502813,
+      "radiation_ScS": 0.6682527336692909,
+      "snr": 1.226421048414376,
+      "reason": "S or ScS below peak/RMS SNR threshold"
+    },
+    {
+      "id": "BK.FARB",
+      "accepted": false,
+      "distance_deg": 81.06326764374877,
+      "radiation_S": 0.6209288098205857,
+      "radiation_ScS": 0.6612920885858697,
+      "snr": 2.1525670063215903,
+      "reason": "S or ScS below peak/RMS SNR threshold"
+    },
+    {
+      "id": "BK.HOPS",
+      "accepted": false,
+      "distance_deg": 81.93695931666873,
+      "radiation_S": 0.6313109705002575,
+      "radiation_ScS": 0.6696805999169435,
+      "snr": 2.801677521257418,
+      "reason": "S or ScS below peak/RMS SNR threshold"
+    },
+    {
+      "id": "BK.JRSC",
+      "accepted": false,
+      "distance_deg": 80.41141505862822,
+      "radiation_S": 0.6205925891984134,
+      "radiation_ScS": 0.6630080142385306,
+      "snr": 2.0950621314232247,
+      "reason": "S or ScS below peak/RMS SNR threshold"
+    },
+    {
+      "id": "BK.KCC",
+      "accepted": false,
+      "distance_deg": 78.61619162097176,
+      "radiation_S": 0.6280976747066146,
+      "radiation_ScS": 0.676980852473902,
+      "snr": 1.0863860613935146,
+      "reason": "S or ScS below peak/RMS SNR threshold"
+    },
+    {
+      "id": "BK.MHC",
+      "accepted": false,
+      "distance_deg": 80.01098981462674,
+      "radiation_S": 0.621742723771986,
+      "radiation_ScS": 0.66552180647964,
+      "snr": 2.701126327353814,
+      "reason": "S or ScS below peak/RMS SNR threshold"
+    },
+    {
+      "id": "BK.MIN",
+      "accepted": false,
+      "distance_deg": 81.95808091404078,
+      "radiation_S": 0.6458957013347866,
+      "radiation_ScS": 0.6852060301990448,
+      "snr": 1.529098945464089,
+      "reason": "S or ScS below peak/RMS SNR threshold"
+    },
+    {
+      "id": "BK.ORV",
+      "accepted": false,
+      "distance_deg": 81.37631071440515,
+      "radiation_S": 0.6398900687179623,
+      "radiation_ScS": 0.6806562417163501,
+      "snr": 3.232024560008425
+    },
+    {
+      "id": "BK.PKD",
+      "accepted": false,
+      "distance_deg": 78.42802362900179,
+      "radiation_S": 0.613573506941241,
+      "radiation_ScS": 0.6617613400114002,
+      "snr": 1.5238047204262768,
+      "reason": "S or ScS below peak/RMS SNR threshold"
+    },
+    {
+      "id": "BK.SAO",
+      "accepted": false,
+      "distance_deg": 79.51578544554054,
+      "radiation_S": 0.6176085232620486,
+      "radiation_ScS": 0.6626318581878914,
+      "reason": "ScS peak at joint search boundary"
+    },
+    {
+      "id": "BK.WDC",
+      "accepted": false,
+      "distance_deg": 82.64918171780253,
+      "radiation_S": 0.6454089971096933,
+      "radiation_ScS": 0.682490372227958,
+      "snr": 2.8460566525496147,
+      "reason": "S or ScS below peak/RMS SNR threshold"
+    },
+    {
+      "id": "BK.YBH",
+      "accepted": false,
+      "distance_deg": 83.49386544594896,
+      "radiation_S": 0.6541544564855157,
+      "radiation_ScS": 0.6890951596033102,
+      "snr": 5.577674356503395
+    },
+    {
+      "id": "CI.DGR",
+      "accepted": false,
+      "distance_deg": 74.73874998352662,
+      "radiation_S": 0.6058598627506964,
+      "radiation_ScS": 0.6657336742425426,
+      "snr": 4.413312340302836
+    },
+    {
+      "id": "CI.GSC",
+      "accepted": false,
+      "distance_deg": 75.75639386944118,
+      "radiation_S": 0.6195485539672375,
+      "radiation_ScS": 0.6773620085404329,
+      "snr": 5.834685427588569
+    },
+    {
+      "id": "CI.MLAC",
+      "accepted": false,
+      "distance_deg": 78.54144374564346,
+      "radiation_S": 0.631874543425756,
+      "radiation_ScS": 0.681334868485893,
+      "snr": 3.7426597330439013
+    },
+    {
+      "id": "CI.NEE",
+      "accepted": false,
+      "distance_deg": 74.13564779871537,
+      "radiation_S": 0.6226240725050485,
+      "radiation_ScS": 0.6865500842065972,
+      "reason": "phase peak at search boundary"
+    },
+    {
+      "id": "CI.OSI",
+      "accepted": false,
+      "distance_deg": 76.43473538114317,
+      "radiation_S": 0.6082880267510805,
+      "radiation_ScS": 0.6625563370460357,
+      "snr": 2.6948252144645477,
+      "reason": "S or ScS below peak/RMS SNR threshold"
+    },
+    {
+      "id": "CI.PAS",
+      "accepted": false,
+      "distance_deg": 75.78379532600967,
+      "radiation_S": 0.6062245099649751,
+      "radiation_ScS": 0.6625087238409241,
+      "snr": 1.3925702989729325,
+      "reason": "S or ScS below peak/RMS SNR threshold"
+    },
+    {
+      "id": "CI.PLM",
+      "accepted": false,
+      "distance_deg": 74.44614815386491,
+      "radiation_S": 0.6039726726636865,
+      "radiation_ScS": 0.6646423830716641,
+      "snr": 1.6996396684704551,
+      "reason": "S or ScS below peak/RMS SNR threshold"
+    },
+    {
+      "id": "CI.RPV",
+      "accepted": false,
+      "distance_deg": 75.65244058640192,
+      "radiation_S": 0.6022491607796049,
+      "radiation_ScS": 0.6585376056295003,
+      "snr": 0.8258653330042773,
+      "reason": "S or ScS below peak/RMS SNR threshold"
+    },
+    {
+      "id": "CI.SBC",
+      "accepted": false,
+      "distance_deg": 76.92563660483872,
+      "radiation_S": 0.6038309826300652,
+      "radiation_ScS": 0.6560262930254256,
+      "snr": 1.62380943952061,
+      "reason": "S or ScS below peak/RMS SNR threshold"
+    },
+    {
+      "id": "CI.SNCC",
+      "accepted": false,
+      "distance_deg": 76.01550236128087,
+      "radiation_S": 0.5947211393927525,
+      "radiation_ScS": 0.6489431417934421,
+      "reason": "unstable or weak SH radiation (<0.6)"
+    },
+    {
+      "id": "CI.SVD",
+      "accepted": false,
+      "distance_deg": 75.1058592930867,
+      "radiation_S": 0.6091902117742433,
+      "radiation_ScS": 0.6681827355916218,
+      "reason": "no complete gap-free BH triplet"
+    },
+    {
+      "id": "CI.USC",
+      "accepted": false,
+      "distance_deg": 75.76650977335646,
+      "radiation_S": 0.6048361307407495,
+      "radiation_ScS": 0.6610205823575243,
+      "reason": "ScS peak at joint search boundary"
+    },
+    {
+      "id": "CI.VTV",
+      "accepted": false,
+      "distance_deg": 75.55661528847874,
+      "radiation_S": 0.6120951601782412,
+      "radiation_ScS": 0.6698185678977221,
+      "snr": 0.14722889246718807,
+      "reason": "S or ScS below peak/RMS SNR threshold"
+    },
+    {
+      "id": "II.PFO",
+      "accepted": false,
+      "distance_deg": 74.37630134308205,
+      "radiation_S": 0.6073003255615705,
+      "radiation_ScS": 0.6686031108368207,
+      "snr": 3.1464629530681774
+    },
+    {
+      "id": "IU.ANMO",
+      "accepted": false,
+      "distance_deg": 69.79950454394209,
+      "radiation_S": 0.6493927358090676,
+      "radiation_ScS": 0.7332212516676073,
+      "reason": "no complete gap-free BH triplet"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "BK.ORV",
+      "accepted": false,
+      "distance_deg": 81.37631071440515,
+      "radiation_S": 0.6398900687179623,
+      "radiation_ScS": 0.6806562417163501,
+      "snr": 3.232024560008425,
+      "location": "",
+      "station_latitude": 39.554508,
+      "station_longitude": -121.500359,
+      "backazimuth": 130.93500329610364,
+      "azimuth": 320.3734931476986,
+      "predicted_S": 1303.7235566925888,
+      "predicted_ScS": 1319.8413715811455,
+      "picked_S": 1311.60000000018,
+      "picked_ScS": 1318.6000000001816,
+      "amplitude_S_m": 1.0075614818555512e-06,
+      "amplitude_ScS_m": 4.385098347202752e-07,
+      "bounce_latitude": 8.48575251996221,
+      "bounce_longitude": -91.48942776517968,
+      "splitting_applied": false,
+      "radiation_verified": true,
+      "multiples": {
+        "sS": 1396.6020382407653,
+        "SS": 1626.7550907762406,
+        "sScS": 1416.1401506287093
+      },
+      "source_correlation": 0.37569861315666186,
+      "reason": "poor ScS/source correlation"
+    },
+    {
+      "id": "BK.YBH",
+      "accepted": true,
+      "distance_deg": 83.49386544594896,
+      "radiation_S": 0.6541544564855157,
+      "radiation_ScS": 0.6890951596033102,
+      "snr": 5.577674356503395,
+      "location": "",
+      "station_latitude": 41.73204,
+      "station_longitude": -122.710388,
+      "backazimuth": 130.28832018941048,
+      "azimuth": 321.4361195612687,
+      "predicted_S": 1325.0702876979547,
+      "predicted_ScS": 1337.227709329663,
+      "picked_S": 1331.8000000001846,
+      "picked_ScS": 1340.6000000001866,
+      "amplitude_S_m": 7.092557986895125e-07,
+      "amplitude_ScS_m": 4.356383273669626e-07,
+      "bounce_latitude": 9.748319859047534,
+      "bounce_longitude": -91.54186791474959,
+      "splitting_applied": false,
+      "radiation_verified": true,
+      "multiples": {
+        "sS": 1418.4195644227955,
+        "SS": 1657.965307959482,
+        "sScS": 1433.4739587683487
+      },
+      "source_correlation": 0.658057050134723,
+      "deconvolved_S": 1331.8000000001846,
+      "deconvolved_ScS": 1340.4000000001865,
+      "deconvolved_S_amplitude": 9.013170224468088e-08,
+      "reason": "accepted"
+    },
+    {
+      "id": "CI.DGR",
+      "accepted": true,
+      "distance_deg": 74.73874998352662,
+      "radiation_S": 0.6058598627506964,
+      "radiation_ScS": 0.6657336742425426,
+      "snr": 4.413312340302836,
+      "location": "",
+      "station_latitude": 33.65001,
+      "station_longitude": -117.00947,
+      "backazimuth": 133.2010460560474,
+      "azimuth": 318.3779358543731,
+      "predicted_S": 1233.2731480427676,
+      "predicted_ScS": 1265.9312248964013,
+      "picked_S": 1244.2000000001647,
+      "picked_ScS": 1274.6000000001716,
+      "amplitude_S_m": 1.203291848059915e-06,
+      "amplitude_ScS_m": 4.7605594722799846e-07,
+      "bounce_latitude": 5.088628694287729,
+      "bounce_longitude": -90.49979824811791,
+      "splitting_applied": false,
+      "radiation_verified": true,
+      "multiples": {
+        "sS": 1324.616919024577,
+        "SS": 1527.6685596006598,
+        "sScS": 1362.4430093786225
+      },
+      "source_correlation": 0.7790816498560623,
+      "deconvolved_S": 1243.6000000001645,
+      "deconvolved_ScS": 1274.4000000001715,
+      "deconvolved_S_amplitude": 1.2390398736282508e-07,
+      "reason": "accepted"
+    },
+    {
+      "id": "CI.GSC",
+      "accepted": true,
+      "distance_deg": 75.75639386944118,
+      "radiation_S": 0.6195485539672375,
+      "radiation_ScS": 0.6773620085404329,
+      "snr": 5.834685427588569,
+      "location": "",
+      "station_latitude": 35.30177,
+      "station_longitude": -116.80574,
+      "backazimuth": 133.66417423265773,
+      "azimuth": 319.7377130134752,
+      "predicted_S": 1244.4186895837381,
+      "predicted_ScS": 1274.1291334210564,
+      "picked_S": 1254.800000000167,
+      "picked_ScS": 1282.4000000001733,
+      "amplitude_S_m": 1.2453462028717757e-06,
+      "amplitude_ScS_m": 5.938551998957905e-07,
+      "bounce_latitude": 5.987577607785389,
+      "bounce_longitude": -90.14494351867229,
+      "splitting_applied": false,
+      "radiation_verified": true,
+      "multiples": {
+        "sS": 1336.0031599620838,
+        "SS": 1542.9812938837006,
+        "sScS": 1370.6032718253753
+      },
+      "source_correlation": 0.7822658287973957,
+      "deconvolved_S": 1254.400000000167,
+      "deconvolved_ScS": 1282.4000000001733,
+      "deconvolved_S_amplitude": 1.2869474804329184e-07,
+      "reason": "accepted"
+    },
+    {
+      "id": "CI.MLAC",
+      "accepted": true,
+      "distance_deg": 78.54144374564346,
+      "radiation_S": 0.631874543425756,
+      "radiation_ScS": 0.681334868485893,
+      "snr": 3.7426597330439013,
+      "location": "",
+      "station_latitude": 37.63019,
+      "station_longitude": -118.83605,
+      "backazimuth": 132.5897887927257,
+      "azimuth": 320.33048258859685,
+      "predicted_S": 1274.285754852543,
+      "predicted_ScS": 1296.6963018278364,
+      "picked_S": 1282.8000000001734,
+      "picked_ScS": 1291.2000000001754,
+      "amplitude_S_m": 1.921436872423532e-06,
+      "amplitude_ScS_m": 1.8030364806472432e-06,
+      "bounce_latitude": 7.325136218724083,
+      "bounce_longitude": -90.67226251491834,
+      "splitting_applied": false,
+      "radiation_verified": true,
+      "multiples": {
+        "sS": 1366.5196431900365,
+        "SS": 1584.6693969685514,
+        "sScS": 1393.076800614294
+      },
+      "source_correlation": 0.6964199600767521,
+      "deconvolved_S": 1282.6000000001734,
+      "deconvolved_ScS": 1288.2000000001747,
+      "deconvolved_S_amplitude": 2.5656839587647526e-07,
+      "reason": "accepted"
+    },
+    {
+      "id": "II.PFO",
+      "accepted": false,
+      "distance_deg": 74.37630134308205,
+      "radiation_S": 0.6073003255615705,
+      "radiation_ScS": 0.6686031108368207,
+      "snr": 3.1464629530681774,
+      "location": "00",
+      "station_latitude": 33.6092,
+      "station_longitude": -116.4553,
+      "backazimuth": 133.58801160355603,
+      "azimuth": 318.6774312694729,
+      "predicted_S": 1229.273818259758,
+      "predicted_ScS": 1263.0181134696227,
+      "picked_S": 1240.800000000164,
+      "picked_ScS": 1272.8000000001712,
+      "amplitude_S_m": 1.3765038935486526e-06,
+      "amplitude_ScS_m": 3.2427324702142136e-07,
+      "bounce_latitude": 5.05371830697143,
+      "bounce_longitude": -90.2462221554674,
+      "splitting_applied": false,
+      "radiation_verified": true,
+      "multiples": {
+        "sS": 1320.5308849557102,
+        "SS": 1522.2047762582115,
+        "sScS": 1359.5437592674423
+      },
+      "source_correlation": 0.5677012973171154,
+      "reason": "poor ScS/source correlation"
+    }
+  ],
+  "accepted": 4
+}

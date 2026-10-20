@@ -1,0 +1,8 @@
+{
+  "url": "https://service.earthscope.org/fdsnws/dataselect/1/query?net=US&sta=SAO&cha=BH%3F&starttime=1994-04-29T07%3A19%3A49.680000Z&endtime=1994-04-29T07%3A37%3A19.680000Z",
+  "status": 204,
+  "seconds": 0.2875821590423584,
+  "retrieved_utc": "2026-10-13T23:09:47.160580Z",
+  "path": "data/raw/usp0006bt7/US.mseed",
+  "message": ""
+}

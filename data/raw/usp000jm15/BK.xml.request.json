@@ -1,0 +1,9 @@
+{
+  "url": "https://service.ncedc.org/fdsnws/station/1/query?net=BK&sta=HELL%2CKCC%2CPACP%2CPKD%2CSAO&cha=BH%3F&starttime=2012-05-28T05%3A15%3A43.450000Z&endtime=2012-05-28T05%3A33%3A13.450000Z&level=response&format=xml",
+  "status": 200,
+  "seconds": 2.292532205581665,
+  "retrieved_utc": "2026-10-13T23:12:21.558160Z",
+  "path": "data/raw/usp000jm15/BK.xml",
+  "bytes": 105843,
+  "sha256": "2acc1b778edb6cd030f8d518fc4d8ba779928441fe04fdc30a41786cd2ed2e69"
+}

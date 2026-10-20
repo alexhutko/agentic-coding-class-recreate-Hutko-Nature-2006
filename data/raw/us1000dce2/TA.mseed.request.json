@@ -1,0 +1,9 @@
+{
+  "url": "https://service.earthscope.org/fdsnws/dataselect/1/query?net=TA&sta=109C%2C121A%2C214A%2CH17A%2CK22A%2CN23A%2CO20A%2CQ24A%2CR11B%2CS22A%2CTPFO%2CW18A%2CY22D&cha=BH%3F&starttime=2018-04-02T13%3A48%3A54.840000Z&endtime=2018-04-02T14%3A06%3A24.840000Z",
+  "status": 200,
+  "seconds": 0.9289565086364746,
+  "retrieved_utc": "2026-10-13T23:13:26.603331Z",
+  "path": "data/raw/us1000dce2/TA.mseed",
+  "bytes": 1981440,
+  "sha256": "5d0731a7d5716bf71a2d78b52656167a60d00ade22b5c921cb80c52c1b4b4488"
+}

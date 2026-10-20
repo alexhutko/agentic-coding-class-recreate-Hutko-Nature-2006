@@ -1,0 +1,14 @@
+{
+  "historical": {
+    "weighted": "d3c1b403935c40ec5f58fc4a08b3509e94f736199a8a1b4752a8c9242c3b81e0",
+    "mean": "88dede1408fab94ab8ce349093570fd0e9509ee7223559c3fbe77f4704e0120f",
+    "hitcount": "b3c904c72ac525a0566694a166873ff3880edfc9947da41b2faf1e027019f94a",
+    "event_count": "729e3c0b4269ac9b9e69747ba353ddad4914deafd5dbbcde1927330c97d16e97"
+  },
+  "modern_same": {
+    "weighted": "dd1c2d1004b87e5c81fe30667f1c4d1e594e30cef61607060efab4d375ab8509",
+    "mean": "288443e7ecbfcdb3db75fdb9b3d3dca4280b587ed535bf71a41a71f0486abef5",
+    "hitcount": "722e10fbc05b69b677bd262bc77d071a1a05303078529e352e8b53a7e0229bca",
+    "event_count": "7ebf8250b966e053d3503e6e45a00b0ba9e05764fbd8c3835fd5f30a91f038c5"
+  }
+}

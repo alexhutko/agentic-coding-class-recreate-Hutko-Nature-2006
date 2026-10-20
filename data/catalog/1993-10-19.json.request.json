@@ -1,0 +1,9 @@
+{
+  "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=1993-10-19&endtime=1993-10-20T00%3A00%3A00.000000Z&minlatitude=-35&maxlatitude=0&minlongitude=-85&maxlongitude=-55&mindepth=180",
+  "status": 200,
+  "seconds": 0.05587410926818848,
+  "retrieved_utc": "2026-10-13T23:09:22.986804Z",
+  "path": "data/catalog/1993-10-19.json",
+  "bytes": 1170,
+  "sha256": "320be53d86729d50b88b4425cf1bcbf7c0c0e4e78dac4b1a17f1ec27f17687e2"
+}

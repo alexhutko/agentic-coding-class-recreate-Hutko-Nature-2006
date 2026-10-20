@@ -1,0 +1,9 @@
+{
+  "url": "https://service.earthscope.org/fdsnws/dataselect/1/query?net=CI&sta=ARV%2CBAR%2CCLC%2CDGR%2CEDW%2CFUR%2CGSC%2CISA%2CLRL%2CMLAC%2CNEE%2COSI%2CPAS%2CPFO%2CPLM%2CRPV%2CRVR%2CSBC%2CSCI%2CSNCC%2CSVD%2CUSC%2CVTV%2CWBS&cha=BH%3F&starttime=1997-07-20T10%3A22%3A42.800000Z&endtime=1997-07-20T10%3A40%3A12.800000Z",
+  "status": 200,
+  "seconds": 0.5870254039764404,
+  "retrieved_utc": "2026-10-13T23:09:54.821288Z",
+  "path": "data/raw/usp000853a/CI_fallback.mseed",
+  "bytes": 315392,
+  "sha256": "4539a85c499fe6da8df6dac8471696f7ff6e54da0e6a4d933f96e153fb50a6ab"
+}

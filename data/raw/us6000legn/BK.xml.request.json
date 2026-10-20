@@ -1,0 +1,9 @@
+{
+  "url": "https://service.ncedc.org/fdsnws/station/1/query?net=BK&sta=AASB%2CADAM%2CALVW%2CAONC%2CBABI%2CBAKR%2CBARR%2CBIGV%2CBJES%2CBKS%2CBRIB%2CCCOR%2CCGRV%2CCMB%2CDANT%2CDRDG%2CEAGL%2CFARB%2CHOPS%2CJCC%2CJRSC%2CMHC%2CMILL%2CMMI%2CMOD%2CORV%2COVRO%2CPKD%2CSANG%2CSAO%2CYBH%2CYUBA&cha=BH%3F&starttime=2023-10-10T10%3A09%3A51.660000Z&endtime=2023-10-10T10%3A27%3A21.660000Z&level=response&format=xml",
+  "status": 200,
+  "seconds": 7.434309482574463,
+  "retrieved_utc": "2026-10-13T23:15:01.856479Z",
+  "path": "data/raw/us6000legn/BK.xml",
+  "bytes": 1050184,
+  "sha256": "de362588e3b4f23b7c7cd28dab904e6b39ad6bf6ee0adf45e4fbedd2593ac5eb"
+}

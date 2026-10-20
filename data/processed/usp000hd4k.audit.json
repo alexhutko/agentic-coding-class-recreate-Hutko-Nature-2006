@@ -1,0 +1,313 @@
+{
+  "event": {
+    "id": "usp000hd4k",
+    "time": "2010-05-24T16:18:29.090000Z",
+    "latitude": -8.087,
+    "longitude": -71.558,
+    "depth_km": 581.2,
+    "magnitude": 6.5,
+    "magnitude_type": "mwc",
+    "historical": false,
+    "catalog_exception": false,
+    "detail_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000hd4k&format=geojson"
+  },
+  "traces": [
+    {
+      "id": "BK.BKS",
+      "accepted": false,
+      "distance_deg": 65.86753658339288,
+      "radiation_S": -0.4949451884518228,
+      "radiation_ScS": -0.4621836822369785,
+      "reason": "unstable or weak SH radiation (<0.6)"
+    },
+    {
+      "id": "BK.BRIB",
+      "accepted": false,
+      "distance_deg": 65.83528178097139,
+      "radiation_S": -0.49434530234442686,
+      "radiation_ScS": -0.4618278884135882,
+      "reason": "unstable or weak SH radiation (<0.6)"
+    },
+    {
+      "id": "BK.CVS",
+      "accepted": false,
+      "distance_deg": 66.26969892436254,
+      "radiation_S": -0.49217978937573903,
+      "radiation_ScS": -0.4609232176446176,
+      "reason": "unstable or weak SH radiation (<0.6)"
+    },
+    {
+      "id": "BK.FARB",
+      "accepted": false,
+      "distance_deg": 66.28110092322486,
+      "radiation_S": -0.498753812351022,
+      "radiation_ScS": -0.4645894648010291,
+      "reason": "unstable or weak SH radiation (<0.6)"
+    },
+    {
+      "id": "BK.GASB",
+      "accepted": false,
+      "distance_deg": 67.15190591907597,
+      "radiation_S": -0.48309121201949307,
+      "radiation_ScS": -0.45631246115276,
+      "reason": "unstable or weak SH radiation (<0.6)"
+    },
+    {
+      "id": "BK.HATC",
+      "accepted": false,
+      "distance_deg": 67.00506017355733,
+      "radiation_S": -0.4693186995543931,
+      "radiation_ScS": -0.4481522348642444,
+      "reason": "unstable or weak SH radiation (<0.6)"
+    },
+    {
+      "id": "BK.HOPS",
+      "accepted": false,
+      "distance_deg": 67.02379022837326,
+      "radiation_S": -0.4893367650151083,
+      "radiation_ScS": -0.45983099672360733,
+      "reason": "unstable or weak SH radiation (<0.6)"
+    },
+    {
+      "id": "BK.HUMO",
+      "accepted": false,
+      "distance_deg": 68.93683736512926,
+      "radiation_S": -0.46078865237926636,
+      "radiation_ScS": -0.4437863897604475,
+      "reason": "unstable or weak SH radiation (<0.6)"
+    },
+    {
+      "id": "BK.JCC",
+      "accepted": false,
+      "distance_deg": 68.62512609127252,
+      "radiation_S": -0.47862415344883763,
+      "radiation_ScS": -0.45454830336805596,
+      "reason": "unstable or weak SH radiation (<0.6)"
+    },
+    {
+      "id": "BK.JRSC",
+      "accepted": false,
+      "distance_deg": 65.6133062135275,
+      "radiation_S": -0.4984867007552484,
+      "radiation_ScS": -0.4639346754336331,
+      "reason": "unstable or weak SH radiation (<0.6)"
+    },
+    {
+      "id": "BK.MHC",
+      "accepted": false,
+      "distance_deg": 65.1821375371778,
+      "radiation_S": -0.49697090564893537,
+      "radiation_ScS": -0.4627801628951947,
+      "reason": "unstable or weak SH radiation (<0.6)"
+    },
+    {
+      "id": "BK.MOD",
+      "accepted": false,
+      "distance_deg": 66.92375988958459,
+      "radiation_S": -0.4557094123326677,
+      "radiation_ScS": -0.4399894677757416,
+      "reason": "unstable or weak SH radiation (<0.6)"
+    },
+    {
+      "id": "BK.ORV",
+      "accepted": false,
+      "distance_deg": 66.31696995140362,
+      "radiation_S": -0.47945679796142987,
+      "radiation_ScS": -0.45372239419848287,
+      "reason": "unstable or weak SH radiation (<0.6)"
+    },
+    {
+      "id": "BK.WDC",
+      "accepted": false,
+      "distance_deg": 67.55003767989649,
+      "radiation_S": -0.47528671547293855,
+      "radiation_ScS": -0.45195872641731055,
+      "reason": "unstable or weak SH radiation (<0.6)"
+    },
+    {
+      "id": "BK.YBH",
+      "accepted": false,
+      "distance_deg": 68.29669849835693,
+      "radiation_S": -0.46682859887100947,
+      "radiation_ScS": -0.4472382499254017,
+      "reason": "unstable or weak SH radiation (<0.6)"
+    },
+    {
+      "id": "IU.COR",
+      "accepted": false,
+      "distance_deg": 70.25600789429029,
+      "radiation_S": -0.44619962293801707,
+      "radiation_ScS": -0.4349364231752773,
+      "reason": "unstable or weak SH radiation (<0.6)"
+    },
+    {
+      "id": "TA.A19A",
+      "accepted": false,
+      "distance_deg": 65.65915111569478,
+      "radiation_S": -0.32884906486763615,
+      "radiation_ScS": -0.3607568723683549,
+      "reason": "unstable or weak SH radiation (<0.6)"
+    },
+    {
+      "id": "TA.A20A",
+      "accepted": false,
+      "distance_deg": 65.27221609465315,
+      "radiation_S": -0.3232918339094313,
+      "radiation_ScS": -0.3575912557147942,
+      "reason": "unstable or weak SH radiation (<0.6)"
+    },
+    {
+      "id": "TA.F04D",
+      "accepted": false,
+      "distance_deg": 70.93747524697768,
+      "radiation_S": -0.43280781938294416,
+      "radiation_ScS": -0.42628388592679595,
+      "reason": "unstable or weak SH radiation (<0.6)"
+    },
+    {
+      "id": "TA.G03D",
+      "accepted": false,
+      "distance_deg": 70.58615314260543,
+      "radiation_S": -0.4409512317950364,
+      "radiation_ScS": -0.4315927157433293,
+      "reason": "unstable or weak SH radiation (<0.6)"
+    },
+    {
+      "id": "TA.G05D",
+      "accepted": false,
+      "distance_deg": 69.48544466788101,
+      "radiation_S": -0.4326005992851201,
+      "radiation_ScS": -0.42604615139980617,
+      "reason": "unstable or weak SH radiation (<0.6)"
+    },
+    {
+      "id": "TA.I03D",
+      "accepted": false,
+      "distance_deg": 69.78347521080414,
+      "radiation_S": -0.4535437671644203,
+      "radiation_ScS": -0.4395180898567364,
+      "reason": "unstable or weak SH radiation (<0.6)"
+    },
+    {
+      "id": "TA.I04A",
+      "accepted": false,
+      "distance_deg": 69.2795604833305,
+      "radiation_S": -0.4490936652720135,
+      "radiation_ScS": -0.43655744249444894,
+      "reason": "unstable or weak SH radiation (<0.6)"
+    },
+    {
+      "id": "TA.I05D",
+      "accepted": false,
+      "distance_deg": 68.96667428707582,
+      "radiation_S": -0.44016929678814504,
+      "radiation_ScS": -0.4308359761361956,
+      "reason": "unstable or weak SH radiation (<0.6)"
+    },
+    {
+      "id": "TA.J05D",
+      "accepted": false,
+      "distance_deg": 68.28910014250174,
+      "radiation_S": -0.4483854099749505,
+      "radiation_ScS": -0.43587456437378963,
+      "reason": "unstable or weak SH radiation (<0.6)"
+    },
+    {
+      "id": "TA.K04D",
+      "accepted": false,
+      "distance_deg": 68.21702540107117,
+      "radiation_S": -0.45592849855861445,
+      "radiation_ScS": -0.4405280527493876,
+      "reason": "unstable or weak SH radiation (<0.6)"
+    },
+    {
+      "id": "TA.L02D",
+      "accepted": false,
+      "distance_deg": 69.08535293532854,
+      "radiation_S": -0.46673686308713597,
+      "radiation_ScS": -0.44752930568741994,
+      "reason": "unstable or weak SH radiation (<0.6)"
+    },
+    {
+      "id": "TA.M02C",
+      "accepted": false,
+      "distance_deg": 68.19673075465248,
+      "radiation_S": -0.47004950900259984,
+      "radiation_ScS": -0.44914711157188586,
+      "reason": "unstable or weak SH radiation (<0.6)"
+    },
+    {
+      "id": "TA.M04C",
+      "accepted": false,
+      "distance_deg": 67.78826824935328,
+      "radiation_S": -0.4630706016484656,
+      "radiation_ScS": -0.44474190178891804,
+      "reason": "unstable or weak SH radiation (<0.6)"
+    },
+    {
+      "id": "TA.N02D",
+      "accepted": false,
+      "distance_deg": 67.87178398704401,
+      "radiation_S": -0.47279401889035483,
+      "radiation_ScS": -0.4506395214287575,
+      "reason": "unstable or weak SH radiation (<0.6)"
+    },
+    {
+      "id": "US.BMO",
+      "accepted": false,
+      "distance_deg": 67.01051259500498,
+      "radiation_S": -0.41648770677455027,
+      "radiation_ScS": -0.4158681999051645,
+      "reason": "unstable or weak SH radiation (<0.6)"
+    },
+    {
+      "id": "US.EGMT",
+      "accepted": false,
+      "distance_deg": 65.42962803064947,
+      "radiation_S": -0.34314080976075123,
+      "radiation_ScS": -0.3701705206888862,
+      "reason": "unstable or weak SH radiation (<0.6)"
+    },
+    {
+      "id": "US.HAWA",
+      "accepted": false,
+      "distance_deg": 69.18925684354353,
+      "radiation_S": -0.4147946952741331,
+      "radiation_ScS": -0.4145106460856886,
+      "reason": "unstable or weak SH radiation (<0.6)"
+    },
+    {
+      "id": "US.MSO",
+      "accepted": false,
+      "distance_deg": 66.56242880781315,
+      "radiation_S": -0.38050973342975025,
+      "radiation_ScS": -0.39325447436996736,
+      "reason": "unstable or weak SH radiation (<0.6)"
+    },
+    {
+      "id": "US.NEW",
+      "accepted": false,
+      "distance_deg": 69.11791538208418,
+      "radiation_S": -0.3867925115318791,
+      "radiation_ScS": -0.39613059266583456,
+      "reason": "unstable or weak SH radiation (<0.6)"
+    },
+    {
+      "id": "US.NLWA",
+      "accepted": false,
+      "distance_deg": 72.16748019735218,
+      "radiation_S": -0.4254980507016493,
+      "radiation_ScS": -0.4214320758490834,
+      "reason": "unstable or weak SH radiation (<0.6)"
+    },
+    {
+      "id": "US.WVOR",
+      "accepted": false,
+      "distance_deg": 66.2533565197039,
+      "radiation_S": -0.44364676777835416,
+      "radiation_ScS": -0.4325557051761118,
+      "reason": "unstable or weak SH radiation (<0.6)"
+    }
+  ],
+  "failure": "fewer than three source-wavelet candidates"
+}

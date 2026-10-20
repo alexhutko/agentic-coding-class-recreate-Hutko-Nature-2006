@@ -1,0 +1,41 @@
+{
+  "start_utc": "2026-10-13T23:34:53Z",
+  "python": "3.11.17 (main, Oct 13 2026, 16:45:47) [GCC 15.3.0]",
+  "platform": "Linux-4.18.0-553.22.1.el8_10.x86_64-x86_64-with-glibc2.28",
+  "logical_cpus": 96,
+  "machine_memory_gb": 809.655054336,
+  "gpu_hours": 0,
+  "measurement": "CPU is child user+system time. Peak memory is sampled sum of process-tree RSS; shared pages may be counted more than once.",
+  "stages": [
+    {
+      "name": "process",
+      "command": [
+        "/data/data2/ahutko/Hutko_Nature_2006/envs/seismo/bin/python",
+        "scripts/process.py",
+        "--workers",
+        "16"
+      ],
+      "returncode": 0,
+      "wall_seconds": 318.2726580989547,
+      "cpu_seconds": 1129.564013,
+      "peak_tree_rss_gb": 3.691925504
+    },
+    {
+      "name": "validate",
+      "command": [
+        "/data/data2/ahutko/Hutko_Nature_2006/envs/seismo/bin/python",
+        "scripts/validate.py"
+      ],
+      "returncode": 0,
+      "wall_seconds": 6.016435923986137,
+      "cpu_seconds": 5.885923000000048,
+      "peak_tree_rss_gb": 0.258215936
+    }
+  ],
+  "complete": false,
+  "interruption": {
+    "exit_status": 143,
+    "stage": "migrate",
+    "note": "Execution environment terminated the long foreground command. Historical and modern_same outputs completed; expanded output did not. Active-stage CPU and RSS were not finalized and are excluded from totals."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://service.earthscope.org/fdsnws/station/1/query?net=US&sta=BMO%2CHAWA%2CMSO%2CNEW%2CNLWA%2CWVOR&cha=BH%3F&starttime=2024-01-20T21%3A39%3A25.092000Z&endtime=2024-01-20T21%3A56%3A55.092000Z&level=response&format=xml",
+  "status": 200,
+  "seconds": 0.13567686080932617,
+  "retrieved_utc": "2026-10-13T23:15:05.495032Z",
+  "path": "data/raw/us6000m52p/US.xml",
+  "bytes": 189869,
+  "sha256": "9029ee8dcd5989873479ed8ca2d39aa1e0aaa3d8875af77f8f7eae96fb1aea6a"
+}

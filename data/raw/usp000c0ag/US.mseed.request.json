@@ -1,0 +1,9 @@
+{
+  "url": "https://service.earthscope.org/fdsnws/dataselect/1/query?net=US&sta=HAWA%2CMSO%2CNEW%2COCWA%2CWDC%2CWVOR&cha=BH%3F&starttime=2003-06-20T06%3A27%3A58.910000Z&endtime=2003-06-20T06%3A45%3A28.910000Z",
+  "status": 200,
+  "seconds": 0.48537111282348633,
+  "retrieved_utc": "2026-10-13T23:10:20.825101Z",
+  "path": "data/raw/usp000c0ag/US.mseed",
+  "bytes": 765952,
+  "sha256": "a20f800978193d548ff32ce7cfaf69bd984174af606832bb8d9af6f7cbae8c95"
+}

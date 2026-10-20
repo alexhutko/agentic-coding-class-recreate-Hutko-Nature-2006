@@ -1,0 +1,9 @@
+{
+  "url": "https://service.ncedc.org/fdsnws/station/1/query?net=BK&sta=KCC%2CPKD&cha=BH%3F&starttime=2000-04-23T17%3A09%3A37.470000Z&endtime=2000-04-23T17%3A27%3A07.470000Z&level=response&format=xml",
+  "status": 200,
+  "seconds": 2.018923044204712,
+  "retrieved_utc": "2026-10-13T23:10:01.444042Z",
+  "path": "data/raw/usp0009rrz/BK.xml",
+  "bytes": 93264,
+  "sha256": "f1977eb802a6197b63a26de19b5d7546430c1829677af92616e125ece17cced2"
+}

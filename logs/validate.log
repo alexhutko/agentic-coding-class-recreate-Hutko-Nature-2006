@@ -1,0 +1,11 @@
+/data/data2/ahutko/Hutko_Nature_2006/scripts/validate.py:28: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  integral=quad(lambda z:1/float(velocity(z)),218,2650,points=[400,670,2200],limit=500)[0]
+Traceback (most recent call last):
+  File "/data/data2/ahutko/Hutko_Nature_2006/scripts/validate.py", line 110, in <module>
+    checks()
+  File "/data/data2/ahutko/Hutko_Nature_2006/scripts/validate.py", line 39, in checks
+    assert perturbation(np.array([10.,20.]),np.array([.01,.01]))==-.3
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

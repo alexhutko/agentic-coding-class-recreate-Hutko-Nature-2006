@@ -1,0 +1,9 @@
+{
+  "url": "https://service.earthscope.org/fdsnws/dataselect/1/query?net=US&sta=BMO%2CEGMT%2CHAWA%2CMSO%2CNEW%2CNLWA%2CWVOR&cha=BH%3F&starttime=2019-01-05T19%3A33%3A58.520000Z&endtime=2019-01-05T19%3A51%3A28.520000Z",
+  "status": 200,
+  "seconds": 0.49796056747436523,
+  "retrieved_utc": "2026-10-13T23:13:30.145123Z",
+  "path": "data/raw/us2000j0ja/US.mseed",
+  "bytes": 1282560,
+  "sha256": "22a01845e86c4775e24c7310076630632a4703e380b1f8f9c2b02d5375428a72"
+}

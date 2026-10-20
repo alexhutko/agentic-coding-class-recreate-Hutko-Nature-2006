@@ -1,0 +1,29 @@
+{
+  "historical": {
+    "traces": 80,
+    "used_events": 9,
+    "supplement_pages": 16,
+    "all_used_station_labels_present": true
+  },
+  "modern_same": {
+    "traces": 531,
+    "used_events": 34,
+    "supplement_pages": 72,
+    "all_used_station_labels_present": true
+  },
+  "expanded": {
+    "traces": 913,
+    "used_events": 36,
+    "supplement_pages": 86,
+    "all_used_station_labels_present": true
+  },
+  "report_pages": 53,
+  "usage_pages": 3,
+  "panel_status_counts": {
+    "partially reproduced": 156,
+    "schematic redrawn": 2,
+    "not reproduced": 90
+  },
+  "all_processed_waveforms_finite": true,
+  "all_datasets_have_resolution_and_location_tests": true
+}
