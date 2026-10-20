@@ -1,4 +1,4 @@
-# Independent Cocos Plate diffraction-stack reconstruction
+
 
 This is an independent Python reanalysis of Hutko et al. (2006),
 [Nature 441, 333–336](https://doi.org/10.1038/nature04757), including later USGS
@@ -18,6 +18,13 @@ The three independent datasets have separate event-table/waveform supplements:
 
 The [usage report](usage.pdf) distinguishes measured local computing from
 unobserved remote inference usage and explicitly assumed dollar/power scenarios.
+
+<br>Model: gpt-6-astra
+<br>Reasoning effort: medium
+<br>Reasoning time: 1.3 hours
+<br>Run time today: ~5 minutes
+<br>Run time in 2005 on a Sun Sparc 5: ~overnight.
+<br>Prompt is at bottom.
 
 ## Rebuild
 
@@ -165,3 +172,32 @@ repository was created. After project-local GitHub authentication, run
 HTTPS without writing global Git configuration. `python scripts/package.py`
 creates `deliverables.zip` with code, generated data, figures, and reports;
 raw MiniSEED and environment/cache directories are excluded as above.
+
+## ChatGPT prompt
+
+Model: gpt-6-astra
+<br>Reasoning effort: medium
+<br>Reasoning time: 1.3 hours
+<br>Run time: 5 minutes
+<br>
+The goal of this project is to independently recreate the results of Hutko et al., "Seismic detection of folded, subducted lithosphere at the core–mantle boundary": https://www.nature.com/articles/nature04757
+Implement the complete described preprocessing and algorithm in Python with a focus on readability for an audience of seismologists and practical computational efficiency, i.e. only on things that add significant (more than 10s of seconds) wall clock time, ObsPy may be used, gmt may be used for figures with a map, then generate the manuscript figures from numerical results produced by your implementation. Use the published paper, its supplementary materials, and other written descriptions of the model as scientific specifications. Do not consult or use the authors' original codebase, simulation outputs, plotting scripts, source data, or figure files. Do not digitize published plots to create input data. You may inspect published figures only to assess how well your independently generated results agree with them.  You may read the figures to infer which stations and earthquakes were used.  All waveform and station metadata should be downloaded from Earthscope, NCEDC or SCEDC.  Download event data from the USGS.
+Document the equations, parameter values, initial and boundary conditions, numerical methods, and any assumptions required where the written description is incomplete. Implement the model, verify it against appropriate limiting cases or consistency checks, and record the commands needed to build and run it.
+Attempt every figure and panel in the main manuscript, then the supplementary figures where the documentation permits. Generate each numerical panel from saved output of your model using plotting scripts you write. Treat conceptual diagrams separately: redraw them if useful, but label them as schematics and do not count them as reproduced model results. Never substitute a copied manuscript figure for a generated result.
+Create a figure-by-figure record stating, for each panel, the scientific quantity shown, the documentation and parameters used, the command that generates its data, the command that creates its plot, and whether it is independently reproduced, partially reproduced, or not reproduced. Compare your results with the publication using numerical measures where possible, including relevant scales, timing, and spatial patterns. Explain discrepancies and failed attempts plainly. Only call a panel "reproduced" if its plotted data came from your implementation.
+The final deliverable is a compiled PDF report and its LaTeX source. Include your generated figures, the figure-by-figure record, a brief account of the implementation and validation, and a candid assessment of what could and could not be reproduced. If you show an image from the paper for comparison, label it clearly as a published reference and keep it visually distinct from your generated figure.
+<br>
+Provide a clean, documented procedure that rebuilds the model, regenerates the data and figures, and compiles the report. Run that procedure and report its outcome. Upload the code, configuration, plotting scripts, generated data, LaTeX source, and compiled PDF to a new GitHub repository in the account currently logged in; you are authorized to use the workspace's available SSH credentials for this purpose. Follow the AGENTS.md instructions at https://github.com/bradlipovsky/vdv-damage/blob/main/AGENTS.md and the academic style guide at https://github.com/bradlipovsky/vdv-damage/blob/main/brad-lipovsky-academic-style-guide.md. These two guidance files are permitted; they are not permission to use any original model code or outputs.
+In your final response, link to the repository and PDF, identify which panels were generated independently, and list every panel that remains partial or unreproduced.
+For this project don't save anything to the home directory. Keep all the project files in ~/DATA/Hutko_Nature_2006.
+<br>
+Finally, repeat the analysis with an updated data set that includes more modern data as well as the original data.  Revisit the same imaging region.  So this series of figures should include 4 sets: the original from publication, your reproduced with the original data set (as best you can deduce what it would be) and the modern expanded data set same imaging region, expanded data set to expanded regions where coverage is good.  For the expanded data set, keep the parameters the same: source-receiver distance range, source characteristics (magnitude range, depth range).  Create a supplement for each dataset where a table lists the events and one plot per event is generated that shows the processed and processed+source deconvolved traces used.  Make sure enough of the seismogram is present to be able to eyeball a SNR.  There can be a break between the S and ScS in order to preserve space while maintaing detail.
+<br>
+You may use these papers for guidance on processing, data selection, algorithm:
+https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2005GL024989 A new probe of ULVZ S-wave velocity structure: Array stacking of ScS waveforms. Megan Avants, Thorne Lay, Edward J. Garnero
+https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2004JB003270 Shear velocity variation within the D″ region beneath the central Pacific. Megan Avants, Thorne Lay, Sara A. Russell, Edward J. Garnero
+<br>
+Also dump out a document named usage.pdf where estimates of token usage are detailed, as well as rough estimates for cost in dollars, power usage in watts, GB of memory, number of CPU and/or GPU hours of your work.  Then estimate or document the actual usage on the local machine that the executable code will get run on.
+<br>
+Try to use miniconda or miniforge to keep things lightweight vs full anaconda, if possible.
+
